@@ -2,7 +2,7 @@ Assignment 1 - Hello World: Basic Deployment w/ Git, GitHub, Glitch
 ===
 
 Brandon Lui
-http://a1-joshuacuneo.glitch.me
+http://a1-brandonlui.glitch.me
 
 This project shows an overview of my classes and work at WPI. 
 
