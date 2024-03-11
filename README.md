@@ -109,11 +109,18 @@ http://a1-joshuacuneo.glitch.me
 This project shows ...
 
 ## Technical Achievements
-- **Styled page with CSS**: Added rules for the p, li, and a selectors...
+- **Styled page with CSS**: I created a styles.css file that contains styling information for body, p, h1, h2, h3, ul, and li.
+  - body: added background color
+  - p: added text color
+  - h1: added text color, text size, and different font
+  - h2: added text color, text size, and different font
+  - h3: added text color, text size, and text style
+  - ul: background color
+  - li: text alignment and color
 
 ## Design Achievements
 - **Created and Used an Adobe Color Palette**: I created a color wheel using color.adobe.com and used the colors in my website.
 - ![colorwheel.png](colorwheel.png)
 
-- **Used the Roboto Font from Google Fonts**: I used Roboto as the font for the primary copy text in my site.
+- **Used the Lato Font from Google Fonts**: I used Lato as the font for the header text in my site.
 

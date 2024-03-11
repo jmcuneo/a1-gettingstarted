@@ -1,3 +1,6 @@
+@import url('http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext');
+
+
 body{
     background-color: #6D72A0;
 }
@@ -7,10 +10,12 @@ p{
 h1{
     color:#F5D256;
     font-size: xx-large;
+    font-family: Lato, sans-serif;
 }
 h2{
     color:#56B8F5;
     font-size: x-large;
+    font-family: Lato, sans-serif;
 }
 h3{
     color:#F5D256;
