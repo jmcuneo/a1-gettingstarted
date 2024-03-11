@@ -112,4 +112,8 @@ This project shows ...
 - **Styled page with CSS**: Added rules for the p, li, and a selectors...
 
 ## Design Achievements
+- **Created and Used an Adobe Color Palette**: I created a color wheel using color.adobe.com and used the colors in my website.
+- ![colorwheel.png](colorwheel.png)
+
 - **Used the Roboto Font from Google Fonts**: I used Roboto as the font for the primary copy text in my site.
+
