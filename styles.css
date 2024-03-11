@@ -2,7 +2,7 @@
 
 
 body{
-    background-color: #6D72A0;
+    background-image: linear-gradient(#596C78, #6D72A0);
 }
 p{
     color: #F5F356;
@@ -29,3 +29,9 @@ li{
     text-align: justify;
     color:#F5F356;
 }
+footer{
+    font-size:xx-small;
+    text-align: center;
+    color: #F5F356;
+}
+
