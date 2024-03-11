@@ -1,0 +1,25 @@
+:root {
+    --1:#06c;
+
+}
+
+
+#container {
+    width: 400px;
+    height: 400px;
+    position: relative;
+    background: yellow;
+}
+#animation {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    background: #C5F0E0;
+}
+body {
+    font-family: "Oswald", sans-serif;
+}
+p {
+    background:  yellowgreen;
+    font-family: "Oswald", sans-serif;
+}
