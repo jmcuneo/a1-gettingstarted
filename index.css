@@ -1,5 +1,10 @@
 :root {
-    --1:#06c;
+    --lime:#9EF054;
+    --bGreen:#5DF054;
+    --lGreen:#A1F09C;
+    --lBlue:#C5F0E0;
+    --white:#EDEDED;
+    --yellow:#D6F000;
 
 }
 
@@ -8,18 +13,27 @@
     width: 400px;
     height: 400px;
     position: relative;
-    background: yellow;
+    background: var(--yellow);
 }
 #animation {
     width: 50px;
     height: 50px;
     position: absolute;
-    background: #C5F0E0;
+    background: var(--lBlue);
+    top:175px;
+    left:175px;
 }
 body {
+    background:  var(--white);
     font-family: "Oswald", sans-serif;
+    text-align: left;
 }
 p {
-    background:  yellowgreen;
-    font-family: "Oswald", sans-serif;
+    background:  var(--lime);
+    font-family: "Courier New", sans-serif;
+    text-align: left;
+}
+img{
+    align-content: center;
+
 }

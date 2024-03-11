@@ -5,5 +5,8 @@
   "author": "Matthew Adragna",
   "scripts": {
     "start": "node server.js"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.2"
   }
 }
