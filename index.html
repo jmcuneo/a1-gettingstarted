@@ -3,26 +3,121 @@
   <head>
     <title>CS4241 Assignment 1</title>
     <meta charset="utf-8">
+    <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
+   <style>
+    html {
+      font-family: 'Inter', sans-serif;
+      color: #011F26;
+    }
+    header, footer{
+      background-color: #025E73;
+      padding: 10px;  
+      text-align: center;
+      color: #BFB78F;
+    }
+    body {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+    }
+    table, th, td {
+      border: 1px solid #A5A692;
+      border-collapse: collapse;
+      padding: 5px;
+    }
+    a {
+      color: #F2A516;
+    }
+    #wpi {
+  transition: transform 0.5s ease;
+}
+.spin {
+  transform: rotate(360deg); 
+}
+   </style>
+  
   </head>
+  <header><h1>Information about Brandon Lui</h1></header>
   <body>
-    <h1>Information about [Your name here]</h1>
     <p>
-      [Self introduction]
+      I am a Computer Science student at <a href='https://wpi.edu'>Worcester Polytechnic Institute</a>, where I am learning software engineering, full-stack development, and cybersecurity. I am passionate about using my computer science skills to create innovative solutions for social and environmental challenges.
+    </p>
+    <img id="wpi" width="200" src='https://www.wpi.edu/sites/default/files/inline-image/Offices/Marketing-Communications/WPI_Inst_Prim_FulClr.png' alt='WPI'>
+    <p>
+      BS Computer Science, 2025
+
     </p>
     <p>
-      [Major and other information]
-    </p>
-    <p>
-      [Other things]
+      <h2>Previous courses</h2>
+      <ul>
+        <li>Introduction to Computer Science</li>
+        <li>Object-Oriented Design Concepts</li>
+        <li>Algorithms</li>
+        <li>Software Engineering</li>
+        <li>Database Systems I</li>
+        <li>Discrete Mathematics</li>
+        <li>Introduction To Machine Organization And Assembly Language</li>
+        <li>Operating Systems</li>
+        <li>Systems Programming Concepts</li>
+        <li>Analysis Of Algorithms</li>
+      <li>Social Implications Of Information Processing</li>
+
+      </ul>
     </p>
 
     <h2>Experience</h2>
-    <p>
-      Working experience
-    </p>
-    <ul>
-      <li>IBM/Rational</li>
-      <li>WPI</li>
-    </ul>
+    <table>
+      <tr>
+        <th>Technology</th>
+        <th>Experience</th>
+      </tr>
+      <tr>
+        <td>HTML</td>
+        <td>Some</td>
+      </tr>
+      <tr>
+        <td>CSS</td>
+        <td>Some</td>
+      </tr>
+      <tr>
+        <td>Java</td>
+        <td>Some</td>
+      </tr>
+      <tr>
+        <td>Java</td>
+        <td>Some</td>
+      </tr>
+      <tr>
+        <td>JavaScript</td>
+        <td>None</td>
+      </tr>
+      <tr>
+        <td>Python</td>
+        <td>None</td>
+      </tr>
+      <tr>
+        <td>Unit Testing</td>
+        <td>Some</td>
+      </tr>
+      <tr>
+        <td>Refactoring Code</td>
+        <td>Some</td>
+      </tr>
+    </table>
+    
   </body>
+  <footer>
+    <p>
+     Brandon Lui 2024
+    </p>
+  </footer>
+
+  <script>
+      window.onload = function() {
+      const imgSpin = document.getElementById('wpi');
+      imgSpin.addEventListener('click', () => {
+        imgSpin.classList.toggle('spin');
+      });
+    };
+        </script>
 </html>
