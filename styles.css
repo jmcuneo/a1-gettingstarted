@@ -1,26 +1,80 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: "Madimi One", sans-serif;
     margin: 0;
-    padding: 0;
-    background-color: #f0f0f0;
+    background-color: #61A6FA   ;
+    background-size: 65px;
+    color: #6a77a2;
+    background-image: url(water2.webp);
 }
 
-.container {
-    width: 80%;
+/* Border box includes padding and border in the element's total width and height. */
+* {
+    box-sizing: border-box;
+}
+
+#container {
+    max-width: 900px;
     margin: 0 auto;
 }
 
-header, footer {
-    background-color: #333;
-    color: #fff;
-    padding: 10px 0;
+#flex {
+    display: flex;
 }
 
-header h1, footer h1 {
+/* navigation section */
+#navbar {
+    height: 40px;
+    background-color: #FAD762;
+    width: 100%;
+}
+
+#navbar ul {
+    display: flex;
+    padding: 0;
     margin: 0;
-    padding: 0 10px;
+    list-style-type: none;
+    justify-content: space-evenly;
+}
+
+#navbar li {
+    padding-top: 10px;
+}
+
+/* navigation links*/
+#navbar li a {
+    color: #7e61fa;
+    /* navbar text color */
+    font-weight: 800;
+    text-decoration: none;
+}
+
+/* navigation link when a link is hovered over */
+#navbar li a:hover {
+    color: #7a776d;
+    text-decoration: underline;
+}
+
+#animation {
+    position: absolute;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #6d737a;
+}
+
+h1, h2{
+    color: #6f6d7a;
+    font-weight: bold;
 }
 
 main {
-    padding: 20px 0;
+    background-color: #61A6FA;
+    flex: 1;
+    padding: 20px;
+}
+
+ul, li {
+    color: #6d737a;
 }
