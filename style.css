@@ -1,0 +1,95 @@
+/* Apply a global box-sizing rule */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+@keyframes colorChange {
+    from { background-color:  #48BBAE; }
+    to { background-color: #a7fff5; }
+  }
+  
+  .animated-background {
+    animation: colorChange 2s linear forwards;
+  }
+
+/* Basic reset for margin and padding */
+body, h1, p, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+
+
+/* Typography */
+body {
+  font-family: 'Montserrat', sans-serif;
+  color: #000000;  
+  line-height: 1.6;
+  padding: 20px;
+  background-color: #a7fff5; /* light grey background */
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  color: #080808; /* desaturated dark teal color */
+  padding: 20px;
+  background-color: #48BBAE; /* teal background for headers */
+  margin-bottom: 30px;
+  text-align: center;
+}
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    color: #080808; /* desaturated dark teal color */
+    padding: 20px;
+    background-color: #48BBAE; /* teal background for headers */
+    margin-bottom: 30px;
+    text-align: center;
+  }
+
+p {
+  margin-bottom: 20px;
+  padding: 0 20px;
+  color: #263331; /* dark teal text color */
+}
+
+ul {
+  list-style-type: none;
+  max-width: 600px;
+  margin: auto; /* centering ul */
+}
+
+ul li {
+  background-color: #509189; /* slightly darker teal for list items */
+  padding: 10px;
+  margin-bottom: 10px;
+  color: #f4f4f4; /* light grey text color for contrast */
+  border-left: 5px solid #33E6D1; /* adding a styled border to list items */
+}
+
+ul li:nth-child(odd) {
+  background-color: #496663; /* alternating the background for odd items */
+}
+
+/* Adding some space around the content */
+main {
+  padding: 20px;
+}
+
+
+
+.classes-section h2 {
+  margin-bottom: 10px;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  h1 {
+    font-size: 24px; /* smaller font size for smaller screens */
+  }
+
+  ul li {
+    font-size: 14px; /* smaller font size for list items on smaller screens */
+  }
+}
