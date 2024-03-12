@@ -133,20 +133,13 @@ ul li:nth-child(odd): Alternate the background color for odd list items.
   animated the background color of the <body> element when the page loads using a script tag. It goes from a dark to a lighter color.
 3. - **Included Semantic HTML tags**
 
-header: This tag is used to define the introductory content of the page, which often contains a group of introductory or navigational aids.
-
-nav: This tag is used to define a set of navigation links. Here, it's used to create a simple navigation menu at the top of the page.
-
-article: This tag specifies independent, self-contained content. It is used here to encapsulate the main content about Hanzalah Qamar.
-
-section: This tag defines a section in a document. It's used here to organize content by topics, such as "About Me" and "CS Classes".
-
-aside: This tag defines content aside from the content it is placed in (like a sidebar). Here, it's used to provide information about extracurricular activities.
-
-footer: This tag defines a footer for a document or section and contains information about the author of the document, copyright information, contact information, etc.
-
-address: This tag is used to provide contact information, which I included in the footer for an example of how to present this information semantically.
-
+    header: This tag is used to define the introductory content of the page, which often contains a group of introductory or navigational aids.
+    nav: This tag is used to define a set of navigation links. Here, it's used to create a simple navigation menu at the top of the page.
+    article: This tag specifies independent, self-contained content. It is used here to encapsulate the main content about Hanzalah Qamar.
+    section: This tag defines a section in a document. It's used here to organize content by topics, such as "About Me" and "CS Classes".
+    aside: This tag defines content aside from the content it is placed in (like a sidebar). Here, it's used to provide information about extracurricular activities.
+    footer: This tag defines a footer for a document or section and contains information about the author of the document, copyright information, contact information, etc.
+    address: This tag is used to provide contact information, which I included in the footer for an example of how to present this information semantically.
 
 ## Design Achievements
 ### Color Palette Implementation
