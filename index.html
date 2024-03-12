@@ -1,28 +1,73 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <title>CS4241 Assignment 1</title>
-    <meta charset="utf-8">
-  </head>
-  <body>
-    <h1>Information about [Your name here]</h1>
-    <p>
-      [Self introduction]
-    </p>
-    <p>
-      [Major and other information]
-    </p>
-    <p>
-      [Other things]
-    </p>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CS4241 Assignment 1</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+</head>
 
-    <h2>Experience</h2>
-    <p>
-      Working experience
-    </p>
-    <ul>
-      <li>IBM/Rational</li>
-      <li>WPI</li>
-    </ul>
-  </body>
+<body>
+  <header>
+    <h1>Information about Hanzalah Qamar</h1>
+    <nav>
+      <ul>
+        <li><a href="#about-me">About Me</a></li>
+        <li><a href="#cs-classes">CS Classes</a></li>
+        <li><a href="#contact-info">Contact Info</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <article id="about-me">
+    <section>
+      <h2>About Me</h2>
+      <p>
+        My name is Hanzalah Qamar and I am a Junior CS student at WPI. I have been programming for a few years now and I am
+        very interested in web development. I am currently taking CS4241 and I am excited to learn more about it!
+      </p>
+    </section>
+    
+    <section>
+      <h2>Experience with Coding Languages:</h2>
+      <ul>
+        <li>HTML: a lot</li>
+        <li>CSS: a lot</li>
+        <li>Java: a lot</li>
+        <li>JavaScript: Some</li>
+        <li>Python: A lot</li>
+        <li>Unit testing: some</li>
+        <li>Refactoring code: some</li>
+      </ul>
+    </section>
+  </article>
+
+  <aside>
+    <h3>Extracurricular Activities</h3>
+    <p>I am also a member of the WPI Muslim Student Association.</p>
+  </aside>
+
+  <section id="cs-classes">
+    <h2>WPI CS Classes</h2>
+    <p>Data Structures and Algorithms, Object Oriented Programming, Systems Programming, Operating Systems, HCI, Foundations of Computer Science</p>
+  </section>
+
+  <footer id="contact-info">
+    <h2>Contact Information</h2>
+    <address>
+      Email: example@wpi.edu <br>
+      WPI, 100 Institute Road, Worcester, MA
+    </address>
+  </footer>
+  <!-- Add this just before the closing </body> tag -->
+<script>
+  window.onload = function() {
+    document.body.classList.add('animated-background');
+  };
+</script>
+</body>
+
+</body>
+
 </html>
