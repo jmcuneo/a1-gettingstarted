@@ -1,4 +1,23 @@
-Assignment 1 - Hello World: Basic Deployment w/ Git, GitHub, Glitch
+Seth Frank
+http://a1-joshuacuneo.glitch.me
+
+This project shows ...
+
+## Technical Achievements
+- **Styled page with CSS**: Added rules for the p, li, and a selectors...
+- **HTML Tags Used**:
+-- Table
+
+## Design Achievements
+- **Create a color palette consisting of 7 accent colors and a white and black
+- **Used the Montserrat and Inter Font from Google Fonts**: I used Inter as the font for the primary body text and Montserrat for the headers in my site
+
+
+
+
+
+
+
 ===
 
 *DUE: Sunday, March 17th by 11:59 PM*
@@ -108,14 +127,3 @@ If you need refreshers for JavaScript/HTML/CSS or Git/GitHub, check out the reso
 
 Sample Readme (delete the above when you're ready to submit, and modify the text below with your links and descriptions)
 ---
-
-Joshua Cuneo
-http://a1-joshuacuneo.glitch.me
-
-This project shows ...
-
-## Technical Achievements
-- **Styled page with CSS**: Added rules for the p, li, and a selectors...
-
-## Design Achievements
-- **Used the Roboto Font from Google Fonts**: I used Roboto as the font for the primary copy text in my site.
