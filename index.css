@@ -1,10 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
 
+body{
+    font-family: "Nunito Sans", sans-serif;
+}
+
 .footer{
     margin: 50px 0 0 0;
     padding: 40px 0 0 0;
     text-align: center;
-    background: #B0E0E6;
+    background: #61DCF2;
     width: 100%;
     font-weight: bold;
 }
@@ -13,9 +17,9 @@
     text-decoration: underline;
 }
 
-#name{
+#welcome{
     text-align: center;
-    color: #B0E0E6;
+    color: #61AEF2;
 }
 
 .buttons{
@@ -37,6 +41,18 @@
 .table-info th{
     padding: 0 100px 0 100px;
     border: 1px solid #000;
-    background: #B0E0E6;
+    background: #61F2A7;
     text-align: center;
+}
+
+.th2{
+    background: #61F2D8 !important;
+}
+
+.th3{
+    background: #00F5C8 !important;
+}
+
+.btn2{
+    background: #61F274;
 }

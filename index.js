@@ -1,14 +1,14 @@
 alert("Hello World!");
 
 function blink() {
-    let name = document.getElementById('name');
-    if (name.style.visibility === 'hidden')
+    let welcome = document.getElementById('welcome');
+    if (welcome.style.visibility === 'hidden')
     {
-        name.style.visibility = 'visible';
+        welcome.style.visibility = 'visible';
     }
     else
     {
-        name.style.visibility = 'hidden';
+        welcome.style.visibility = 'hidden';
     }
 }
 
@@ -21,5 +21,5 @@ function normal(){
 
 function change(){
     let body = document.querySelector('body');
-    body.style.backgroundColor = '#98FB98';
+    body.style.backgroundColor = '#61F274';
 }
