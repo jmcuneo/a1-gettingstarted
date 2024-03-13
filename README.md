@@ -118,7 +118,9 @@ http://a1-joshuacuneo.glitch.me
 This project shows ...
 
 ## Technical Achievements
-- **Styled page with CSS**: Added rules for the p, li, and a selectors...
+- **Styled page with CSS**: Added rules for the p, h1/2, ul, footer, and various article and image classes
+- **TODO**
+- **Exerimented with other HTML tags**: Utilized images, articles, links, headers, and footers
 
 ## Design Achievements
 - **Used the Roboto Font from Google Fonts**: I used Roboto as the font for the primary copy text in my site.

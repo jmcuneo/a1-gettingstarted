@@ -1,0 +1,50 @@
+.main-page{
+    margin: 0;
+    padding: 5px;
+    background-color: bisque;
+}
+
+.section{
+    margin: 10px;
+    padding: 5px;
+    background-color: white;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+footer{
+    font-family: "Times New Roman";
+    font-size: 75%;
+    text-align: center;
+}
+
+h1 {
+    color: darkred;
+    font-family: Impact;
+    font-size: 300%;
+    text-align: center;
+}
+
+h2{
+    color: black;
+    font-family: Impact;
+    font-size: 200%;
+    text-align: center;
+}
+
+p {
+    font-family: "Courier New";
+    font-size: 100%;
+    text-align: center;
+}
+
+ul{
+    font-family: "Courier New";
+    font-size: 100%;
+    text-align: center;
+}
