@@ -1,0 +1,44 @@
+/*fonts*/
+.baloo-2-regular {
+              font-family: "Baloo 2", sans-serif;
+              font-optical-sizing: auto;
+              font-weight: 400;
+              font-style: normal;
+          }
+.dangrek-regular {
+    font-family: "Dangrek", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/*rules for semantic html tags*/
+body {
+    background-color: #B7D354;
+    font-family: "Baloo 2", sans-serif;
+}
+h1 {
+    font-family: "Dangrek", sans-serif;
+    color: #424633;
+}
+h2 {
+    font-family: "Dangrek", sans-serif;
+    color: #424633;
+}
+img {
+     height: 300px;
+ }
+article {
+    font-size: larger;
+    color: #6E7065;
+}
+table, th, td {
+    border: 2px solid;
+    border-collapse: collapse;
+    background-color: white;
+    color: #424633;
+}
+footer {
+    font-size: smaller;
+    color: #929B71;
+}
+
