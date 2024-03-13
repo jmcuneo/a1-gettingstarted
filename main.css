@@ -1,0 +1,22 @@
+p{
+    font-family: "Courier Prime", monospace;
+    color: #c65cf7;
+}
+body{
+    background-color: #e7cdf3;
+}
+.heading{
+    font-family: "Courier Prime", monospace;
+    color: #f75c97;
+}
+li{
+    font-family: "Courier Prime", monospace;
+    color: #605cf7;
+}
+th{
+    text-align:left;
+    border:1px solid #f75cf4;
+    font-family: "Courier Prime", monospace;
+    font-size: 20px;
+    color: #935cf7;
+}

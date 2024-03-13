@@ -109,7 +109,15 @@ http://a1-joshuacuneo.glitch.me
 This project shows ...
 
 ## Technical Achievements
-- **Styled page with CSS**: Added rules for the p, li, and a selectors...
+- **Styled page with CSS**: Added rules for the p, body, headings, li, and th.
+- **Experimented with semantic HTML tags**: I used a table, ...
+- **JavaScript Animation**: I made my work experience table bounce around the screen using JavaScript.
+
 
 ## Design Achievements
-- **Used the Roboto Font from Google Fonts**: I used Roboto as the font for the primary copy text in my site.
+- **Created a color palette using color.adobe.com**: The screenshot is included.
+- **Used the Courier Prime Font from Google Fonts**: I used Courier Prime as the font for all text on the page.
+
+## TODO:
+- add 5 semantic tags
+- update name to your own
