@@ -1,0 +1,72 @@
+/* Define color scheme */
+/* Access using var(--name-of-variable) */
+* {
+    --text-color-primary: #0F1D29;
+    --primary-color: #28F2FC;
+    --primary-color-variant: #45CBD2;
+    --primary-bg-color: #DECFC4;
+    --primary-bg-color-variant: #F5C2AD;
+    --secondary-color: #53A3A7;
+    --secondary-color-variant: #27707F;
+}
+
+body {
+    margin: 0;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    background-color: var(--primary-bg-color);
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+    color: var(--text-color-primary);
+    font-family: "Poppins", sans-serif;
+}
+
+img {
+    background-color: var(--primary-color);
+}
+
+img:hover {
+    background-color: var(--primary-color-variant);
+}
+
+/* Center things a bit */
+.content {
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}
+
+a:link {
+    text-decoration: none;
+    font-weight: normal;
+    color: var(--secondary-color);
+}
+
+a:hover {
+    font-weight: bolder;
+}
+
+a:visited {
+    text-decoration: none;
+    font-weight: normal;
+    color: var(--secondary-color-variant);
+}
+
+footer p {
+    padding: 0;
+    margin: 0;
+}
+
+h4.list-label {
+    padding-bottom: 0;
+    margin-bottom: 0;
+    margin-block-end: 0;
+}
+
+h4.list-label ~ ul {
+    margin-top: 0.5rem;
+}
+
+h4.list-label, h4.list-label ~ ul {
+    background-color: var(--primary-bg-color-variant);
+}
