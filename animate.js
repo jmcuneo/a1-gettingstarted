@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded',function(){
 
     setInterval(function(){
         var rect = table.getBoundingClientRect();
-        if(rect.x <= 0 || rect.x + rect.width > window.innerWidth - speed*4){
+        if(rect.x <= 0 || rect.x + rect.width > window.innerWidth - 30){
             speed*=-1;
             marginLeft+=speed;
         }
