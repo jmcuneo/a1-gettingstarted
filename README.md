@@ -43,17 +43,17 @@ This project shows ...
 
 ## Technical Achievements
 - **Styled page with CSS**:
-  1. Rules for the body: website background color and baloo2 font (learned from first class)
-  2. Rules for h1 and h2: dangrek font and unique colors (learned from first class)
-  3. Rules for article: set font to larger, unique color (learned from first class)
-  4. Rules for footer: smaller font size, same color as h1 (learned from W3 Schools)
-  5. Rules for tables: border thickness and color, cell padding, and unique font color (learned from W3 Schools)
+1. Rules for the body: website background color and baloo2 font (learned from first class)
+2. Rules for h1 and h2: dangrek font and unique colors (learned from first class)
+3. Rules for article: set font to larger, unique color (learned from first class)
+4. Rules for footer: smaller font size, same color as h1 (learned from W3 Schools)
+5. Rules for tables: border thickness and color, cell padding, and unique font color (learned from W3 Schools)
 - **Semantic HTML tags**:
-  1. article: contains requested information (learned from first class)
-  2. table: contains my experience skills (learned from W3 Schools)
-  3. footer: contains the IBM and WPI bullet points (learned from W3 Schools)
-  4. figure: contains a photo of myself (learned from W3 Schools)
-  5. nav: contains a hyperlink to a past project (learned from W3 Schools)
+1. article: contains requested information (learned from first class)
+2. table: contains my experience skills (learned from W3 Schools)
+3. footer: contains the IBM and WPI bullet points (learned from W3 Schools)
+4. figure: contains a photo of myself (learned from W3 Schools)
+5. nav: contains a hyperlink to a past project (learned from W3 Schools)
 - **Simple Animation**:  
 
 ## Design Achievements
@@ -63,5 +63,6 @@ This project shows ...
 3. third color: hyperlink color, table font color
 4. article font color
 5. h2 font color
+
 ![image](https://github.com/Perez0002/a1-oliviaperez/assets/67107221/b58f42f3-db24-4cf6-8999-f16dacc4ac9d)
 - **Google Fonts**: I used Danrek (h1 and h2 font) and Baloo2 (article font) from Google fonts in my site.
