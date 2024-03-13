@@ -1,11 +1,4 @@
 ## Option 1 - Clone to computer, push to Github, import to Glitch (recommended)
-
-1. Fork the starting assignment code in GitHub. This repo contains the following:
-    * The server code, `server.js`
-    * A starting `index.html` file that you will edit as described below
-    * A package.json file that helps configure Glitch
-    * This README
-2. Edit `index.html` to show the following information about you:
 3. Complete some technical and/or design achievements (see below).
 
 5. Test your project to make sure that when someone goes to your main page, it displays correctly. You can do this locally by simply running `node server.js` from within the assignment directory and then going to `localhost:3000` in your browser.
@@ -38,17 +31,7 @@ Note that if you want to load resources besides your index.html file (images, an
 7. Pull Request submitted to original repo
 
 *Technical Achievements*
-1. (5 points) Style your page using CSS. Each style rule you apply will get you 1 point for a maximum of 5 points. Be sure to describe your style rules in your README.
 3. (5 points) Add a simple JavaScript animation to the page.
-4. (5 points) Experiment with other *semantic* HTML tags (links, images, tables, header, footer, etc.). Each extra tag you use will get you 1 point for a maximum of 5 points. Be sure to describe the tags you use in your README.
-
-*Design Achievements*
-1. (10 points) Create a color palette using [color.adobe.com](https://color.adobe.com). Use all the colors in the palette in your webpage by implementing the appropriate CSS. Add a small screenshot of the color wheel for your color palette to your repo.
-2. (5 points) Use a font from [Google Fonts](https://fonts.google.com) in your website.
-
-**NOTE:** There are additional color pallette and font options listed on Canvas under Modules -> Resources -> Color Pallettes and Fonts. You are welcome to use one of those instead. If you know of and would like to use any other resources that are not included, feel free to contact the instructor.
-
-
 
 Sample Readme (delete the above when you're ready to submit, and modify the text below with your links and descriptions)
 ---
@@ -59,9 +42,20 @@ http://a1-joshuacuneo.glitch.me
 This project shows ...
 
 ## Technical Achievements
-- **Styled page with CSS**: Added rules for the body, h1 and h2, article, footer, and tables
-- **Semantic HTML tags**: article, table, footer, image 
+- **Styled page with CSS**:
+  Rules for the body: website background color and baloo2 font (learned from first class)
+  Rules for h1 and h2: dangrek font and unique colors (learned from first class)
+  Rules for article: set font to larger, unique color (learned from first class)
+  Rules for footer: smaller font size, same color as h1 (learned from W3 Schools)
+  Rules for tables: border thickness and color, cell padding, and unique font color (learned from W3 Schools)
+- **Semantic HTML tags**:
+  article: contains requested information (learned from first class)
+  table: contains my experience skills (learned from W3 Schools)
+  footer: contains the IBM and WPI bullet points (learned from W3 Schools)
+  figure: contains a photo of myself (learned from W3 Schools)
+  nav: contains a hyperlink to a past project (learned from W3 Schools)
+- **Simple Animation**:  
 
 ## Design Achievements
-- **Adobe Color Palette**:
+- **Adobe Color Palette**:![image](https://github.com/Perez0002/a1-oliviaperez/assets/67107221/b58f42f3-db24-4cf6-8999-f16dacc4ac9d)
 - **Google Fonts**: I used Danrek and Baloo2 from Google fonts in my site.
