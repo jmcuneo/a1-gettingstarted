@@ -13,32 +13,36 @@
 
 /*rules for semantic html tags*/
 body {
-    background-color: #B7D354;
+    background-color: #D9DCD6;
     font-family: "Baloo 2", sans-serif;
 }
 h1 {
     font-family: "Dangrek", sans-serif;
-    color: #424633;
+    color: #353535;
 }
 h2 {
     font-family: "Dangrek", sans-serif;
-    color: #424633;
+    color: #BF6900;
 }
 img {
      height: 300px;
  }
 article {
     font-size: larger;
-    color: #6E7065;
+    color: #618B4A;
+}
+a {
+    color: #1985A1;
 }
 table, th, td {
-    border: 2px solid;
     border-collapse: collapse;
-    background-color: white;
-    color: #424633;
+    border: 2px solid #353535;
+    background-color: #D9DCD6;
+    padding: 5px;
+    color: #1985A1;
 }
 footer {
     font-size: smaller;
-    color: #929B71;
+    color: #353535;
 }
 
