@@ -1,10 +1,11 @@
 /*fonts*/
 .baloo-2-regular {
-              font-family: "Baloo 2", sans-serif;
-              font-optical-sizing: auto;
-              font-weight: 400;
-              font-style: normal;
-          }
+    font-family: "Baloo 2", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
 .dangrek-regular {
     font-family: "Dangrek", sans-serif;
     font-weight: 400;
@@ -16,24 +17,30 @@ body {
     background-color: #D9DCD6;
     font-family: "Baloo 2", sans-serif;
 }
+
 h1 {
     font-family: "Dangrek", sans-serif;
     color: #353535;
 }
+
 h2 {
     font-family: "Dangrek", sans-serif;
     color: #BF6900;
 }
+
 img {
-     height: 300px;
- }
+    height: 300px;
+}
+
 article {
     font-size: larger;
     color: #618B4A;
 }
+
 a {
     color: #1985A1;
 }
+
 table, th, td {
     border-collapse: collapse;
     border: 2px solid #353535;
@@ -41,8 +48,23 @@ table, th, td {
     padding: 5px;
     color: #1985A1;
 }
+
 footer {
     font-size: smaller;
     color: #353535;
 }
 
+/*animation div styling*/
+#myContainer {
+    width: 200px;
+    height: 200px;
+    position: relative;
+}
+
+#myAnimation {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    background-image: url("animationImg.png");
+    background-size: cover;
+}

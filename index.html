@@ -1,85 +1,119 @@
 <!doctype html>
 <html lang="en">
-  <head>
+<head>
     <title>CS4241 Assignment 1</title>
     <meta charset="utf-8">
+    <!--connect to Google Fonts-->
     <link rel="stylesheet" href="styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400..800&family=Dangrek&display=swap" rel="stylesheet">
-  <body>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400..800&family=Dangrek&display=swap"
+          rel="stylesheet">
 
-  <article>
-    <h1>Information about Olivia Perez</h1>
+<body>
+<article>
+    <h1>Information about Olivia Perez</h1> <!--About Me-->
     <p>
-      My name is Olivia Perez, or Liv, and I am in my junior year at WPI
+        My name is Olivia Perez, or Liv, and I am in my junior year at WPI
     </p>
     <p>
-      My major is Computer Science, and I may potentially earn a biology minor. I also want to apply to the MS program
+        My major is Computer Science, and I may potentially earn a biology minor. I also want to apply to the MS program
     </p>
 
     <figure>
-      <img src="OliviaPerez.jpg" alt="Picture of me">
+        <img src="OliviaPerez.jpg" alt="Picture of me">
     </figure>
 
 
-    <h2>CS Courses Taken</h2>
+    <h2>CS Courses Taken</h2> <!--CS Courses, ordered list-->
     <ul>
-      <li>CS1101</li>
-      <li>CS2102</li>
-      <li>CS2302</li>
-      <li>CS2223</li>
-      <li>CS2022</li>
-      <li>CS3133</li>
-      <li> CS3733
-        <nav>
-          <a href="https://github.com/Perez0002/CS3733-C23-Team-D-Production" target="_blank">CS3733 Project</a>
-        </nav>
-      </li>
-      <li>CS3431</li>
-      <li>CS4341</li>
-      <li>CS3031</li>
-      <li>CS3043</li>
+        <li>CS1101</li>
+        <li>CS2102</li>
+        <li>CS2302</li>
+        <li>CS2223</li>
+        <li>CS2022</li>
+        <li>CS3133</li>
+        <li> CS3733
+            <nav> <!--SoftEng, link to Project-->
+                <a href="https://github.com/Perez0002/CS3733-C23-Team-D-Production" target="_blank">CS3733 Project</a>
+            </nav>
+        </li>
+        <li>CS3431</li>
+        <li>CS4341</li>
+        <li>CS3031</li>
+        <li>CS3043</li>
     </ul>
 
-    <h2>Experience</h2>
+    <h2>Experience</h2> <!--Experience/Skills with stuff from A1 desc, use table-->
     <table>
-      <tr>
-        <th>Skill</th>
-        <th>Experience/Level</th>
-      </tr>
+        <tr>
+            <th>Skill</th>
+            <th>Experience/Level</th>
+        </tr>
 
-      <tr>
-        <td>HTML</td>
-        <td>Last used in high school, novice knowledge</td>
-      </tr>
-      <tr>
-        <td>CSS</td> <td>Used in SoftEng, novice knowledge</td>
-      </tr>
-      <tr>
-        <td>Java</td> <td>My primary programming language, advanced knowledge</td>
-      </tr>
-      <tr>
-        <td>JavaScript</td> <td>None</td>
-      </tr>
-      <tr>
-        <td>Python</td> <td>Last used in Intro to AI, intermediate knowledge</td>
-      </tr>
-      <tr>
-        <td>Unit testing</td> <td>Last used in Intro to OOP Design, novice knowledge</td>
-      </tr>
-      <tr>
-        <td>Refactoring code</td> <td>Used in every project, intermediate-advanced knowledge</td>
-      </tr>
+        <tr>
+            <td>HTML</td>
+            <td>Last used in high school, novice knowledge</td>
+        </tr>
+        <tr>
+            <td>CSS</td>
+            <td>Used in SoftEng, novice knowledge</td>
+        </tr>
+        <tr>
+            <td>Java</td>
+            <td>My primary programming language, advanced knowledge</td>
+        </tr>
+        <tr>
+            <td>JavaScript</td>
+            <td>None</td>
+        </tr>
+        <tr>
+            <td>Python</td>
+            <td>Last used in Intro to AI, intermediate knowledge</td>
+        </tr>
+        <tr>
+            <td>Unit testing</td>
+            <td>Last used in Intro to OOP Design, novice knowledge</td>
+        </tr>
+        <tr>
+            <td>Refactoring code</td>
+            <td>Used in every project, intermediate-advanced knowledge</td>
+        </tr>
 
     </table>
-  </article>
+</article>
 
-    <footer>
-      <ul>
+<p> <!--button to start animation-->
+    <button onclick="myMove()">Click Me</button>
+</p>
+<div id="myContainer">
+    <div id="myAnimation"></div>
+</div>
+<script> <!-- animation script-->
+    var id = null;
+
+    function myMove() {
+        var elem = document.getElementById("myAnimation");
+        var pos = 0;
+        clearInterval(id);
+        id = setInterval(frame, 10);
+
+        function frame() {
+            if (pos === 150) {
+                clearInterval(id);
+            } else {
+                pos++;
+                elem.style.top = pos + 'px';
+                elem.style.left = pos + 'px';
+            }
+        }
+    }
+</script>
+<footer> <!--bullet points from original template-->
+    <ul>
         <li>IBM/Rational</li>
-       <li>WPI</li>
-      </ul>
-    </footer>
-  </body>
+        <li>WPI</li>
+    </ul>
+</footer>
+</body>
 </html>
