@@ -54,9 +54,10 @@ This project shows ...
 3. footer: contains the IBM and WPI bullet points (learned from W3 Schools)
 4. figure: contains a photo of myself (learned from W3 Schools)
 5. nav: contains a hyperlink to a past project (learned from W3 Schools)
-- **Simple Animation**:  
+- **Simple Animation**: Edited sample code from W3 schools to make a shape move from one corner of a container to the other. I tried to make it bounce back once it reached the corner, but I couldnt find many tutorials to help. It was challenging to find cooler tutorials that were easy for me to focus on and understand, so it was hard to come up with andcreate something original. 
 
 ## Design Achievements
+- **Google Fonts**: I used Danrek (h1 and h2 font) and Baloo2 (article font) from Google fonts in my site.
 - **Coolers Color Palette**:
 1. first color: h1 font color, table border, footer font color
 2. second color: body background color, table background color
@@ -65,4 +66,4 @@ This project shows ...
 5. h2 font color
 
 ![image](https://github.com/Perez0002/a1-oliviaperez/assets/67107221/b58f42f3-db24-4cf6-8999-f16dacc4ac9d)
-- **Google Fonts**: I used Danrek (h1 and h2 font) and Baloo2 (article font) from Google fonts in my site.
+
