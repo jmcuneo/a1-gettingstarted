@@ -11,7 +11,14 @@ This project shows ...
   - Padding 0 10px on body content
   - Max-width: 600px on body content
   - Line-height: 2 on body content
-- 
+  - Float: left (for course names)
+- **Add a simple Javascript animation**: Completed this design achievement by creating a button that toggles light/dark mode on the page.
+- **Experiment with semantic HTML**
+  - x2 links
+  - A header
+  - 3 sections
+  - A table (for courses)
+  - An aside (for the Alan Watts quote)
 
 ## Design Achievements
 

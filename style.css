@@ -34,3 +34,12 @@ header {
 #experience {
 	color: #6162FA;
 }
+
+#cname {
+	float: left;
+}
+
+aside {
+	font-style: italic;
+	font-weight: 300;
+}
