@@ -7,7 +7,7 @@ body {
 }
 
 h1 {
-    color: #4A90E2;
+    color: #C1A2FA;
     font-size: 35px;
 }
 
@@ -27,7 +27,7 @@ ul {
 }
 
 li {
-    background-color: #E7F1FF;
+    background-color: #F5BF89;
     margin: 5px;
     padding: 5px;
 }
@@ -37,7 +37,7 @@ Add a hover effect to my <li> items so that their background color changes
 when the mouse hovers over them
 */
 li:hover {
-    background-color: #B0D4FF;
+    background-color: #F0796F;
 }
 
 /*
@@ -46,5 +46,9 @@ Change the font size, weight and color of the heading<h2>
 h2 {
     font-size: 25px;
     font-weight: bold;
-    color: #333333;
+    color: #5AD9F0;
+}
+
+table th {
+    color: #3A7035;
 }
