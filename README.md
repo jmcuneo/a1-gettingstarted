@@ -1,6 +1,4 @@
 ## Option 1 - Clone to computer, push to Github, import to Glitch (recommended)
-3. Complete some technical and/or design achievements (see below).
-
 5. Test your project to make sure that when someone goes to your main page, it displays correctly. You can do this locally by simply running `node server.js` from within the assignment directory and then going to `localhost:3000` in your browser.
 6. Modify the README file according to the specification below.
 7. Commit and push all your changes to GitHub. 
@@ -30,9 +28,6 @@ Note that if you want to load resources besides your index.html file (images, an
 6. Project deployed to Glitch (or other hosting option)
 7. Pull Request submitted to original repo
 
-*Technical Achievements*
-3. (5 points) Add a simple JavaScript animation to the page.
-
 Sample Readme (delete the above when you're ready to submit, and modify the text below with your links and descriptions)
 ---
 
@@ -54,8 +49,7 @@ This project shows ...
 3. footer: contains the IBM and WPI bullet points (learned from W3 Schools)
 4. figure: contains a photo of myself (learned from W3 Schools)
 5. nav: contains a hyperlink to a past project (learned from W3 Schools)
-- **Simple Animation**: Edited sample code from W3 schools to make a shape move from one corner of a container to the other. I tried to make it bounce back once it reached the corner, but I couldnt find many tutorials to help. It was challenging to find cooler tutorials that were easy for me to focus on and understand, so it was hard to come up with andcreate something original. 
-
+- **Simple Animation**: Edited sample code based on W3 Schools code and alessiomaddaluno on Github to make an image move from one corner of a canvas to the other. I wanted to make the image bounce back and forth like the dvd logo, so I found existing projects to help, hence finding code from alessiomaddaluno. 
 ## Design Achievements
 - **Google Fonts**: I used Danrek (h1 and h2 font) and Baloo2 (article font) from Google fonts in my site.
 - **Coolers Color Palette**:
