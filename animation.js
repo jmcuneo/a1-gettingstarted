@@ -1,12 +1,12 @@
 // Initialize variables that will allow the changingColorAndSize function to produce desired output
-var textColors = ["#012556", "#3280C9", "#3F3FFC"];
-var fontSize = 10;
-var variableFont = true;
-var index = 0;
+let textColors = ["#012556", "#3280C9", "#3F3FFC"];
+let fontSize = 10;
+let variableFont = true;
+let index = 0;
 
 // Function to change the color and size of the text
 function changingColorAndSize() {
-    var textElem = document.getElementById('textElem');
+    let textElem = document.getElementById('textElem');
     textElem.style.color = textColors[index];
     textElem.style.fontSize = fontSize + 'px';
 
