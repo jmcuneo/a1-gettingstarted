@@ -53,18 +53,3 @@ footer {
     font-size: smaller;
     color: #353535;
 }
-
-/*animation div styling*/
-#myContainer {
-    width: 200px;
-    height: 200px;
-    position: relative;
-}
-
-#myAnimation {
-    width: 50px;
-    height: 50px;
-    position: absolute;
-    background-image: url("animationImg.png");
-    background-size: cover;
-}

@@ -1,22 +1,24 @@
-let speed = 30;
-let scale = 0.15; // Image scale (I work on 1080p monitor)
+/* Original code from alessiomaddaluno on Github, modified by me. */
+
+let speed = 35;
+let scale = 0.15; 
 let canvas;
 let ctx;
 
 let animationOwl = {
-    x: 200,
-    y: 200,
-    xspeed: 10,
+    x: 100,
+    y: 50,
+    xspeed: 10, //distance moved each update
     yspeed: 10,
     img: new Image()
 };
 
 (function main(){
-    canvas = document.getElementById("tv-screen");
+    canvas = document.getElementById("bounce-screen");
     ctx = canvas.getContext("2d");
     animationOwl.img.src = 'animationImg.png';
 
-    //Draw the "tv screen"
+    //set canvas dimenstions
     canvas.width  = 650;
     canvas.height = 550;
 
@@ -28,24 +30,26 @@ function update() {
         //Draw the canvas background
         ctx.fillStyle = '#D9DCD6';
         ctx.fillRect(0, 0, canvas.width, canvas.height);
-        //Draw animationOwl Logo and his background
+        
+        //Draw owl and background
         ctx.fillRect(animationOwl.x, animationOwl.y, animationOwl.img.width*scale, animationOwl.img.height*scale);
         ctx.drawImage(animationOwl.img, animationOwl.x, animationOwl.y, animationOwl.img.width*scale, animationOwl.img.height*scale);
-        //Move the logo
+       
+        //Move the owl
         animationOwl.x+=animationOwl.xspeed;
         animationOwl.y+=animationOwl.yspeed;
+        
         //Check for collision
-        checkHitBox();
+        checkBorderCollision();
+        
         update();
     }, speed)
 }
 
-//Check for border collision
-function checkHitBox(){
+function checkBorderCollision(){
     if(animationOwl.x+animationOwl.img.width*scale >= canvas.width || animationOwl.x <= 0){
         animationOwl.xspeed *= -1;
     }
-
     if(animationOwl.y+animationOwl.img.height*scale >= canvas.height || animationOwl.y <= 0){
         animationOwl.yspeed *= -1;
     }
