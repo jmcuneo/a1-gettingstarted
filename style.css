@@ -15,7 +15,7 @@ body {
     background-color: rgba(240, 214, 158, 94);
 }
 
-h1 {
+h1, footer {
     color: rgba(240, 132, 65, 94);
 }
 
@@ -23,6 +23,20 @@ h2 {
     color: rgba(240, 161, 65, 94);
 }
 
-li {
+li, td, th {
     color: rgba(239, 171, 131, 94);
+}
+
+.wrap {
+    position: relative;
+}
+
+#animate {
+    position: absolute;
+    top: 30%;
+    left: 40%;
+}
+
+td {
+    text-align: center;
 }
