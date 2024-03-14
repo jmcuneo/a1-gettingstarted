@@ -1,13 +1,13 @@
 .main-page{
     margin: 0;
     padding: 5px;
-    background-color: bisque;
+    background-color: #F0A200;
 }
 
 .section{
     margin: 10px;
     padding: 5px;
-    background-color: white;
+    background-color: #F0EBB9;
 }
 
 .center {
@@ -18,33 +18,35 @@
 }
 
 footer{
-    font-family: "Times New Roman";
+    color: #F2CBF1;
+    font-family: "Courier Prime";
     font-size: 75%;
     text-align: center;
 }
 
 h1 {
-    color: darkred;
+    color: #F00D00;
     font-family: Impact;
     font-size: 300%;
     text-align: center;
 }
 
 h2{
-    color: black;
+    color: #F0650E;
     font-family: Impact;
     font-size: 200%;
     text-align: center;
 }
 
 p {
-    font-family: "Courier New";
+    font-family: "Courier Prime";
     font-size: 100%;
     text-align: center;
 }
 
 ul{
-    font-family: "Courier New";
+    color: #F5E978;
+    font-family: "Courier Prime";
     font-size: 100%;
     text-align: center;
 }
