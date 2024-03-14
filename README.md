@@ -44,15 +44,15 @@ Note that if you want to load resources besides your index.html file (images, an
 3. (5 points) Experiment with other *semantic* HTML tags (links, images, tables, header, footer, etc.). Each extra tag you use will get you 1 point for a maximum of 5 points. Be sure to describe the tags you use in your README.
 
 Bryon Tom
-http://a1-joshuacuneo.glitch.me
+http://a1-bryontom.glitch.me
 
 This project shows ...
 
 ## Technical Achievements
-- **Styled page with CSS**: Added rules for the p, h1/2, ul, footer, and various article and image classes
+- **Styled page with CSS**: Added rules for the p, h1/2, ul, footer, and various article and image classes. As someone unfamiliar with html, it was challenging to discover what style rules existed and trying to implement them in a reasonably aesthetic manner.
 - **TODO**
-- **Exerimented with other HTML tags**: Utilized images, articles, links, headers, and footers
+- **Exerimented with other HTML tags**: Utilized images, articles, links, headers, and footers. This was challening as I had to look into what tags existed as well as when to use them. For example, using headers and footers versus just implementing every section of the page as an article was a distinction I read out about and decided on.
 
 ## Design Achievements
-- **Used a palette created from Adobe Color**: I used a warmer color palette for my website, with the image in my repo.
-- **Used a font from Google Fonts**: I used Courier Prime for the primary text in my site.
+- **Used a palette created from Adobe Color**: I used a warmer color palette for my website, with the image for the colour codes in the resources folder. I tried to pick out a reasonably nice palette in warmer, WPI colours. I don't quite like how they blended, so I'll be looking more into colour theory in the future.
+- **Used a font from Google Fonts**: I used Courier Prime for the primary text in my site, with Impact as the header font. I've always liked Impact as a font, despite how unprofessional it would be in an academic paper, so I ended up searching Google fonts for a complementary font.
