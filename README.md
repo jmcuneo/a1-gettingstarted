@@ -49,4 +49,4 @@ This project shows ...
 ## Design Achievements
 - **Used the Inconsolata Font from Google Fonts**: I used Inconsolata as the font for the text on my site.
 
--**Used a dark blue color palette**: Used a color palette from Adobe color selector. [Color-Palette]("A1 colors.jpg")
+- **Used a dark blue color palette**: Used a color palette from Adobe color selector. (["A1 colors.jpg"](https://github.com/AGChad/a1-AvaChadbourne/A1Colors.jpg))
