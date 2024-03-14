@@ -8,7 +8,12 @@ const server = http.createServer( function( request,response ) {
       sendFile( response, 'index.html' )
       break
     default:
-      sendFile(response,"."+request.url);
+      const url = "./" + request.url.slice(1);
+      if(fs.existsSync(url)){
+        sendFile(response,url);
+      }else{
+        response.end("404 file not found");
+      }
   }
 })
 
