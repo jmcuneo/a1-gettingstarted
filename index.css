@@ -56,3 +56,45 @@ body{
 .btn2{
     background: #61F274;
 }
+
+.fact{
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+}
+
+.fact button{
+    width: 100%;
+    height: 380px;
+    border-radius: 10px;
+    display: block;
+    transition: transform 0.5s; /* transform to show text when hovered */
+    font-size: 30px;
+}
+/* will change the background and show the text over the image, it will come down to up */
+.layer{
+    width: 100%;
+    height: 0;
+    background: #3CB371;
+    border-radius: 10px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 40px;
+    text-align: center;
+    font-size: 14px;
+    transition: height 0.5s; /* height coming up */
+}
+
+.fact:hover button{
+    transform: scale(1.1);
+}
+
+.fact:hover .layer{
+    height: 100%;
+}
