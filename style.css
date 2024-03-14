@@ -1,0 +1,50 @@
+/*
+Change the font for the body of the HTML document and the color of the <h1> tag
+as well as the size
+*/
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+h1 {
+    color: #4A90E2;
+    font-size: 35px;
+}
+
+/*
+Add padding to my paragraphs<p>, now looks cleaner
+*/
+p {
+    padding: 8px;
+    line-height: 1.5;
+}
+
+/*
+Add padding to my <ul> and <li> list and a light background color to each <li> item
+*/
+ul {
+    padding: 10px;
+}
+
+li {
+    background-color: #E7F1FF;
+    margin: 5px;
+    padding: 5px;
+}
+
+/*
+Add a hover effect to my <li> items so that their background color changes
+when the mouse hovers over them
+*/
+li:hover {
+    background-color: #B0D4FF;
+}
+
+/*
+Change the font size, weight and color of the heading<h2>
+*/
+h2 {
+    font-size: 25px;
+    font-weight: bold;
+    color: #333333;
+}
