@@ -3,29 +3,75 @@
   <head>
     <title>CS4241 Assignment 1</title>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="./test.css" type="test/css"/>
+    <link rel="stylesheet" href="./style.css" type="text/css"/>
     <script src="test.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inconsolata&display=swap">
   </head>
   <body>
-    <h1>Information about Ava Chadbourne</h1>
-    <p>
-      I'm a junior here at WPI. 
-    </p>
-    <p>
-      Computer Science Major (Class of 2025) <br />
-      Interactive Media and Game Design Minor
-    </p>
-    <p>
-      I'm a huge fan of dogs and cats. If you have a cute pet please show me pictures.
-    </p>
-
-    <h2>Experience</h2>
-    <p>
-      Working experience
-    </p>
-    <ul>
-      <li>Dimensional Insight</li>
-      <li>WPI</li>
-    </ul>
+    <header>
+      <h1>Information about Ava Chadbourne</h1>
+    </header>
+    <div class="leftbar"></div>
+    <div class="summary">
+      <p>
+        I'm a junior here at WPI. 
+      </p>
+      <p>
+        Computer Science Major (Class of 2025) <br />
+        Interactive Media and Game Design Minor
+      </p>
+      <p>
+        I'm a huge fan of dogs and cats. If you have a cute pet please show me pictures.
+      </p>
+    </div>
+    <div class="rightbar"></div>
+    <div class="exp">
+      <h2>Experience</h2>
+        <h3>Working experience</h3>
+          <ul>
+            <li>Dimensional Insight: JavaScript heavy software development internship</li>
+          </ul>
+        <h3>
+          Course Experience and Language Used
+        </h3>
+          <ul>
+            <li>CS 1102: Racket</li>
+            <li>CS 2103: Java</li>
+            <li>CS 2303: C and C++</li>
+            <li>CS 2022: N/A</li>
+            <li>CS 2223: Java</li>
+            <li>CS 3013: C</li>
+            <li>CS 3041: HTML, CSS, and JavaScript</li>
+            <li>CS 3431: SQL and Java</li>
+            <li>CS 4341: Python and Java</li>
+            <li>CS 3516: Python and C</li>
+          </ul>
+        <h3>
+          Language Experience
+        </h3>
+          <ul>
+            <li>HTML: Some</li>
+            <li>CSS: Some</li>
+            <li>Java: A lot</li>
+            <li>JavaScript: A lot</li>
+            <li>Python: Some</li>
+            <li>Unit Testing: Some</li>
+            <li>Refactoring Code: Some</li>
+          </ul>
+      </div>
+      <img src="cat.jpg" alt="A black and white cat" id="sugar">
+      <div id="modal" class="sugarModal">
+        <span class="close">x</span>
+        <img class="modal-content" id="bigSugar">
+      </div>
+      <details id="details">
+        <summary id="detailSum">Sugar the Cat</summary>
+        <p class="desc">Sugar is a 16 year housecat. She is very sweet, a little skittish, and really likes lesbians.</p>
+      </details>
+      <footer id="footer">
+        <h3>CS 4241 Webware - Professor Cuneo</h3>
+      </footer>
   </body>
 </html>
