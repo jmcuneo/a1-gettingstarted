@@ -7,7 +7,9 @@
   <body>
     <h1>Information about Brianna Sahagian</h1>
     <p>
-      My name is Brianna, I'm in my fourth year of college at WPI and will graduate in May 2025. MORE DESCRIPTION?
+      My name is Brianna, I'm in my fourth year of college at WPI and will graduate in May 2025.<br />
+      I'm very interested in all things robotics and enjoy creating my own pet projects.<br />
+      If you like fish, there is a spawner at the bottom of this page, go ahead and try it!
     </p>
     <h2>Degrees</h2>
     <p>
@@ -15,6 +17,12 @@
       Minor Spanish<br />
       M.S. Computer Science 2025<br />
     </p>
+    <div style = "position:relative;align-self:right">
+      <div id = "fish" style = "margin-left:100%;position:absolute;">
+        <img src = "fish.gif" alt = "fish" id = "fishgif">
+      </div>
+    </div>
+    <script src = "webpage.js"></script>
     <h2>Previous Computer Science Courses Taken at WPI</h2>
     <table style = "border:2px solid;border-collapse:collapse;">
       <tr>
@@ -111,5 +119,6 @@
       <li>Unit Testing : <span style = "color:red;"> Expert</span></li>
       <li>Refactoring Code: <span style = "color:red;"> Expert</span></li>
     </ul>
+    <button onclick = spawnFish() style = "position:relative;height:50px;">Fish Spawner</button>
   </body>
 </html>
