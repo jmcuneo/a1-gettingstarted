@@ -1,0 +1,2 @@
+    const star = document.getElementById('star'); //getting ID name from index.html where the image is defined as 'star'
+    star.classList.add('animate'); //.animate will be called in CSS and will activate the movement visually by changing the placement of the star
