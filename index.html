@@ -4,20 +4,20 @@
 <head>
     <title>CS4241 Assignment 1</title>
     <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
 </head>
 
-<body>
+<body onload="myMove()">
     <h1>Information about Ellys Gorodisch</h1>
     <p>
-        [Self introduction]
+        Class of 2025
     </p>
     <p>
-        [Major and other information]
-    </p>
-    <p>
-        [Other things]
+        Computer Science B.S. + Interactive Media & Game Design B.S.
     </p>
 
+    <img id="animate" src="dread.png" width="10%" height="10%" />
+    
     <h2>Experience</h2>
     <p>
         Computer Science Courses
@@ -46,6 +46,25 @@
         <li>Unit Testing: Some</li>
         <li>Refactoring Code: A Lot</li>
     </ul>
+    <script>
+        var id = null;
+        function myMove() {
+            var elem = document.getElementById("animate");
+            var deg = 0;
+            clearInterval(id);
+            id = setInterval(frame, 10);
+            function frame() {
+                if (deg == 360) {
+                    deg = 0;
+                    clearInterval(id);
+                    id = setInterval(frame, 10);
+                } else {
+                    deg++;
+                    elem.style.transform = 'rotate(' + deg + 'deg)';
+                }
+            }
+        }
+    </script>
 </body>
 
 </html>
