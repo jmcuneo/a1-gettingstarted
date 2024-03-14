@@ -33,6 +33,7 @@ li, td, th {
 
 #animate {
     position: absolute;
+    z-index: -1;
     top: 30%;
     left: 40%;
 }
