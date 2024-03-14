@@ -18,7 +18,7 @@ window.onload = function() {
         if (details.open) {
             footer.style.paddingTop = "0%";
         } else {
-            footer.style.paddingTop = "3%";
+            footer.style.paddingTop = "5%";
         }
     });
 }

@@ -107,9 +107,9 @@ summary {
 }
 
 footer {
-    padding-top: 3%;
+    padding-top: 5%;
     text-align: center;
-    position: relative;
+    position: static;
     bottom: 0;
     width: 100%;
     color:#144C59;
