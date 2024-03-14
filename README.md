@@ -1,12 +1,6 @@
 Assignment 1 - Hello World: Basic Deployment w/ Git, GitHub, Glitch
 ===
 
-Rubric
----
-For the Technical and Design achievements, make sure you thoroughly describe in your README what you did why it was challenging. ALL ACHIEVEMENTS MUST BE DESCRIBED IN YOUR README IN ORDER TO GET CREDIT FOR THEM. Remember that the success of Achievements hinges on how well you describe them in your README. Well formatted text, images, and concise and clear descriptions are helpful. You must include a Technical Achievements and Design Achievements section, even if none are attempted.
-
-Note that if you want to load resources besides your index.html file (images, an CSS file, a JS file) you'll need to modify server.js to point to these. For now it's easiest to just hardcode paths to the resources, but we'll look at ways to optimize this shortly.
-
 *Technical Achievements*
 1. (5 points) Style your page using CSS. Each style rule you apply will get you 1 point for a maximum of 5 points. Be sure to describe your style rules in your README.
 2. (5 points) Add a simple JavaScript animation to the page.
@@ -17,7 +11,7 @@ Note that if you want to load resources besides your index.html file (images, an
 2. (5 points) Use a font from [Google Fonts](https://fonts.google.com) in your website.
 
 
-Joshua Cuneo
+Ava Chadbourne
 http://a1-joshuacuneo.glitch.me
 
 This project shows ...
@@ -49,4 +43,4 @@ This project shows ...
 ## Design Achievements
 - **Used the Inconsolata Font from Google Fonts**: I used Inconsolata as the font for the text on my site.
 
-- **Used a dark blue color palette**: Used a color palette from Adobe color selector. (["A1 colors.jpg"](https://github.com/AGChad/a1-AvaChadbourne/A1Colors.jpg))
+- **Used a dark blue color palette**: Used a color palette from Adobe color selector. (["A1 colors.jpg"](A1Colors.jpg))
