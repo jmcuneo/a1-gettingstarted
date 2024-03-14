@@ -1,0 +1,108 @@
+.info-body {
+    max-width: 1000px;
+    margin: auto;
+    padding: 10px;
+    font-family: "Madimi One", sans-serif;
+    background-color: #E0FDFF;
+}
+
+h1, h2 {
+    color: #012556;
+    border-bottom: 3px solid #012556;
+    padding-bottom: 5px;
+}
+
+p {
+    margin-bottom: 15px;
+}
+
+ul {
+    list-style-type: circle;
+
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+.about-me {
+    font-style: italic;
+}
+
+.linkedin-link {
+    margin: 400px;
+}
+
+.major-div {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.wpi-majors {
+    font-weight: normal;
+    padding-left: 60px;
+}
+
+.table-div {
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+
+.courses-taken-table {
+    margin-top: 20px;
+    font-weight: normal;
+    background-color: #012556;
+}
+
+.table-headers {
+    background-color: #3280C9;
+}
+
+.table-row-1 {
+    background-color: #A0E1FF;
+}
+.table-row-2 {
+    background-color: #A0E1FF;
+}
+.table-row-3 {
+    background-color: #A0E1FF;
+}
+.table-row-4 {
+    background-color: #A0E1FF;
+}
+.table-row-5 {
+    background-color: #A0E1FF;
+}
+.table-row-6 {
+    background-color: #A0E1FF;
+}.table-row-7 {
+    background-color: #A0E1FF;
+}.table-row-8 {
+    background-color: #A0E1FF;
+}
+
+.audio-elem {
+    margin: 20px
+}
+
+.tech-exp-div {
+    font-weight: bold;
+}
+
+.tech-experience {
+    font-weight: normal;
+    margin-left: 20px;
+}
+
+.working-experience {
+    margin-left: 20px;
+}
+
+.softeng-demo {
+    display: flex;
+    justify-content: center;
+}
+
+.cycling-text {
+    margin: 55px;
+}
