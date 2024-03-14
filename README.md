@@ -119,9 +119,8 @@ This project shows ...
   - li: text alignment and color
 
 ## Design Achievements
-- **Created and Used an Adobe Color Palette**: I created a color wheel using color.adobe.com and used the colors in my website. I used Compound color harmony on the RGB color wheel. A screenshot is pictured below.
-  - ![colorwheel.png](colorwheel.png)
-  - Each color is used at least once: yellows and light blue text, dark blue list background, greys as a gradient background.
+- **Created and Used an Adobe Color Palette**: I created a color wheel using color.adobe.com and used the colors in my website. I used Monochromatic color harmony on the RGB color wheel. A screenshot is pictured below.
+  - ![img.png](monochromecolor.png)
 
-- **Used the Lato Font from Google Fonts**: I used Lato as the font for the header text in my site. It was imported from Google fonts in the styles file.
+- **Used the Lato and Montserrat Font from Google Fonts**: I used Lato as the font for the header text in my site and Montserrat for the general text. They were imported from Google fonts in the styles file.
 

@@ -1,37 +1,53 @@
 @import url('http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
+:root{
+    --color1: #C9CBDB;
+    --color2: #7E84B1;
+    --color3: #495186;
+    --color4: #232A5C;
+    --color5: #0B1033;
+    --color6: #020833;
+}
 
 body{
-    background-image: linear-gradient(#596C78, #6D72A0);
+    background-image: linear-gradient(var(--color1), var(--color2));
 }
 p{
-    color: #F5F356;
+    color: var(--color4);
+    font-family: Montserrat;
 }
 h1{
-    color:#F5D256;
+    color:var(--color6);
     font-size: xx-large;
     font-family: Lato, sans-serif;
 }
 h2{
-    color:#56B8F5;
+    color:var(--color5);
     font-size: x-large;
     font-family: Lato, sans-serif;
 }
-h3{
-    color:#F5D256;
+details{
+   padding-bottom: 20px;
+}
+summary{
+    color:var(--color4);
     font-style: italic;
     font-size: large;
+    font-weight: bold;
+    font-family: Montserrat;
 }
 ul{
-    background-color:#5664F5;
+    /*background-color:#5664F5;*/
 }
 li{
     text-align: justify;
-    color:#F5F356;
+    color:var(--color4);
+    font-family: Montserrat;
 }
 footer{
     font-size:xx-small;
     text-align: center;
-    color: #F5F356;
+    color: var(--color4);
 }
 
