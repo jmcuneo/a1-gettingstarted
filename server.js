@@ -16,6 +16,9 @@ const server = http.createServer( function( request,response ) {
     case '/animation.js':
       sendFile( response, 'animation.js', 'application/javascript')
       break
+    case '/WPILogo.jpg':
+      sendFile( response, 'WPILogo.jpg')
+      break
     default:
       response.end( '404 Error: File Not Found' )
   }
