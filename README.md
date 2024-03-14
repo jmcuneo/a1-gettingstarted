@@ -9,6 +9,8 @@ Treat this assignment as a chance to get up to speed on Git, GitHub, and Glitch,
 However, if you're new to them, spend several hours practicing, experimenting, and reading documentation. Don't just get your website up and done, as
 you'll need skills with these tools throughout the rest of the course.
 
+These instructions may be modified over time for purposes of clarification or to provide additional options. The requirements will NOT change. You can see any updates by looking at the commit history of this document in GitHub.
+
 Assignment details
 ---
 
@@ -18,7 +20,7 @@ This assignment requires that your website is both contained in a GitHub reposit
 2. Fork this repo and then import it directly to Glitch, use the Glitch editor to make changes, and then export your repo from Glitch back to GitHub.
 3. Same as #1, but instead of importing from Github to Glitch you just upload the files (or copy/paste) them directly to Glitch.
 
-## Option 1 - Clone to computer, push to Github, import to Glitch (recommended)
+### Option 1 - Clone to computer, push to Github, import to Glitch (recommended)
 
 1. Fork the starting assignment code in GitHub. This repo contains the following:
     * The server code, `server.js`
@@ -49,11 +51,17 @@ This assignment requires that your website is both contained in a GitHub reposit
 	* Ignore any messages about conflicts. You do not need to resolve them.
 	* Make the title of your pull request "Pull Request for NAME" (ex. "Pull Request for Joshua Cuneo")
 
-## Option 2 - Fork repo and import to Glitch, edit on Glitch, and then export back to GitHub
+### Option 2 - Fork repo and import to Glitch, edit on Glitch, and then export back to GitHub
 Most of these steps are the same as option 1, except that you being by creating a new project Glitch using this repo as a staring point (just choose New Project > Import from GitHub for this and then paste in the link to your repo). At the end, you can export your Glitch project to GitHub by [following these instructions](https://www.youtube.com/watch?time_continue=77&v=aWJFbtrgW4E&feature=emb_logo). *Note that the location of the projecct export feature in Glitch has moved from what they show in this video.* It's now located in Tools > Import and Export (tools is located in the bottom left of the Glitch editor).
 
-## Option 3 - Clone to computer, edit locally, push to GitHub, upload to Glitch
+### Option 3 - Clone to computer, edit locally, push to GitHub, upload to Glitch
 This is the same as option 1, except that for step 6 (Deploy to Glitch) you simply upload each file to your Glitch repository (using New File > Upload a File).
+
+### Note about images
+If you are having trouble getting images to work, [check out this page](https://mica-web.github.io/learn/workflows/add-img-glitch).
+
+### Note about alternative hosting
+Our use of Glitch in this class is there as a convenience for you. However, if you are already familiar with hosting through other services--or if you would like to self-host--that's perfectly fine so long as the website in question meets all of the assignment requirements. Note that we will not be able to help you if you run into issues on other hosting platforms, and you will be responsible for making sure the website stays up and running for the duration of the term. For A1, you will also still need to create a pull request with your name and your website's URL.
 
 Naming and URL Scheme
 ---
@@ -81,7 +89,7 @@ Note that if you want to load resources besides your index.html file (images, an
 3. `index.html` properly rendered
 4. `index.html` page properly edited
 5. All changes pushed to GitHub
-6. Project deployed to Glitch
+6. Project deployed to Glitch (or other hosting option)
 7. Pull Request submitted to original repo
 
 *Technical Achievements*
@@ -93,12 +101,13 @@ Note that if you want to load resources besides your index.html file (images, an
 1. (10 points) Create a color palette using [color.adobe.com](https://color.adobe.com). Use all the colors in the palette in your webpage by implementing the appropriate CSS. Add a small screenshot of the color wheel for your color palette to your repo.
 2. (5 points) Use a font from [Google Fonts](https://fonts.google.com) in your website.
 
+**NOTE:** There are additional color pallette and font options listed on Canvas under Modules -> Resources -> Color Pallettes and Fonts. You are welcome to use one of those instead. If you know of and would like to use any other resources that are not included, feel free to contact the instructor.
+
 Resources
 ---
 
-If you need a JavaScript/HTML/CSS refresher, see [HTML & CSS](https://learning.oreilly.com/library/view/responsive-web-design/9781803242712/) and/or [JavaScript Codecademy](https://www.codecademy.com/en/tracks/javascript).
+If you need refreshers for JavaScript/HTML/CSS or Git/GitHub, check out the resources posted on Canvas under Modules -> Resources.
 
-If you need a Git/GitHub refreseher, see [GitHub Bootcamp](https://help.github.com/categories/bootcamp/), the [GitHub Guides](https://guides.github.com/) (especially the ones on Hello World, and Understanding the GitHub Flow, and Forking Projects), and [CodeSchool's Try Git Course](https://www.codeschool.com/courses/try-git).
 
 Sample Readme (delete the above when you're ready to submit, and modify the text below with your links and descriptions)
 ---
