@@ -4,13 +4,22 @@ http://a1-joshuacuneo.glitch.me
 This project shows ...
 
 ## Technical Achievements
-- **Styled page with CSS**: Added rules for the p, li, and a selectors...
+- **Styled page with CSS**: 
+-- Added rules for when the screen is less than 800px width and greater than it
+-- Added wrapping that allows things to be side by side when the screen is wide enough
+-- Added styling to images like adding a border
+-- Added styling to the table including colors, borders, and text-format
+-- Added styling to the header and footer
 - **HTML Tags Used**:
--- Table
+-- table
+-- URL links using <a> with href="url"
+-- img
+-- header
+-- footer
 
 ## Design Achievements
-- **Create a color palette consisting of 7 accent colors and a white and black
-- **Used the Montserrat and Inter Font from Google Fonts**: I used Inter as the font for the primary body text and Montserrat for the headers in my site
+- **Create a color palette consisting of 7 accent colors and a white and black that is within the root of my CSS stylesheet.
+- **Used the Montserrat and Inter Font from Google Fonts**: I used Inter as the font for the primary body text and Montserrat for the headers in my site. I created classes for each of these fonts to then call.
 
 
 
