@@ -50,4 +50,14 @@ footer{
     text-align: center;
     color: var(--color4);
 }
+video {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 9999;
+    max-width: 90%;
+    max-height: 90%;
+}
 
