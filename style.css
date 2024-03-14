@@ -1,0 +1,66 @@
+header{
+    color: #299661;
+    text-decoration-line: underline;
+    text-align: center;
+    padding: 10px;
+}
+
+h2{
+    text-align: left;
+    color: #CD8DEB;
+    background-color: #52166E;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #EDE0C5;
+}
+
+ul{
+    text-align: left;
+    list-style:decimal;
+    color: #6B604B;
+}
+
+p{
+    text-align: center;
+    color: #52166E;
+}
+
+article{
+    text-align: left;
+    color: #52166E;
+}
+
+footer{
+    color: #8DEBBE;
+    background-color: #52166E;
+    text-align: center;
+}
+
+#star{
+    padding-left: 900px;
+    width: 150px;
+
+}
+
+@keyframes changePlacement {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(-900px) translateY(50px);
+    }
+}
+
+.animate {
+    animation: changePlacement 5s linear infinite;
+}
+
+table, th, td {
+    border: 1px solid #299661;
+    color: #6B604B;
+}
+
+
+  
