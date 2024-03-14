@@ -1,0 +1,96 @@
+/*
+grey : #E0E0E0
+black : #1F1F1F
+blue : #07749C
+orange : #E76D4B
+*/
+
+* {
+    font-family: 'Poppins';
+}
+
+body {
+    margin: 0px;
+    background: #E0E0E0;
+}
+
+h1 {
+    margin: 0px;
+    padding: 40px 100px;
+    font-size: 40px;
+    background: #1F1F1F;
+    color:#E0E0E0;
+    border-bottom: solid 4px #E76D4B;
+}
+
+h1:hover {
+    color: #1F1F1F;
+    background:#E0E0E0;
+    border-bottom: solid 4px #07749C;
+}
+
+p {
+    margin: 30px 200px 0px 200px;
+    font-size: 20px;
+}
+
+h2 {
+    padding: 2px 20px 2px 100px;
+    display: inline-block;
+    align-self: left;
+    margin: 30px 20px 0px 0px;
+    background: #1F1F1F;
+    color:#E0E0E0;
+    border-bottom: solid 4px #07749C;
+}
+
+h2:hover {
+    color:#1F1F1F;
+    background:#E0E0E0;
+    border-bottom: solid 4px #E76D4B;
+}
+
+ul {
+    margin: 10px 180px;
+}
+
+li {
+    margin-bottom: 5px;
+    margin-top: 0px;
+    font-size: 16px;
+}
+
+footer {
+    border-top: solid 2px #07749C;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    padding-bottom: 20px;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    background: #E0E0E0;
+    margin-bottom: 0px;
+}
+
+footer * {
+    font-size: 16px;
+    color:#1F1F1F;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+footer span {
+    text-decoration: underline;
+}
+
+footer span:hover {
+    background-color: #1F1F1F;
+    color:#E76D4B;
+}
+
+footer a:hover {
+    color:#E76D4B;
+}
