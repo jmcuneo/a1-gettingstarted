@@ -119,12 +119,20 @@ This project shows ...
 
 ## Technical Achievements
 
-### Styled page with CSS
+### Styled Page with CSS
 - Changed text colors for p, h1, footer, h2, li, table
 - Changed font for all elements
 - Changed background color for body
 - Aligned text in td
-- Adjusted position and size of elements with "animate" tag
+- Adjusted position, size, and z-order of elements with "animate" tag
+
+**Javascript Animation**: Added spinning emoji
+
+### Used Other HTML Tags
+- Added link to my GitHub
+- Added img (spinning emoji)
+- Added table for experience with technology
+- Added footer to contain link
 
 ## Design Achievements
 - **Used the Roboto Font from Google Fonts**: I used Roboto as the font for the primary copy text in my site.
