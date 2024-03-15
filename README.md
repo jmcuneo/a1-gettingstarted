@@ -4,7 +4,7 @@ Assignment 1 - Hello World: Basic Deployment w/ Git, GitHub, Glitch
 *DUE: Sunday, March 17th by 11:59 PM*
 
 Szymon Mamro
-http://a1-joshuacuneo.glitch.me
+http://a1-szymonmamro.glitch.me
 
 ## Technical Achievements
 1. I styled the page using a separate CSS file, "test.css". In it I adjusted the color, font-size, position, and text-align of the words on the page, and the height, width, and position of the image that I placed on the page.
