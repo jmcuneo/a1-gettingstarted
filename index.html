@@ -1,28 +1,69 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <title>CS4241 Assignment 1</title>
-    <meta charset="utf-8">
-  </head>
-  <body>
-    <h1>Information about [Your name here]</h1>
-    <p>
-      [Self introduction]
-    </p>
-    <p>
-      [Major and other information]
-    </p>
-    <p>
-      [Other things]
-    </p>
 
-    <h2>Experience</h2>
+<head>
+  <title>CS4241 Assignment 1</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=.75" />
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <header>
+    <h1>Information about <b>Parker Frizzle</b></h1>
     <p>
-      Working experience
+      Hello! I'm Parker (he/him) and I'm a computer science major in the class of 2025.
     </p>
-    <ul>
-      <li>IBM/Rational</li>
-      <li>WPI</li>
-    </ul>
-  </body>
+  </header>
+  <h2>Experience</h2>
+  <section id="experience-container">
+    <div>
+      <h3>Computer science courses taken at WPI</h3>
+      <ul>
+        <li>CS 1102: Accelerated Introduction to Programming Design</li>
+        <li>CS 2011: Introduction to Machine Organization and Assembly Language</li>
+        <li>CS 2022: Discrete Mathematics</li>
+        <li>CS 2102: Object Oriented Design Concepts</li>
+        <li>CS 2223: Algorithms</li>
+        <li>CS 2303: Systems Programming Concepts</li>
+        <li>CS 3013: Operating Systems</li>
+        <li>CS 3041: Human-Computer Interaction</li>
+        <li>CS 3133: Foundations of Computer Science</li>
+        <li>CS 3431: Database Systems I</li>
+        <li>CS 3516: Computer Networks</li>
+        <li>CS 3733: Software Engineering</li>
+        <li>CS 4341: Introduction to Artificial Intelligence</li>
+        <li>CS 4513: Distributed Computing Systems</li>
+      </ul>
+    </div>
+    <div>
+      <h3>Familiarity with tools and methods for CS 4241</h3>
+      <ul>
+        <li>HTML: a lot</li>
+        <li>CSS: a lot</li>
+        <li>Java: some</li>
+        <li>JavaScript: some</li>
+        <li>Python: some</li>
+        <li>Unit testing: a lot</li>
+        <li>Refactoring code: a lot</li>
+      </ul>
+
+      <img id="wpi-logo" src="wpi-logo.png"/>
+      <script type="text/javascript">
+        let image = document.getElementById('wpi-logo');
+        let degrees = 0;
+  
+        setInterval(function(){
+            image.style.transform = "rotate(" + degrees + "deg)";
+            degrees += 1;
+        },50);
+      </script>
+    </div>
+  </section>
+</body>
+
+<footer>
+  <a href="https://github.com/pfrizz/a1-parkerfrizzle">View source on GitHub</a>
+</footer>
+
 </html>

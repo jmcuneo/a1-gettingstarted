@@ -10,6 +10,15 @@ const server = http.createServer( function( request,response ) {
     case '/index.html':
       sendFile( response, 'index.html' )
       break
+    case '/ShareTechMono-Regular.ttf':
+      sendFile( response, 'ShareTechMono-Regular.ttf' )
+      break
+    case '/styles.css':
+      sendFile( response, 'styles.css' )
+      break
+    case '/wpi-logo.png':
+      sendFile( response, 'wpi-logo.png' )
+      break
     default:
       response.end( '404 Error: File Not Found' )
   }
