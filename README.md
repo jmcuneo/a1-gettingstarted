@@ -45,6 +45,16 @@ JavaScript:
 
 ## Design Achievements
 
+- Created color pallette and added it to the repository.
+  - #5D10D289: Used for page background color.
+  - #000000FF: Used for text color, box shadow, and table border color.
+  - #ADFF2FFF: Used to add color to even number of table entries.
+  - #DEB887FF: Used to add color to odd number of table entries.
+  - #0c19b0: Used for anchor elements
+  - #FF0000FF: Used for Extracurriculars/Interests button
+  - #50F31AFF: Used for Experience button
+  - #18B8E0FF: Used for Computer Science Courses button
+  - #FFD500FF: Used for Web Technologies Experience button
 - Google Fonts
   - Used Madimi One for background text
   - Used Outfit for buttons
