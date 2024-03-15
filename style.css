@@ -1,7 +1,7 @@
-body{
-    background-color: #cf4848;
-    font-family: arial, sans-serif;
-}
+@import url("https://fonts.googleapis.com/css?family=Oswald");
+body {
+    font-family: 'Oswald', serif;
+    }
 
 table {
   font-family: arial, sans-serif;
@@ -17,4 +17,13 @@ td,th {
 
 th {
   background-color: #f24545;
+}
+
+.banner{
+    background-color: #0496ff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 12%;
 }
