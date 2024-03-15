@@ -31,6 +31,13 @@ h2{
     color: #63DB77;
 }
 
+h3{
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+    color: #A1DADB;
+}
+
 footer{
     text-align: right;
     font-size: xx-small;
