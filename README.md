@@ -1,5 +1,7 @@
 Olivia Perez
-http://a1-oliviaperez.glitch.me
+https://perez0002.github.io/a1-oliviaperez/
+
+I had problems with Glitch, reopening projects would cause it to get stuck on the loading screen for an unbearably long time, and it somehow couldn't apply the .css file, images, or animation. However, I experimented with Github Pages in the past and decided to try hosting my project with Pages instead. This kept my css, images, and animation.
 
 This project shows ...
 
