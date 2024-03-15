@@ -126,7 +126,7 @@ This project shows ...
 - Aligned text in td
 - Adjusted position, size, and z-order of elements with "animate" tag
 
-**Javascript Animation**: Added spinning emoji
+### Javascript Animation: Added spinning emoji
 
 ### Used Other HTML Tags
 - Added link to my GitHub
