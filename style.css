@@ -1,0 +1,43 @@
+@font-face {
+    font-family: "Madimi One";
+    src: url(MadimiOne-Regular.ttf) format("truetype");
+}
+
+p {
+    color: rgba(240, 184, 65, 94);
+}
+
+* {
+    font-family: "Madimi One";
+}
+
+body {
+    background-color: rgba(240, 214, 158, 94);
+}
+
+h1, footer {
+    color: rgba(240, 132, 65, 94);
+}
+
+h2 {
+    color: rgba(240, 161, 65, 94);
+}
+
+li, table {
+    color: rgba(239, 171, 131, 94);
+}
+
+.wrap {
+    position: relative;
+}
+
+#animate {
+    position: absolute;
+    z-index: -1;
+    top: 30%;
+    left: 40%;
+}
+
+td {
+    text-align: center;
+}
