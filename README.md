@@ -6,7 +6,7 @@ Andrew Nguyen
 This project shows ...
 
 ## Technical Achievements
-- **Styled page with CSS**: Added rules for the p, li, articles, tables, headers, footers, images, and a selectors
+- **Styled page with CSS**: Added rules with test.css for the p, li, articles, tables, headers, footers, images, and a selectors. Adds color, position change, text alignment, border, font-size
 - **Animated with Javascript**: Added an animation.js file that animates the image by moving the image to the left using requestAnimationFrame
 - **Added Extra Tages**: Added semantic tags such as a, table, th, tr, img, footer, and p
 
