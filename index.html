@@ -3,17 +3,19 @@
   <head>
     <title>CS4241 Assignment 1</title>
     <meta charset="utf-8">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+    <link rel="stylesheet" type="text/css" href="./style.css"/>
   </head>
   <body>
-    <h1>Information about [Your name here]</h1>
+    <h1>Information about Jack Lafond, class of 2024</h1>
     <p>
-      [Self introduction]
+      I am a senior at WPI. My hobbies include reading, and hiking. I am an avid football fan and love to dig into the statistics of fantasy football. My favorite book is Dune, and my NFL team is the Baltimore Ravens.
     </p>
     <p>
-      [Major and other information]
+      My major is in Data Science
     </p>
     <p>
-      [Other things]
+      Some of my recent CS courses include Software Engineering, Intro to AI, Human Computer Interaction, Big Data Management and Analytics, and Data Visualization. I have a lot of experience with Python as I use it for almost all of my projects that involve handling data. I have a good amount of experience with Java as well. I have moderate experience with Javascript, HTML and CSS. I some expereince with unit testing and refactoring code.
     </p>
 
     <h2>Experience</h2>
@@ -21,8 +23,38 @@
       Working experience
     </p>
     <ul>
-      <li>IBM/Rational</li>
-      <li>WPI</li>
+      <li>IT Intern - Intact Specialty Insurance</li>
+      <li>MQP Student - Fidelity Investments</li>
     </ul>
+
+    <footer>
+      <div id="contact-div">
+        <p>Contact (Click to Copy):</p>
+        <span id="contact">jwlafond@wpi.edu</span>
+      </div>
+      <div id="github-div">
+        <p>Github (Click to Nav):</p>
+        <span><a href="https://github.com/JackLafond">github.com/JackLafond</a></span>
+      </div>
+    </footer>
   </body>
+
+  <script>
+
+    const span = document.getElementById("contact");
+
+    span.onclick = function() {
+      document.execCommand("copy");
+    }
+
+    span.addEventListener("copy", function(event) {
+      event.preventDefault();
+      if (event.clipboardData) {
+        event.clipboardData.setData("text/plain", span.textContent);
+        console.log("copied " + event.clipboardData.getData("text"))
+        alert("Copied Email to Clipboard: " + event.clipboardData.getData("text"))
+      }
+    });
+
+  </script>
 </html>
