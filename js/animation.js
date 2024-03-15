@@ -16,7 +16,7 @@ let animationOwl = {
 (function main(){
     canvas = document.getElementById("bounce-screen");
     ctx = canvas.getContext("2d");
-    animationOwl.img.src = 'animationImg.png';
+    animationOwl.img.src = 'images/animationImg.png';
 
     //set canvas dimenstions
     canvas.width  = 650;
