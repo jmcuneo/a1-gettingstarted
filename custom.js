@@ -39,14 +39,14 @@ function hide(input){
     }
 }
 var animatedFooter = document.getElementById('animated-footer');
-var positionX = 0;
-var velocityX = 3;
+var position = 0;
+var velocity = 3;
 function animate() {
-    positionX += velocityX;
-    if (positionX > window.innerWidth) {
-        positionX = -animatedFooter.offsetWidth;
+    position += velocity;
+    if (position > window.innerWidth) {
+        position = animatedFooter.offsetWidth;
     }
-    animatedFooter.style.left = positionX + 'px';
+    animatedFooter.style.left = position + 'px';
     requestAnimationFrame(animate);
 }
 animate();
