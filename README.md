@@ -135,4 +135,5 @@ This project shows ...
 - Added footer to contain link
 
 ## Design Achievements
-- **Used the Roboto Font from Google Fonts**: I used Roboto as the font for the primary copy text in my site.
+- **Used a Color Palette from Adobe Color**: Created a color scheme using Adobe Color and used every color in the website (see ColorPalette.png)
+- **Used the MadimiOne Font from Google Fonts**: Used MadimiOne font for whole website
