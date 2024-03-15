@@ -15,12 +15,11 @@ HTML Features:
 - Created a HTML table for Web tech stack with my experience level ratings using stars.
 - Created a HTML table for Extracurriculars/Interests with passion ratings using stars.
 - Added script tag that references the src of custom.js created by me.
-- List of HTML tags used: <html></html>, <title></title>, <head></head>, <body></body>, <h1></h1>, <link>, <p></p>, <a></a>, <table></table>,
-- <th></th>, <tr></tr>, <span></span>, <button></button>, <div></div>, <script></script>, <footer></footer>"
+- List of **HTML tags** used: **html, title, head, body, h1, link, p, a, table, th, tr, span, button, div, script, footer**
 
 CSS Styles:  
 
-- Added background colour by choosing from color palette **rgba(93, 16, 210, 0.54)** 
+- Added background colour by choosing from color palette rgba(93, 16, 210, 0.54)
 - Aligned the h1 header to center, made font size to 50px, and decorated with an underline
 - Added margin, border, padding, and width to HTML tables
 - Aligned the table headers to the left
