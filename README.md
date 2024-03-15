@@ -119,7 +119,12 @@ This project shows ...
 
 ## Technical Achievements
 
-###Styled page with CSS: Changed text colors for p, h1, footer, h2, li, table.
+### Styled page with CSS
+- Changed text colors for p, h1, footer, h2, li, table
+- Changed font for all elements
+- Changed background color for body
+- Aligned text in td
+- Adjusted position and size of elements with "animate" tag
 
 ## Design Achievements
 - **Used the Roboto Font from Google Fonts**: I used Roboto as the font for the primary copy text in my site.
