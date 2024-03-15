@@ -16,7 +16,7 @@ This project shows ...
   - img: Used to add in a headshot of myself
   - header: Used for the title of the website
   - footer: Used for general information on where to learn more about me
-- **JavaScript Animation**: Created a pop up alert that shows before opening up my resume. This allows the user to click ok before opening it or cancel.
+- **JavaScript Animation**: Created a pop up alert that shows before opening up my resume. This allows the user to click ok before opening it or cancel. Also created movement of the WPI logo in the footer when the user is hovering over it. When they stop hovering, it stops the movement.
 
 
 ## Design Achievements

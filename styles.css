@@ -20,6 +20,7 @@
     color: var(--black);
 }
 
+/* Fonts */
 .inter-font {
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
@@ -37,6 +38,28 @@
     color: var(--black);
 }
 
+/* Full page */
+body {
+    margin: 0px;
+    align-content: center;
+}
+
+/* Styling for each section */
+header, footer {
+    background-color: var(--accent3);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.Main {
+    margin: auto;
+    padding: 20px;
+    max-width: 1100px;
+    background-color: var(--white);
+}
+
+/* Things for Intro Wrapper, Text and Headshot */
 .IntroText,
 .IntroImg {
     position: relative;
@@ -51,6 +74,17 @@
     max-width: 100%;
     border: 6px solid var(--accent4);
     border-radius: 6px;
+}
+
+#hoverLogo {
+    font-size: x-small;
+}
+
+/* for when screen is less than 800px width */
+@media screen and (max-width: 799px) {
+    #wpiLogo {
+        display: none;
+    }
 }
 
 /* for when screen is larger than 800px width */
@@ -79,36 +113,22 @@
         margin: 0;
         flex: 1 1 50%;
     }
-}
 
-body {
-    margin: 0px;
-    align-content: center;
-}
-
-header, footer {
-    background-color: var(--accent3);
-    padding-top: 10px;
-    padding-bottom: 10px;
-    text-align: center;
-}
-
-.Resume {
-    color: var(--linkBlue);
-    text-decoration: underline;
-}
-
-.Main {
-    margin: auto;
-    padding: 20px;
-    max-width: 1100px;
+    #wpiLogo {
+        display: flex;
+        margin-left: 20px;
+        width: 50px;
+        height: 50px;
+        position: absolute;
+      }
 }
 
 
+/* Table styling */
 table {
     width: 100%;
     border-collapse: collapse;
-    border: 2px solid var(--black);
+    border: 2px solid var(--accent4);
     font-size: 0.8rem;
     letter-spacing: 1px;
 }
@@ -132,4 +152,10 @@ tbody > tr:nth-of-type(even) {
 }
 tbody > tr:nth-of-type(odd) {
     background-color: var(--accent6);
+}
+
+
+.Resume {
+    color: var(--linkBlue);
+    text-decoration: underline;
 }
