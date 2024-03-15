@@ -1,0 +1,41 @@
+h1 {
+    text-align: center;
+    color: black;
+}
+
+h4 {
+    display: none;
+}
+
+body {
+    margin: 2%;
+}
+
+p {
+    display: none;
+}
+
+li {
+    display: none;
+}
+
+* {
+    color: rgb(0, 210, 0);
+    background: black;
+}
+
+#cursor {
+    animation: blink 1s linear infinite;
+    width: 10px;
+    height: 10px;
+    background: rgb(0, 210, 0);
+}
+
+@keyframes blink {
+    0% {
+        opacity: 100%;
+    }
+    50% {
+        opacity: 0;
+    }
+}
