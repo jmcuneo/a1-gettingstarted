@@ -2,3 +2,50 @@ article {
     color: red;
     text-align: center;
     }
+
+p {
+    color: #2089DC;
+}
+
+body {
+    background-color: #f1f1f1;
+}
+
+h1 {
+    color: #1709DB;
+}
+
+h2 {
+    color: #2150DB;
+}
+
+ul{
+    color: #21DBB4;
+}
+table, th, td {
+    border:1px solid black;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/*colors
+#2150DB
+#21C5DB     this one
+#2089DC
+#21DBB4
+#1709DB
+#6AAADB     this one
+*/
+
+
+.parent-element ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.parent-element ul li {
+    margin: 0;
+    padding: 0;
+}
