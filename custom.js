@@ -38,3 +38,15 @@ function hide(input){
         }
     }
 }
+var animatedFooter = document.getElementById('animated-footer');
+var positionX = 0;
+var velocityX = 3;
+function animate() {
+    positionX += velocityX;
+    if (positionX > window.innerWidth) {
+        positionX = -animatedFooter.offsetWidth;
+    }
+    animatedFooter.style.left = positionX + 'px';
+    requestAnimationFrame(animate);
+}
+animate();

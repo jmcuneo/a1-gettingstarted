@@ -93,3 +93,13 @@ button:hover{
             'GRAD' 200,
             'opsz' 24
 }
+
+footer{
+    position: relative;
+    text-align: center;
+    white-space: nowrap;
+}
+.copyright{
+    position: absolute;
+}
+
