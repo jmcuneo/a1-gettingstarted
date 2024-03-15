@@ -118,8 +118,7 @@ http://a1-ellysgorodisch.glitch.me
 This project shows ...
 
 ## Technical Achievements
-- **Styled page with CSS**:
-* Changed text colors for p, h1, footer, h2, li, table, 
+###**Styled page with CSS**: Changed text colors for p, h1, footer, h2, li, table.
 
 ## Design Achievements
 - **Used the Roboto Font from Google Fonts**: I used Roboto as the font for the primary copy text in my site.
