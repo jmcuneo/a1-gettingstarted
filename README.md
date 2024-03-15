@@ -112,13 +112,14 @@ If you need refreshers for JavaScript/HTML/CSS or Git/GitHub, check out the reso
 Sample Readme (delete the above when you're ready to submit, and modify the text below with your links and descriptions)
 ---
 
-Joshua Cuneo
-http://a1-joshuacuneo.glitch.me
+Ellys Gorodisch
+http://a1-ellysgorodisch.glitch.me
 
 This project shows ...
 
 ## Technical Achievements
-- **Styled page with CSS**: Added rules for the p, li, and a selectors...
+- **Styled page with CSS**:
+* Changed text colors for p, h1, footer, h2, li, table, 
 
 ## Design Achievements
 - **Used the Roboto Font from Google Fonts**: I used Roboto as the font for the primary copy text in my site.
