@@ -1,3 +1,4 @@
+/* Styling/rules for entire page */
 .info-body {
     max-width: 1000px;
     margin: auto;
@@ -6,58 +7,70 @@
     background-color: #E0FDFF;
 }
 
+/* Styling/rules for the headers */
 h1, h2 {
     color: #012556;
     border-bottom: 3px solid #012556;
     padding-bottom: 5px;
 }
 
+/* Styling/rules for paragraphs */
 p {
     margin-bottom: 15px;
 }
 
+/* Styling/rules for lists */
 ul {
     list-style-type: circle;
 
 }
 
+/* Styling/rules for list elements */
 li {
     margin-bottom: 5px;
 }
 
+/* Styling/rules for about portion */
 .about-me {
     font-style: italic;
 }
 
+/* Styling/rules for LinkedIn link */
 .linkedin-link {
     margin: 400px;
 }
 
+/* Styling/rules for about the div containing the majors */
 .major-div {
     margin-top: 10px;
     font-weight: bold;
 }
 
+/* Styling/rules for the majors themselves */
 .wpi-majors {
     font-weight: normal;
     padding-left: 60px;
 }
 
+/* Styling/rules for the div containing the table */
 .table-div {
     font-weight: bold;
     padding-bottom: 20px;
 }
 
+/* Styling/rules for the table itself */
 .courses-taken-table {
     margin-top: 20px;
     font-weight: normal;
     background-color: #012556;
 }
 
+/* Styling/rules for the table headers */
 .table-headers {
     background-color: #3280C9;
 }
 
+/* Styling/rules for the individual table rows */
 .table-row-1 {
     background-color: #A0E1FF;
 }
@@ -81,28 +94,34 @@ li {
     background-color: #A0E1FF;
 }
 
+/* Styling/rules for the audio element */
 .audio-elem {
     margin: 20px
 }
 
+/* Styling/rules for the div containing the tech experience */
 .tech-exp-div {
     font-weight: bold;
 }
 
+/* Styling/rules for the tech experience list */
 .tech-experience {
     font-weight: normal;
     margin-left: 20px;
 }
 
+/* Styling/rules for the tech experience list elements */
 .working-experience {
     margin-left: 20px;
 }
 
+/* Styling/rules for the iframe component containing a YT embed video */
 .softeng-demo {
     display: flex;
     justify-content: center;
 }
 
+/* Styling/rules for the color and fontsize cycling text */
 .cycling-text {
     margin: 55px;
 }
