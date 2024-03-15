@@ -41,7 +41,7 @@ JavaScript:
 - Added a function to hide and show the table associated to each button.
 - When the button is pressed, it checks if the table is currently hidden or not.
 - If the table is hidden then displays it. Otherwise, hides the table.
-- Added text animation.
+- Added floating text animation.
 
 ## Design Achievements
 

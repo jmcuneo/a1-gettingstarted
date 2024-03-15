@@ -43,8 +43,8 @@ var position = 0;
 var velocity = 3;
 function animate() {
     position += velocity;
-    if (position > window.innerWidth) {
-        position = animatedFooter.offsetWidth;
+    if (position > window.innerWidth-animatedFooter.offsetWidth-50) {
+        position = 0;
     }
     animatedFooter.style.left = position + 'px';
     requestAnimationFrame(animate);

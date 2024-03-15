@@ -76,13 +76,11 @@ button:hover{
 }
 .CS-courses-button{
     background-color: #18b8e0;
-    margin-left: 100px;
-    margin-right: 38px;
+    vertical-align: center;
 }
 .web-tech-stack-button{
     background-color: #ffd500;
     vertical-align: center;
-    margin-right: 30px;
 }
 .Education{
     font-size: 25px;
