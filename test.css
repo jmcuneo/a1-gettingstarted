@@ -41,7 +41,7 @@ a {
     right: 250px;
     width: 300px;
     height: 300px;
-    animation: slidein 2.5s ease-in-out;
+    animation: slidein 2s ease-in-out;
 }
 
 @keyframes slidein {
