@@ -16,3 +16,8 @@ http://a1-joshuacuneo.glitch.me
 1. I created a color palette using color.adobe.com, which can be seen in "colorwheel.png", and used all the colors to change different texts colors and
    the background
 2. I used the Roboto Serif font from Google Fonts for the text on my page.
+
+## Difficulties
+
+I wasn't able to figure out how to correctly fix formatting when in a smaller window, so if the page isn't fullscreen, the image will probably cross into the text, but will still be behind it.
+
