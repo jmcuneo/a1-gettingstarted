@@ -1,28 +1,79 @@
 <!doctype html>
-<html lang="en">
-  <head>
-    <title>CS4241 Assignment 1</title>
-    <meta charset="utf-8">
-  </head>
-  <body>
-    <h1>Information about [Your name here]</h1>
-    <p>
-      [Self introduction]
-    </p>
-    <p>
-      [Major and other information]
-    </p>
-    <p>
-      [Other things]
-    </p>
 
-    <h2>Experience</h2>
-    <p>
-      Working experience
-    </p>
-    <ul>
-      <li>IBM/Rational</li>
-      <li>WPI</li>
-    </ul>
-  </body>
+<html lang="en">
+
+<head>
+  <link href="https://fonts.googleapis.com/css2?family=Whisper&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="path/to/whisper-font.css">
+  <link rel="stylesheet" href="style.css">
+  <title>CS4241 Assignment 1</title>
+  <meta charset="utf-8">
+</head>
+<header>
+  This is my header.
+</header>
+<body>
+  <h1 class="whisper-regular">Information about Jacob Silvester</h1>
+  <br>
+  <br>
+  <p>
+    I'm Jacob, and I'm from central Connecticut. I'm super introverted and a very typical nerdy type who loves video games, table
+    tops, and discovering new niche subgenres of music.
+
+
+
+  </p>
+  <p>
+    Computer Science major. Technically, I'm the class of 2024, but I'll be around for another year to do my MQP and
+    finish a couple remaining credit requirements.
+  </p>
+  <p>
+    Some other CS courses that I've taken here at WPI include Object Oriented, Algorithms, Systems, OS, HCI, Social
+    Imps, Database 1, and Intro to AI
+  </p>
+  <a href="https://open.spotify.com/album/1UcS2nqUhxrZjrBZ3tHk2N">
+    <img src="mmfood.jpg" alt="Cover of the MF DOOM album MM FOOD" style="width:500px;height:500px;">
+  </a>
+  <h2 id="colorMe">Experience</h2>
+  <br>
+  <br>
+  <p>
+    Working experience
+  </p>
+  <ul>
+    <p> Honestly, this is my biggest regret. I don't really have any relevant experience to this point. There is a
+      reason why, but it's a long story.</p>
+
+  </ul>
+
+  <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Here is a link! Click for a surpise.</a>
+  <br>
+  <br>
+  
+  <br>
+  <br>
+  <footer>
+    And this is my footer.
+  </footer>
+
+  <div id="animation">
+
+  </div>
+  <script>
+    // Function to generate a random color in hexadecimal format
+    function randomColor() {
+      return '#' + Math.floor(Math.random() * 16777215).toString(16);
+    }
+
+    // Function to change text color
+    function changeColor() {
+      var textElement = document.getElementById('colorMe');
+      textElement.style.color = randomColor(); // Change text color to a random color
+    }
+
+    // Call the changeColor function every 1 second
+    setInterval(changeColor, 1000);
+  </script>
+</body>
+
 </html>
