@@ -7,7 +7,7 @@
   </head>
   <body>
   <header>
-    <img src="resources/Banner.png" alt="Picture" class="center">
+    <img id="header_image" src="resources/Banner.png" alt="Picture" class="center">
   </header>
   <article class = "main-page">
 
@@ -28,6 +28,24 @@
       <a href="imgd-playtesting.wpi.edu">Here</a> is a website I helped work on this past summer.
       </p>
     </article>
+
+    <p>
+      <button onclick="animation()">
+        Click here to toggle the banner!
+    </button>
+    </p>
+
+    <script>
+      function animation(){
+        var image = document.getElementById("header_image");
+        if (image.src.includes("resources/Banner.png")){
+          image.src = "resources/WPI.png";
+        } else{
+          image.src = "resources/Banner.png";
+        }
+
+      }
+    </script>
 
     <ul>
       <li>IBM/Rational</li>
