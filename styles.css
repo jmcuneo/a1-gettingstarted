@@ -4,6 +4,7 @@
 :root {
     --white: #f9f9f9;
     --black: #151414;
+    --linkBlue: #3300FF;
     --accent1: #f5a27d;
     --accent2: #f5c97d;
     --accent3: #f4b77c;
@@ -35,7 +36,6 @@
     font-style: normal;
     color: var(--black);
 }
-
 
 .IntroText,
 .IntroImg {
@@ -83,20 +83,26 @@
 
 body {
     margin: 0px;
+    align-content: center;
 }
 
-header {
+header, footer {
     background-color: var(--accent3);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.Resume {
+    color: var(--linkBlue);
+    text-decoration: underline;
 }
 
 .Main {
-    margin: 10px;
+    margin: auto;
+    padding: 20px;
+    max-width: 1100px;
 }
-
-footer {
-    background-color: var(--accent3);
-}
-
 
 
 table {
