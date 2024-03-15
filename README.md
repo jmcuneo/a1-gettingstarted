@@ -2,7 +2,7 @@ Assignment 1 - Hello World: Basic Deployment w/ Git, GitHub, Glitch
 ===
 
 Jack Lafond
-http://a1-joacklafond.glitch.me
+http://a1-jacklafond.glitch.me
 
 This project shows that I understand the basic concepts of using html tags to organize a web page as well as how to use css to style different elements of an html page. By linking a css page I also show an undertsanding of how the server.js file works, and how to update it to be able to process new file requests. For this project I tried to create a clean design with some fun interactions, like on hover styling, and on click interactions.
 
