@@ -15,6 +15,8 @@ HTML Features:
 - Created a HTML table for Web tech stack with my experience level ratings using stars.
 - Created a HTML table for Extracurriculars/Interests with passion ratings using stars.
 - Added script tag that references the src of custom.js created by me.
+- List of HTML tags used: <html></html>, <title></title>, <head></head>, <body></body>, <h1></h1>, <link>, <p></p>, <a></a>, <table></table>,
+- <th></th>, <tr></tr>, <span></span>, <button></button>, <div></div>, <script></script>, <footer></footer>"
 
 CSS Styles:  
 
@@ -37,7 +39,9 @@ CSS Styles:
 
 JavaScript:
 
-- Added a button to hide and show the table associated to each button.
+- Added a function to hide and show the table associated to each button.
+- When the button is pressed, it checks if the table is currently hidden or not.
+- If the table is hidden then displays it. Otherwise, hides the table.
 - Added text animation.
 
 ## Design Achievements
