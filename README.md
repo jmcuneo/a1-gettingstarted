@@ -1,5 +1,5 @@
 Parker Frizzle
-http://a1-parkerfrizzle.glitch.me
+https://a1-parkerfrizzle.glitch.me
 
 This project is a basic website where I experimented with using HTML, CSS, and JavaScript, as well as with using Node.js, Git/GitHub, and Glitch for web hosting.
 
