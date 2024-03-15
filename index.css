@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
 
 body{
-    font-family: "Nunito Sans", sans-serif;
+    font-family: "Nunito Sans", sans-serif; /* Applying Google Font for entire body*/
 }
 
+/* for footer styling */
 .footer{
     margin: 50px 0 0 0;
     padding: 40px 0 0 0;
@@ -14,14 +15,16 @@ body{
 }
 
 .text{
-    text-decoration: underline;
+    text-decoration: underline; /* to underline sub-headings*/
 }
 
+/* for welcome blinking text */
 #welcome{
     text-align: center;
     color: #61AEF2;
 }
 
+/* for buttons to change background*/
 .buttons{
     border-radius: 50px;
     cursor: pointer;
@@ -29,16 +32,17 @@ body{
     margin: 0 5px 10px 0;
 }
 
+/* to form a perfect table*/
 .table-info{
-    border-collapse: collapse;
+    border-collapse: collapse; /* removes borders */
     margin: 0 0 0 10px;
 }
 
-.table-info td{
-    border: 1px solid #000;
+.table-info td{ /* for columns */
+    border: 1px solid #000; /* add border */
 }
 
-.table-info th{
+.table-info th{ /* for columns heads */
     padding: 0 100px 0 100px;
     border: 1px solid #000;
     background: #61F2A7;
@@ -57,6 +61,15 @@ body{
     background: #61F274;
 }
 
+.highlight1{ /* for text highlight color */
+    background: #61F2D8;
+}
+
+.highlight2{
+    background: #61F2A7;
+}
+
+/* below code for my achievements button */
 .fact{
     border-radius: 10px;
     position: relative;

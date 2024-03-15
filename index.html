@@ -3,14 +3,14 @@
     <head>
         <title>CS4241 Assignment 1</title>
         <meta charset="utf-8">
-        <link href="index.css", rel="stylesheet" type="text/css">
+        <link href="index.css" rel="stylesheet" type="text/css">
         <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap" rel="stylesheet">
         <script src="index.js"></script>
     </head>
     <body>
-        <h2 id="welcome">Welcome!</h2>
-        <h1>Information about Sai Teja Sunku</h1>
-        <p>
+        <h2 id="welcome">Welcome!</h2> <!-- welcome blinking text, used h2, id used for javascript to fetch -->
+        <h1>Information about Sai Teja Sunku</h1> <!-- heading -->
+        <p> <!-- paragraph form to write about me -->
             I am Sai Teja majoring in Computer Science and a current Sophomore at WPI.
             Studied the International Baccalaureate Diploma program in my high school.
             My passion for computer science started, when I was in high school and my journey towards this field starts through online courses.
@@ -27,36 +27,36 @@
             MS in Artificial Intelligence (class of 2027)
         </p>
         <p>
-            <u>Previous Computer Science Courses at WPI:</u> CS 1101, CS 2101, CS 2303, CS 2011, CS 3133, CS 2223, CS 3013, CS 3043
-            <br>
-            <u>Experience:</u> HTML (some), CSS (some), Java (a lot), Python (a lot), Unit Testing (some), Refactoring code (some)
+            <u class="highlight1">Previous Computer Science Courses at WPI:</u> CS 1101, CS 2101, CS 2303, CS 2011, CS 3133, CS 2223, CS 3013, CS 3043
+            <br> <!-- new line -->
+            <u class="highlight2">Experience:</u> HTML (some), CSS (some), Java (a lot), Python (a lot), Unit Testing (some), Refactoring code (some)
         </p>
 
-        <div class="fact">
+        <div class="fact"> <!-- separating from body to create my achievement button -->
             <button>MY ACHIEVEMENTS</button>
-            <div class="layer">
-                <ol>
+            <div class="layer"> <!-- div only pops up when hovered over the button to show the list -->
+                <ol> <!-- ordered list -->
                     <li>Dean's List</li>
                     <li>Charles O Thompson Scholar</li>
                 </ol>
             </div>
         </div>
 
-        <h2>Experience</h2>
+        <h2>Experience</h2> <!-- sub-heading using h2 for experience -->
         <p class="text">
           Working experience
         </p>
-        <table class="table-info">
-            <thead>
+        <table class="table-info"> <!-- creating a table for different categories of experiences like school, projects, clubs -->
+            <thead> <!-- for table heading columns, 1st row -->
                 <tr>
                     <th>School</th>
                     <th class="th2">Projects</th>
                     <th class="th3">Clubs</th>
                 </tr>
             </thead>
-            <tbody>
+            <tbody> <!-- for table body with all rows/cells filled with data -->
                 <tr>
-                    <td>
+                    <td> <!-- each cell will have unordered/ordered list. Only 1 row created because each cell is a list of elements-->
                         <ul>
                             <li>Sreenidhi International School - high school</li>
                             <li>WPI - bachelors</li>
@@ -79,9 +79,9 @@
             </tbody>
         </table>
 
-        <footer class="footer">
+        <footer class="footer"> <!-- for footer -->
             <div>
-                <button class="buttons" onclick="normal()">NORMAL</button>
+                <button class="buttons" onclick="normal()">NORMAL</button> <!-- using onclick attribute to call javascript-->
                 <button class="buttons btn2" onclick="change()">CHANGE BACKGROUND</button>
             </div>
             Copyright &#169; Sai Teja Sunku, 2024
