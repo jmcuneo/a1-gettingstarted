@@ -1,27 +1,5 @@
-## Option 1 - Clone to computer, push to Github, import to Glitch (recommended)
-7. Commit and push all your changes to GitHub. 
-8. Deploy your project to Glitch. You can do this by [importing the repo from GitHub](https://medium.com/glitch/import-code-from-anywhere-83fb60ea4875). Note the following:
-	* You will need to create a Glitch account first, but Glitch makes it easy by giving you the option to log in via your GitHub account.
-	* The instructions in the medium.com post are slightly outdated. To import your GitHub repo, select `Import from GitHub` under `New Project`.
-9. Ensure that your project has the proper naming scheme (guide follows) so we can find it.
-10. Create and submit a Pull Request to the original repo. This helps us find your project.
-	* Ignore any messages about conflicts. You do not need to resolve them.
-	* Make the title of your pull request "Pull Request for NAME" (ex. "Pull Request for Joshua Cuneo")
-
-Rubric
----
-make sure you thoroughly describe in your README what you did why it was challenging. ALL ACHIEVEMENTS MUST BE DESCRIBED IN YOUR README IN ORDER TO GET CREDIT FOR THEM. Remember that the success of Achievements hinges on how well you describe them in your README. Well formatted text, images, and concise and clear descriptions are helpful. 
-
-(10 points each)
-1. Assignment has proper naming scheme
-5. All changes pushed to GitHub
-6. Project deployed to Glitch (or other hosting option)
-7. Pull Request submitted to original repo
-
-Sample Readme
----
 Olivia Perez
-http://a1-joshuacuneo.glitch.me
+http://a1-oliviaperez.glitch.me
 
 This project shows ...
 
