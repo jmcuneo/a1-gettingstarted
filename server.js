@@ -3,17 +3,17 @@ const http = require('http'),
       port = 3000
 
 const server = http.createServer( function( request,response ) {
-  const url = "." + request.url
+  const url = "." + request.url;
   if(fs.existsSync(url)){
-    switch( url) {
-      case '/':
-        sendFile( response, './index.html' )
+    switch(url) {
+      case './':
+        sendFile( response, 'index.html' );
         break
       default:
-        sendFile( response, url)
+        sendFile( response, url);
     }
   } else {
-    response.end( '404 Error: File Not Found' )
+    response.end( '404 Error: File Not Found' );
   }
   
 })
