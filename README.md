@@ -1,4 +1,5 @@
 Klaudio Fusha
+
 http://a1-klaudiofusha.glitch.me
 
 This project shows my ability to create a portfolio-like webpage that contains several styled HTML elements. They include paragraphs, bulleted lists, tables, headers, etc. I was also able to style everything through a separate CSS file, which ensures that proper design practices were implemented. Styling the page took quite a while, as well as coming up with a cool animation.
