@@ -1,28 +1,153 @@
-<!doctype html>
+<!doctype HTML>
 <html lang="en">
   <head>
     <title>CS4241 Assignment 1</title>
     <meta charset="utf-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lusitana:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&family=Lusitana:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./index.css">
+    <script type="text/javascript" src="./index.js"></script>
+    <script type="text/javascript" src="./anim.js"></script>
+    <script type="text/javascript" src="./overlay.js"></script>
   </head>
   <body>
-    <h1>Information about [Your name here]</h1>
-    <p>
-      [Self introduction]
-    </p>
-    <p>
-      [Major and other information]
-    </p>
-    <p>
-      [Other things]
-    </p>
+    <nav id="sidebar">
+      <header>
+        <h2>Andrew Salls</h2>
+        <h4>Class of 2024</h4>
+        <h4>CS/MA Double Major</h4>
+      </header>
+      <hr>
+      <h4>Directory:</h4>
+      <ul>
+        <li><a href="#experience">Experience</a></li>
+        <li class="double-li"><a href="#prior-courses">CS Courses</a></li>
+        <li class="double-li"><a href="#technologies">Technologies</a></li>
+        <li><a href="#animation">Animation</a></li>
+        <li class="double-li" id="happy-toggle">hide bonus happy face</li>
+      </ul>
+      <div id="face-wrapper">
+        <svg id="face" width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+          <g>
+          <title>Layer 1</title>
+          <ellipse ry="86"  rx="86" id="svg_3" cy="100.5" cx="102" stroke="#000" fill="#ffff00"/>
+          <ellipse ry="8"   rx="8"  id="svg_4" cy="67"    cx="67"  stroke="#000" fill="#000000"/>
+          <ellipse ry="8.5" rx="8"  id="svg_5" cy="67"    cx="133" stroke="#000" fill="#000000"/>
+          <path d="m62.5,119.99999c0,0 0.61732,1.07612 1,2c0.5412,1.30656 1.48626,1.82375 2,4c0.22975,0.97325 1,2 1,3.00001c0,1 1,2 2,4c1,2 1.29289,3.29289 2,4c0.70711,0.70711 2,1 4,3c0,0 0.81266,0.2068 3,2c2.78832,2.28587 4,2 5,3c1,1 2,1 3,1c1,0 1.07612,0.61731 2,1c1.30656,0.5412 3,1 6,1c2,0 5,0 8,0c3,0 5,0 6,0c1,0 3,0 3,0c1,0 3.00749,0.12218 4,0c4.09222,-0.50377 7.6475,-2.97252 12,-4c1.9465,-0.4595 2.99999,0 3.99999,-1c1,-1 0.61731,-3.07613 1,-4c0.5412,-1.30656 1.1731,-2.85274 2,-4c1.30745,-1.814 1,-3 1,-4c0,-2 0.4588,-2.69345 1,-4.00001c0.38269,-0.92388 0,-2 0,-3c0,-1 0,-2 0,-3c0,-1 0,-1 0,-2c0,-1 0,-2 1,-2l0,-1l1,0l0,-1" id="svg_11" stroke-width="4" stroke="#000" fill="none"/>
+          </g>
+        </svg>
+      </div>
+      <footer>
+        <h6>Yes these are the colors Adobe gave.</h6>
+      </footer>
+    </nav>
 
-    <h2>Experience</h2>
-    <p>
-      Working experience
-    </p>
-    <ul>
-      <li>IBM/Rational</li>
-      <li>WPI</li>
-    </ul>
+    <div id="content">
+      <a name="experience"></a>
+      <div id="experience">
+        <h2>Experience</h2>
+        <a name="prior-courses"></a>
+        <h4>Prior WPI CS Courses</h4>
+        <ul>
+          <li>CS 1102 - ACCELERATED INTRODUCTION TO PROGRAM DESIGN</li>
+          <li>CS 2103 - ACCELERATED OBJECT-ORIENTED DESIGN CONCEPTS</li>
+          <li>CS 2303 - SYSTEMS PROGRAMMING CONCEPTS</li>
+          <li>CS 2011 - INTRODUCTION TO MACHINE ORGANIZATION AND ASSEMBLY LANGUAGE</li>
+          <li>CS 2202 - DISCRETE MATHEMATICS</li>
+          <li>CS 4033 - NUMERICAL METHODS FOR CALCULUS AND DIFFERENTIAL EQUATIONS</li>
+          <li>CS 3733 - SOFTWARE ENGINEERING</li>
+          <li>CS 2223 - ALGORITHMS</li>
+          <li>CS 3043 - SOCIAL IMPLICATIONS OF INFORMATION PROCESSING</li>
+          <li>CS 3133 - FOUNDATIONS OF COMPUTER SCIENCE</li>
+          <li>CS 3431 - DATABASE SYSTEMS I</li>
+          <li>CS 3033 - OPERATING SYSTEMS</li>
+          <li>CS 4342 - MACHINE LEARNING</li>
+          <li>CS 4432 - DATABASE SYSTEMS II</li>
+          <li>CS 4536 - PROGRAMMING LANGUAGES</li>
+          <li>CS 4233 - OBJECT-ORIENTED ANALYSIS AND DESIGN</li>
+          <li>CS 4804 - DATA VISUALIZATION</li>
+          <li>CS 4241 - WEBWARE: COMPUTATIONAL TECHNOLOGY FOR NETWORK INFORMATION SYSTEMS</li>
+        </ul>
+        <a name="technologies"></a>
+        <h4>Technologies</h4>
+        <table>
+            <tr>
+              <th>Technology/Methodology</td>
+              <th>Experience Level</td>
+            </tr>
+            <tr>
+              <td>HTML</td>
+              <td>"a lot"</td>
+            </tr>
+            <tr>
+              <td>CSS</td>
+              <td>"a lot"</td>
+            </tr>
+            <tr>
+              <td>Java</td>
+              <td>"a lot"</td>
+            </tr>
+            <tr>
+              <td>JavaScript</td>
+              <td>"a lot"</td>
+            </tr>
+            <tr>
+              <td>Python</td>
+              <td>"a lot"</td>
+            </tr>
+            <tr>
+              <td>Unit testing</td>
+              <td>"some"</td>
+            </tr>
+            <tr>
+              <td>Refactoring code</td>
+              <td>"some"</td>
+            </tr>
+        </table>
+      </div>
+      <div id="animation">
+      <a name="animation"></a>
+        <h2>Animation</h2>
+        <div id="p-wrapper">
+          <canvas id="p-border"></canvas>
+        </div>
+        <div id="p-options">
+          <label for="radius">Radius: </label>
+          <input type="number" name="radius" id="radius" min="5" max="100" step="5" value="20">
+          <label for="friction">Friction: </label>
+          <input type="number" name="friction" id="friction" min="0" max="5" step="0.05" value="0.2">
+          <label for="gravity">Gravity: </label>
+          <input type="number" name="gravity" id="gravity" min="-5" max="5" step="0.05" value="0.5">
+          <label for="terminalVelocity">Max Velocity: </label>
+          <input type="number" name="terminalVelocity" id="terminalVelocity" min="0" max="100" step="1" value="20">
+          <label for="elasticity">Bounciness: </label>
+          <input type="number" name="elasticity" id="elasticity" min="0" max="2" step="0.05" value="0.5">
+          <button type="button" name="help" id="p-help">?</button>
+        </div>
+        <div id="p-overlay">
+          <p id="p-overlay-close">✖</p>
+          <div id="p-overlay-textbox">
+            <p id="p-text-indent">Click and drag the ball to move it. Let go of the ball while it's still moving to let it move on its own!</p>
+
+            <h2>Radius</h2>
+            <p>The width of the ball. Minimum value is 5, maximum value is 100.</p>
+
+            <h2>Friction</h2>
+            <p>How much the ball's horizontal speed gets reduced by while touching the ground. Minimum value is 0, maximum value is 5.</p>
+
+            <h2>Gravity</h2>
+            <p>How much the ball's vertical speed gets increased by while not touching the ground. Negative values result in the ball falling upwards, and a value of 0 results in the ball moving at constant speed unless coliding with a wall. Minimum value is -5, maximum value is 5.</p>
+
+            <h2>Max Velocity</h2>
+            <p>The maximum speed that the ball is allowed to move at along either axis. A value of 0 prevents the ball from moving. Minimum value is 0, maximum value is 100.</p>
+
+            <h2>Bounciness</h2>
+            <p>The amount of speed that the ball retains when hitting a wall. Values below 1 result in the ball losing speed, and above 1 result in the ball gaining speed. Minimum value is 0, maximum value is 2.</p>
+          </div>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
