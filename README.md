@@ -1,10 +1,9 @@
 Ryan Nguyen
-#URL
+https://fluff-foamy-jeep.glitch.me/
 
 This project shows . . .
 
 ## Technical Achievements
-- **Styled page with CSS**: Added rules for the p, li, and a selectors...
 - **Styled all elements with CSS:
 	- Added classes for repeated styling of elements
 	- Added rules for Divs, Text, Lists and tables
@@ -20,5 +19,5 @@ This project shows . . .
 	
 
 ## Design Achievements
-- **Used the Roboto Font from Google Fonts**: I used Roboto as the font for the primary copy text in my site.
 - **Used custom Kanit Front from Google Fonts to create a more unique look
+- **Created custom color paletee and applied all colors in visual elements of application
