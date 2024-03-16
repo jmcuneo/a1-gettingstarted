@@ -3,7 +3,7 @@ Readme
 ---
 
 Sai Teja Sunku
-http://a1-joshuacuneo.glitch.me
+https://a1-saitejasunku.glitch.me/
 
 This project shows a simple HTML, CSS, JS webpage to introduce myself.
 
