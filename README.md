@@ -25,6 +25,7 @@ This project shows a simple HTML, CSS, JS webpage to introduce myself.
     12. border and border-collapse - to form a table, to remove border for my achievements button 
     13. !important - to give priority for few background colors in table columns
   - **CSS Properties Specific to My Achievements Button**:
+  
     14. position - set to relative and absolute to translate the text up when hovered
     15. overflow - set to hidden to attain perfect translation of text
     16. height - to set max height for the button and translation of text
