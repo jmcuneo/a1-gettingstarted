@@ -1,0 +1,65 @@
+table, td, tr{
+    border:1px solid black;
+}
+
+body {
+    text-align: center;
+    background-color:#332712;
+}
+
+.skillsTable {
+    width:49%;
+    float:right;
+    background-color: #CABA9F;
+    height:400px;
+}
+
+.coursesTable {
+    width:49%;
+    float:left;
+    background-color: #CABA9F;
+    height:400px;
+}
+
+
+table {
+    margin:auto;
+}
+
+ul {
+    list-style-type: none;
+}
+
+video {
+    margin:auto;
+}
+
+header, footer{
+    background-color: #756850;
+    width:100%;
+    padding:3em;
+}
+
+.topInformation {
+    background-color: #F5D398;
+}
+
+figcaption {
+    background-color: #A09787;
+    width:"auto";
+}
+
+.outer {
+    height:425px;
+}
+
+img {
+    width:2%;
+}
+
+/* Adamina Regular CSS requirements from Google Fonts */
+.adamina-regular {
+    font-family: "Adamina", serif;
+    font-weight: 400;
+    font-style: normal;
+}

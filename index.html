@@ -3,70 +3,102 @@
   <head>
     <title>CS4241 Assignment 1</title>
     <meta charset="utf-8">
+    <link rel="stylesheet" href="styling.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Adamina&family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+
   </head>
-  <body>
-    <h1>Information about Austin Rebello</h1>
-    <p>
-      Class of 2024, enjoys full stack development as a whole, with a preference for back end.
-    </p>
-    <p>
-      Majoring in Computer Science
-    </p>
-    <h2>Previous CS Courses/Credits</h2>
-    <ul>
-      <li>CS 1102 - Accelerated Introduction To Program Design</li>
-      <li>CS 2103 - Accelerated Object-Oriented Design Concepts</li>
-      <li>CS 2011 - Introduction To Machine Organization And Assembly Language</li>
-      <li>CS 3043 - Social Implications Of Information Processing</li>
-      <li>CS 2303 - Systems Programming Concepts</li>
-      <li>CS 2223 - Algorithms</li>
-      <li>CS 3431 - Database Systems I</li>
-      <li>CS 4341 - Introduction To Artificial Intelligence</li>
-      <li>CS 4731 - Computer Graphics</li>
-      <li>CS 4432 - Database Systems II</li>
-      <li>CS 4445 - Data Mining And Knowledge Discovery In Databases</li>
-      <li>CS 3133 - Foundations Of Computer Science</li>
-      <li>CS 3013 - Operating Systems</li>
-      <li>CS 3733 - Software Engineering</li>
-      <li>CS MQP - MQP</li>
-    </ul>
+  <body class = "adamina-regular">
+    <header>
+      This page is built with a custom header that has absolutely no true functionality to it since theres only one html page on the server.
+    </header>
+    <div class="topInformation">
+      <h1>Information about Austin Rebello</h1>
+      <p>
+        Class of 2024, enjoys full stack development as a whole, with a preference for back end.
+      </p>
+      <p>
+        Majoring in Computer Science
+      </p>
+    </div>
+    <div class = "outer">
+      <div class = "coursesTable">
+        <h2>Previous CS Courses/Credits</h2>
+        <ul>
+          <li>CS 1102 - Accelerated Introduction To Program Design</li>
+          <li>CS 2103 - Accelerated Object-Oriented Design Concepts</li>
+          <li>CS 2011 - Introduction To Machine Organization And Assembly Language</li>
+          <li>CS 3043 - Social Implications Of Information Processing</li>
+          <li>CS 2303 - Systems Programming Concepts</li>
+          <li>CS 2223 - Algorithms</li>
+          <li>CS 3431 - Database Systems I</li>
+          <li>CS 4341 - Introduction To Artificial Intelligence</li>
+          <li>CS 4731 - Computer Graphics</li>
+          <li>CS 4432 - Database Systems II</li>
+          <li>CS 4445 - Data Mining And Knowledge Discovery In Databases</li>
+          <li>CS 3133 - Foundations Of Computer Science</li>
+          <li>CS 3013 - Operating Systems</li>
+          <li>CS 3733 - Software Engineering</li>
+          <li>CS MQP - MQP</li>
+        </ul>
+      </div>
+    
+      <div class="skillsTable">
+        <h2>Technology Experience</h2>
+        <table>
+          <tr>
+            <th>Skill</th>
+            <th>Experience</th>
+          </tr>
+          <tr>
+            <td>HTML</td>
+            <td>A Lot</td>
+          </tr>
+          <tr>
+            <td>CSS</td>
+            <td>A Lot</td>
+          </tr>
+          <tr>
+            <td>Java</td>
+            <td>A Lot</td>
+          </tr>
+          <tr>
+            <td>JavaScript</td>
+            <td>Some</td>
+          </tr>
+          <tr>
+            <td>Python</td>
+            <td>A Lot</td>
+          </tr>
+          <tr>
+            <td>Unit Testing</td>
+            <td>Some</td>
+          </tr>
+          <tr>
+            <td>Refactoring Code</td>
+            <td>Some</td>
+          </tr>
 
-    <h2>Technology Experience</h2>
-    <table>
-      <tr>
-        <th>Skill</th>
-        <th>Experience</th>
-      </tr>
-      <tr>
-        <td>HTML</td>
-        <td>A Lot</td>
-      </tr>
-      <tr>
-        <td>CSS</td>
-        <td>A Lot</td>
-      </tr>
-      <tr>
-        <td>Java</td>
-        <td>A Lot</td>
-      </tr>
-      <tr>
-        <td>JavaScript</td>
-        <td>Some</td>
-      </tr>
-      <tr>
-        <td>Python</td>
-        <td>A Lot</td>
-      </tr>
-      <tr>
-        <td>Unit Testing</td>
-        <td>Some</td>
-      </tr>
-      <tr>
-        <td>Refactoring Code</td>
-        <td>Some</td>
-      </tr>
+        </table>
+      </div>
+    </div>
 
-    </table>
+    <figure>
+      <video src="MassachusettsNorthernLights.mp4" controls width="1080px"></video>
+      <figcaption> A short 4 minute time lapse of the Northern Lights, taken by me from northern Massachusetts on March 23/24th, 2023.</figcaption>
+    </figure>
+
+    <div >
+      <img src="dvd.png" alt="DvD Screensaver" id = "box">
+    </div>
+
+    <button  onclick="moveBox()">Expand the box</button>
+
+    <footer>This page is built with a custom footer that does not yet contain any navigational functionality or contact information within it.</footer>
 
   </body>
+  
+  <script src = "scripts.js"></script>
 </html>
