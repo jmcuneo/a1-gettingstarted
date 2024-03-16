@@ -1,18 +1,28 @@
 h1{
     text-align: center;
-    background-color: red;
+    background-color: #F56C00;
     padding-top: 10px;
     padding-bottom: 10px;
     color: white;
+    font-family: Madimi One;
 }
 article1{
     font-style: italic;
     text-align: right;
-    color: red;
+    color: #F29A16;
 }
 h3{
-    color: red;
+    color: #F2D016;
 }
 h2{
-    color: red;
+    color: #F2B516;
+}
+img{
+    float: right;
+}
+article2{
+    color: #F2EA16;
+}
+article3{
+    color: #F2CB67;
 }

@@ -1,17 +1,16 @@
-Assignment 1 - Hello World: Basic Deployment w/ Git, GitHub, Glitch
+My information page!
 ===
 
-*DUE: Sunday, March 17th by 11:59 PM*
+This project shows my information.
 
-First assignment! You will deploy the starting Web site that you will use this term to [Glitch](http://www.glitch.com/). 
+Here is how my web looks like:
+[img.png](img.png)
+[img_4.png](img_4.png)
 
-Treat this assignment as a chance to get up to speed on Git, GitHub, and Glitch, as well as experiment some with HTML/CSS/JS. If you already know these, great! 
-However, if you're new to them, spend several hours practicing, experimenting, and reading documentation. Don't just get your website up and done, as
-you'll need skills with these tools throughout the rest of the course.
 
-Assignment details
+
+CSS:
 ---
-
 This assignment requires that your website is both contained in a GitHub repository and hosted in Glitch. There are a few ways to do this:
 
 1. Fork this repo and clone it to your computer, make changes locally on your computer, push the repo onto GitHub, and then import your GitHub repo into Glitch.
