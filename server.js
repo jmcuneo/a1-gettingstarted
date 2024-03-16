@@ -26,3 +26,9 @@ const sendFile = function( response, filename ) {
    })
 }
 
+let left = 0; //distance between left side of the screen and left of plane image
+let flyPlane = function(){
+  left = left + 5;
+  document.getElementById('plane').style.left = left + 'px';
+}
+
