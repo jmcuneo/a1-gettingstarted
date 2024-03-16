@@ -29,24 +29,10 @@ const sendFile = function( response, filename ) {
    })
 }
 
-/*
+
 let left = 0; //distance between left side of the screen and left of plane image
 let flyPlane = function(){
   left = left + 1000;
   document.getElementById('plane').style.left = left + 'px';
-  setTimeout(flyPlance, 100);
+  setTimeout(flyPlane, 10);
 }
-*/
-
-let position = 0;
-const plane = document.getElementById('plane');
-
-setInterval(() => {
-  position += 5;
-  plane.style.left = position + 'px';
-
-  if (position > window.innerWidth) {
-    position = -50;
-  }
-}, 50);
-
