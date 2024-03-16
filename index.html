@@ -31,9 +31,15 @@
       btn.onclick = function () {
         image.style.display = "block";
         count = count + 1;
-        if (count > 10) {
+        if(charImage.src.includes("images/wokeBoy.png")){
+          count = 0;
+          btn.textContent = "Wake Up!";
+          charImage.src="images/sleepBoy.jpg";
+          image.style.display = "none";
+        } else if (count > 10) {
           image.style.display = "none";
           charImage.src="images/wokeBoy.png";
+          btn.textContent = "Sleep";
         }
       }
   </script>
