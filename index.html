@@ -1,33 +1,39 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <title>CS4241 Assignment 1</title>
     <meta charset="utf-8">
+    <title>CS4241 Assignment 1</title>
+    <link rel = "stylesheet" href = "https://fonts.googleapis.com/css?family=BioRhyme">
+    <style>body{font-family: "BioRhyme", serif;}</style>
   </head>
+  <div style = "position:relative;align-self:right;">
+    <div id = "fish" style = "margin-left:100%;position:absolute;">
+      <img src = "fish.gif" alt = "fish" id = "fishgif">
+    </div>
+  </div>
+  <div style = "display:flex;background-color:#4158F0;">
+  <div style = "margin-left:15%;width:70%;background-color:#418FF0;display:flex;flex-direction:column;">
   <body>
-    <h1>Information about Brianna Sahagian</h1>
-    <p>
+    <div style = "text-align:center;justify-content:center;display:flex;height:fit-content;background-color:#919DF0;">
+      <h1>Information about Brianna Sahagian</h1>
+    </div><br />
+    <p style = "text-align:center;">
       My name is Brianna, I'm in my fourth year of college at WPI and will graduate in May 2025.<br />
       I'm very interested in all things robotics and enjoy creating my own pet projects.<br />
-      If you like fish, there is a spawner at the bottom of this page, go ahead and try it!
-    </p>
-    <h2>Degrees</h2>
-    <p>
+      If you like fish, there is a spawner at the bottom of this page; go ahead and try it!
+    </p><br />
+    <t style = "text-align:center;font-size:24px;font-weight:bold;">Degrees</t>
+    <p style = "text-align:center;">
       B.S. Computer Science, B.S. Robotics Engineering 2025<br />
       Minor Spanish<br />
       M.S. Computer Science 2025<br />
     </p>
-    <div style = "position:relative;align-self:right">
-      <div id = "fish" style = "margin-left:100%;position:absolute;">
-        <img src = "fish.gif" alt = "fish" id = "fishgif">
-      </div>
-    </div>
     <script src = "webpage.js"></script>
-    <h2>Previous Computer Science Courses Taken at WPI</h2>
-    <table style = "border:2px solid;border-collapse:collapse;">
+    <h2 style = "text-align:center;">Previous Computer Science Courses Taken at WPI</h2>
+    <table style = "margin-left:5%;margin-right:5%;border:2px solid;border-collapse:collapse;">
       <tr>
         <th style = "border:1px solid;border-color:gray;">Class Number</th>
-        <th style = "border:1px solid;border-color:gray;">Class Title [Undergraduate]</th>
+        <th style = "border:1px solid;border-color:gray;">Class Title [<span style = "color:#6241F0">Undergraduate</span>]</th>
       </tr>
       <tr>
         <td style = "border:1px solid;border-color:gray;text-align:center">CS 1102</td>
@@ -75,10 +81,10 @@
       </tr>
     </table>
     <p></p>
-    <table style = "border:2px solid;border-collapse:collapse;">
+    <table style = "margin-left:5%;margin-right:5%;border:2px solid;border-collapse:collapse;">
       <tr>
         <th style = "border:1px solid;border-color:gray;">Class Number</th>
-        <th style = "border:1px solid;border-color:gray;">Class Title [Graduate]</th>
+        <th style = "border:1px solid;border-color:gray;">Class Title [<span style = "color:#6241F0">Graduate</span>]</th>
       </tr>
       <tr>
         <td style = "border:1px solid;border-color:gray;text-align:center">CS 509</td>
@@ -108,17 +114,19 @@
         <td style = "border:1px solid;border-color:gray;text-align:center">CS 5084</td>
         <td style = "border:1px solid;border-color:gray;">Introduction to Algorithms: Design and Analysis</td>
       </tr>
-    </table>
-    <h2>Software Experience Levels</h2>
-    <ul style = "font-weight:bold;">
-      <li>Java : <span style = "color:red;"> Expert</span></li>
-      <li>JavaScript : <span style = "color:blueviolet;"> Intermediate</span></li>
-      <li>Python : <span style = "color:blueviolet;"> Intermediate</span></li>
-      <li>HTML : <span style = "color:royalblue;"> Novice</span></li>
-      <li>CSS : <span style = "color:royalblue;"> Novice</span></li>
-      <li>Unit Testing : <span style = "color:red;"> Expert</span></li>
-      <li>Refactoring Code: <span style = "color:red;"> Expert</span></li>
+    </table><br />
+    <t style = "text-align:center;font-size:24px;font-weight:bold;">Software Experience Levels</t>
+    <ul style = "list-style-position:inside;font-weight:bold;text-align:center;">
+      <li>Java : <span style = "color:#41C7F0;"> Expert</span></li>
+      <li>JavaScript : <span style = "color:#9834F5;"> Intermediate</span></li>
+      <li>Python : <span style = "color:#9834F5;"> Intermediate</span></li>
+      <li>HTML : <span style = "color:#6241F0;"> Novice</span></li>
+      <li>CSS : <span style = "color:#6241F0;"> Novice</span></li>
+      <li>Unit Testing : <span style = "color:#41C7F0;"> Expert</span></li>
+      <li>Refactoring Code: <span style = "color:#41C7F0;"> Expert</span></li>
     </ul>
-    <button onclick = spawnFish() style = "position:relative;height:50px;">Fish Spawner</button>
+    <button onclick = spawnFish() style = "font-size:20px;font-weight:bolder;font-family:BioRhyme,serif;position:relative;height:50px;background-color:#41C7F0;color:#6241F0;-webkit-text-stroke-width:0.01px; -webkit-text-stroke-color:black;border-radius:30%;">Fish Spawner</button>
   </body>
+</div>
+</div>
 </html>

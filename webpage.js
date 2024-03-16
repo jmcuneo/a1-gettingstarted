@@ -6,10 +6,11 @@ function spawnFish(){
     timer = setInterval(move, (Math.random() * 10) + 1);
 }
 function move(){
-    if(pos > window.innerWidth + 100){
+    if(pos > window.outerHeight){
         fish.style.right = -100;
     }else{
         pos += 1;
         fish.style.right = pos + 'px';
+        fish.style.top = pos + 'px';
     }
 }
