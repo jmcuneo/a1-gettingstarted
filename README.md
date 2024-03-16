@@ -52,7 +52,12 @@ Color Palette
 ---
 [img_4.png](img_4.png)
 
+
 Font
 ---
 Madimi One
+
+Glitch Link:
+---
+https://a1-yuranxue.glitch.me/
 
