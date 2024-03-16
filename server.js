@@ -13,6 +13,9 @@ const server = http.createServer( function( request,response ) {
     case '/style.css':
       sendFile( response, 'style.css' )
       break
+    case '/animation.js':
+      sendFile( response, 'animation.js' )
+      break
     case '/plane.png':
       sendFile( response, 'plane.png' )
       break
@@ -27,12 +30,4 @@ const sendFile = function( response, filename ) {
    fs.readFile( filename, function( err, content ) {
      response.end( content, 'utf-8' )
    })
-}
-
-
-const left = 0; //distance between left side of the screen and left of plane image
-const flyPlane = function(){
-  left = left + 20;
-  document.getElementById('plane').style.left = left + 'px';
-  setTimeout(flyPlane, 100);
 }
