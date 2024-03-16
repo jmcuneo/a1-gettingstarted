@@ -4,8 +4,11 @@
   <head>
     <title>CS4241 Assignment 1</title>
     <meta charset="utf-8">
+
+
+
   </head>
-  <body>
+  <body class="rubik-font">
     <h1>Information about: Bashar Alqassar (Class of 2025)</h1>
     <p>
       I like bido games
@@ -45,7 +48,25 @@
       <li>WPI</li>
     </ul>
 
-    <IMG SRC="pinguim-penguin.gif">
+    <IMG id ="gif" SRC="pinguim-penguin.gif">
+
+
+
+    <button class="rubik-font" onclick="buttonPressed()"> Rotate Image </button>
+
+    <script>
+
+      var rotation = 0;
+     function buttonPressed()
+     {
+       console.log("Button Pressed!")
+        const gif = document.getElementById("gif");
+
+        rotation += 20;
+        gif.style.rotate = rotation.toString() + "deg"
+
+     }
+   </script>
 
   </body>
 </html>
