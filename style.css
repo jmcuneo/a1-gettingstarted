@@ -1,0 +1,86 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Kanit', serif;
+}
+
+.header-text{
+    font-size: 64px;
+    margin: 0px;
+    background: linear-gradient(45deg, #a900ff, #65008f);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.card-container{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    width: 50%;
+}
+
+.card{
+    background-color: gainsboro;
+    border-radius: 10px;
+    height: 300px;
+    min-height: 100%;
+    width: 100%;
+    transition: all 0.2s ease;
+    border: 2px solid #6C43FA;
+}
+
+.card:hover{
+    height: 310px;
+    transition: all 0.2s ease;
+}
+
+.card-header{
+    font-size: 32px;
+    margin: 10px 0px 0px 10px;
+}
+
+.footer{
+    margin: auto;
+    height: 200px;
+    width: 100%;
+    background-color: #a900ff;
+    position: absolute;
+    bottom: 0;
+}
+
+.table{
+    margin: 10px 0px 0px 10px
+}
+
+.table tr th:nth-child(n) {
+    color: #E443FA;
+}
+
+.table tr th:nth-child(2n) {
+    color: #438FFA;
+}
+
+
+.table tr td:nth-child(2n) {
+    color: #438FFA;
+}
+
+.table tr td:nth-child(2n + 1) {
+    color: #E443FA;
+}
+
+.spin {
+    animation: spin 1s linear;
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
