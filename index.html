@@ -8,15 +8,16 @@
   </head>
   <title>CS4241 Assignment 1</title>
   <body>
-      <img src="sky.jpg" id="banner">
-      <img src="plane.png" id="plane" onload="flyPlane()">
-    <!--temparary solution to banner problem - need to find way to start page under banner-->
-
-    <p>WPI Class of 2026</p>
-    <p>Computer Science</p>
+    <img src="sky.jpg" id="banner">
+    <div class="heading">
+      <h1>WPI Class of 2026</h1>
+      <h2>Computer Science</h2>
+    </div>
+    <img src="plane.png" id="plane" onload="flyPlane()">
     
     <p>
-      <b>Completed Computer Science Courses:</b>
+      <section>
+      <h2>Completed Computer Science Courses:</h2>
       <!--class 1-->
       <details>
         <summary>CS 1101</summary>
@@ -64,7 +65,9 @@
         <p>Operating Systems - C. C24</p>
       </details>
     </p>
-
+  </section>
+  
+    <aside>
     <h2>Experience</h2>
     <p>Experience with technologies (some, a lot, or none)</p>
     <table>
@@ -89,5 +92,6 @@
         <td>Unit Testing</td>
       </tr>
     </table>
+    </aside>
   </body>
 </html>
