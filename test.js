@@ -1,1 +1,1 @@
-alert("Hello World");
+alert("Click here to start the journey");
