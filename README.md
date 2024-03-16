@@ -38,15 +38,15 @@ My JavaScript animation has the user attempt to wake up the sleeping boy. The sl
 
 Experiment with other semantic HTML tags
 
-Other semantic HTML tags I used were <a href>, <aside>, <img>, <header>, <footer>, <div>, <article>, <script>, <button>, and <h4>
+Other semantic HTML tags I used were a href, aside, img, header, footer, div, article, \<script>, <button>, and <h4>
 
 Design Achievements
 ---
 
 Create a color palette and use all the colors.
-![alt text](images\ColorWheelForA1.png)
+![alt text](images/ColorWheelForA1.png)
 
 Use a font: 
 I used multiple fonts:
 Heebo, Madimi One, Noto Sans Tangsa, Rock 3D
-'https://fonts.googleapis.com/css2?family=Heebo:wght@100..900&family=Madimi+One&family=Noto+Sans+Tangsa:wght@400..700&family=Rock+3D&display=swap'
+https://fonts.googleapis.com/css2?family=Heebo:wght@100..900&family=Madimi+One&family=Noto+Sans+Tangsa:wght@400..700&family=Rock+3D&display=swap
