@@ -109,14 +109,28 @@ http://a1-aidanmacnevin.glitch.me
 This project shows ...
 
 ## Technical Achievements
-- **Styled page with CSS**: I created a styles.css file that contains styling information for body, p, h1, h2, h3, ul, and li. See the file itself for additional details.
+- **Styled page with CSS**: I created a styles.css file that contains styling information for multiple elements. See the file itself for additional details.
   - body: added background color
-  - p: added text color
-  - h1: added text color, text size, and different font
-  - h2: added text color, text size, and different font
-  - h3: added text color, text size, and text style
-  - ul: background color
-  - li: text alignment and color
+  - p: added text color and font 
+  - h1, h2, summary: added text color, text size, and different font
+  - details: spacing
+  - li: text alignment, color, and font
+  - footer: text size, color, and alignment
+  - button: color, alignment, and bordering
+  - video: display location
+
+
+
+- **JavaScript Animation**: Video plays when a button is pressed. Disappears after playing. See test.js for details.
+
+
+- **Other HTML Tags**: In addition to the tags originally contained in the file, I added a few new ones.
+  - div
+  - details
+  - summary
+  - footer
+  - button
+  - video
 
 ## Design Achievements
 - **Created and Used an Adobe Color Palette**: I created a color wheel using color.adobe.com and used the colors in my website. I used Monochromatic color harmony on the RGB color wheel. A screenshot is pictured below.
