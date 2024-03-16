@@ -29,8 +29,5 @@ th {
 }
 
 .plane {
-    width: 50px;
-    height: 50px;
     position: absolute;
-    font-size: 100px;
   }
