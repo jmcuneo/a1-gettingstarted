@@ -38,7 +38,7 @@ My JavaScript animation has the user attempt to wake up the sleeping boy. The sl
 
 Experiment with other semantic HTML tags
 
-Other semantic HTML tags I used were a href, aside, img, header, footer, div, article, \<script>, <button>, and <h4>
+Other semantic HTML tags I used were \<a href>, \<aside>, \<img>, \<header>, \<footer>, \<div>, \<article>, \<script>, \<button>, and \<h4>
 
 Design Achievements
 ---
