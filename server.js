@@ -13,6 +13,9 @@ const server = http.createServer( function( request,response ) {
     case '/style.css':
       sendFile( response, 'style.css' )
       break
+    case '/plane.png':
+      sendFile( response, 'plane.png' )
+      break
     default:
       response.end( '404 Error: File Not Found' )
   }
@@ -26,9 +29,24 @@ const sendFile = function( response, filename ) {
    })
 }
 
+/*
 let left = 0; //distance between left side of the screen and left of plane image
 let flyPlane = function(){
-  left = left + 5;
+  left = left + 1000;
   document.getElementById('plane').style.left = left + 'px';
+  setTimeout(flyPlance, 100);
 }
+*/
+
+let position = 0;
+const plane = document.getElementById('plane');
+
+setInterval(() => {
+  position += 5;
+  plane.style.left = position + 'px';
+
+  if (position > window.innerWidth) {
+    position = -50;
+  }
+}, 50);
 
