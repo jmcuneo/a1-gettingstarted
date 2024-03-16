@@ -30,9 +30,9 @@ const sendFile = function( response, filename ) {
 }
 
 
-let left = 0; //distance between left side of the screen and left of plane image
-let flyPlane = function(){
-  left = left + 1000;
+const left = 0; //distance between left side of the screen and left of plane image
+const flyPlane = function(){
+  left = left + 20;
   document.getElementById('plane').style.left = left + 'px';
-  setTimeout(flyPlane, 10);
+  setTimeout(flyPlane, 100);
 }
