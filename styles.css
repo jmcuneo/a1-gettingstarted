@@ -1,18 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100..900&family=Madimi+One&family=Noto+Sans+Tangsa:wght@400..700&family=Rock+3D&display=swap');
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding: 0;
+}
+
+.fadingImage{
+    display: none;
+}
+
+.logo{
+    max-width: 50px;
+    max-height: 50px;
+}
+
+.meme{
+    max-width: 200px;
+    max-height: 200px;
+    padding-left: 50px;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.text {
+    padding-right : 0px;
+}
+
+.title {
+    padding-left : 20px;
+}
+
+aside {
+    width: fit-content;
+    float: center;
+    font-style: italic;
+  }
+
+.Intro {
+    margin: 0;
+    width: 60%;
+}
+
+.Hobbies {
+    margin: 0.25vw;
+    width: 60%;
+}
+
+.Clubs {
+    margin: 0.25vw;
+    width: 60%;
+}
+
+.ProLang {
+    margin: 0.25vw;
+    width: 60%;
+}
+
+.CSClass {
+    margin: 0.25vw;
+    width: 60%;
+}
+
+.Experience {
+    margin: 0.25vw;
+    width: 60%;
+}
+
 body {
     background-color: #4088F5;
-  }
-  h1 {
+
+}
+
+header{
+    padding: 5px;
+    margin: 0px;
+    text-shadow: 0 0 10px skyblue, 0 0 5px violet;
+    width: fit-content;
+}
+
+h1 {
+    margin: 0;
     color: #40F5B1;
-  }
-  h2 {
+    font-family: "Rock 3D";
+    font-size: 3vw;
+    border: 10px dotted pink;
+    text-shadow: 0 0 10px skyblue, 0 0 5px violet;
+    width: fit-content;
+}
+
+h2 {
     color: #91F5F1;
-  }
-  h4 {
+    font-family: "Madimi One";
+    font-size: 1.75vw;
+    margin: auto;
+}
+
+h4 {
     color: #40F5F0;
-  }
-  p {
+    font-family: "Madimi One";
+    font-size: 1.25vw;
+    margin: 0;
+}
+
+p {
     color: #40F574;
-  }
-  ul {
+    font-family: "Noto Sans Tangsa";
+    font-size: 0.75vw;
+}
+
+ul {
+    color: #40F574;
+    font-family: "Heebo";
+    font-size: 0.75vw;
+    margin: 2px;
+}
+
+footer {
     color: #40C1F5;
-  }
+    font-family: "Heebo";
+}
