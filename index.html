@@ -5,18 +5,18 @@
   <title>CS4241 Assignment 1</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="https://cdn.glitch.global/3c68fda7-8814-448a-90ed-404206705a21/style.css?v=1710562690554">
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
   <div class="container">
     <div class="image">
-      <img id="charImage" src="https://cdn.glitch.global/3c68fda7-8814-448a-90ed-404206705a21/sleepBoy.jpg?v=1710562671202">
+      <img id="charImage" src="resources/sleepBoy.jpg">
     </div>
     <div class="title">
       <h1>Information about Edison Zhang</h1>
     </div>
-    <img class="fadingImage" id="wakeup" src="https://cdn.glitch.global/3c68fda7-8814-448a-90ed-404206705a21/noImage.png?v=1710562668270"/>
+    <img class="fadingImage" id="wakeup" src="resources/noImage.png"/>
   </div>
   <p>
     <button id="wakeUpBtn">Wake Up!</button>
@@ -31,14 +31,14 @@
       btn.onclick = function () {
         image.style.display = "block";
         count = count + 1;
-        if(charImage.src.includes("https://cdn.glitch.global/3c68fda7-8814-448a-90ed-404206705a21/wokeBoy.png?v=1710562639851")){
+        if(charImage.src.includes("resources/wokeBoy.png")){
           count = 0;
           btn.textContent = "Wake Up!";
-          charImage.src="https://cdn.glitch.global/3c68fda7-8814-448a-90ed-404206705a21/sleepBoy.jpg?v=1710562671202";
+          charImage.src="resources/sleepBoy.jpg";
           image.style.display = "none";
         } else if (count > 10) {
           image.style.display = "none";
-          charImage.src="https://cdn.glitch.global/3c68fda7-8814-448a-90ed-404206705a21/wokeBoy.png?v=1710562639851";
+          charImage.src="resources/wokeBoy.png";
           btn.textContent = "Sleep";
         }
       }
@@ -70,7 +70,7 @@
                   Fitness & Training</a> (Much better than WPI Rec Center).</li>
             </div>
             <aside>
-              <img class="logo" src="https://cdn.glitch.global/3c68fda7-8814-448a-90ed-404206705a21/evolvelogo.jpg?v=1710562664513">
+              <img class="logo" src="resources/evolvelogo.jpg">
             </aside>
           </div>
           <li>I like to play video games. Currently, I am playing Helldivers 2. Some other games I play are Remnant,
@@ -84,7 +84,7 @@
       <div class="image">
 
         <aside>
-          <img class="meme" src="https://cdn.glitch.global/3c68fda7-8814-448a-90ed-404206705a21/iDive.jfif?v=1710562666586">
+          <img class="meme" src="resources/iDive.jfif">
         </aside>
       </div>
     </div>
