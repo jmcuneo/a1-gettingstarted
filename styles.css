@@ -1,5 +1,5 @@
 body {
-    background-color: #74c992;
+    background-color: #889EFF;
 }
 
 #intro {
@@ -7,4 +7,26 @@ body {
     font-weight: 700;
     font-style: normal;
     font-size: 21px;
+    background-color: #56DEFC;
+}
+
+#languages {
+    background-color: #00D0FF;
+}
+
+.myInfo {
+    padding-left: 100px;
+    padding-right: 50px;
+    border-style: solid;
+}
+
+#Exp {
+    width: 1200px;
+    height: 100px;
+    padding-left: 200px;
+    padding-right: 200px;
+    background-color: #C4FFE3;
+    color: #007FFF;
+    text-align: center;
+    transition: background-color 0.4s; 
 }
