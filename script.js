@@ -1,15 +1,16 @@
-function typewriter() {
-    console.log("Called!");
-    let characters = document.getElementById("typewrite");
-    console.log(characters);
+async function typewriter() {
+    let element = document.getElementById("typewrite");
+    let button = document.getElementById("blink");
+    button.style.display = "none";
 
     function sleep(ms) {
         return new Promise((resolve) => setTimeout(resolve, ms));
     }
 
-    for (let i = 0; i < characters.length; i++) {
-        characters[i].style.color = "rgb(0, 210, 0)";
-        console.log(characters[i]);
-        sleep(100);
+    let currHeight = 100;
+    while (currHeight > 0) {
+        currHeight -= 1;
+        element.style.height = `${currHeight}%`
+        await sleep(100);
     }
 }

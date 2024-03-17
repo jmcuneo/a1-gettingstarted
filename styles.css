@@ -1,34 +1,26 @@
 h1 {
     text-align: center;
-    color: black;
 }
 
 h4 {
-    display: none;
+    font-weight: bolder;
+    font-size: 22px;
+    margin-bottom: 0;
 }
 
 body {
     margin: 2%;
 }
 
-p {
-    display: none;
-}
-
-li {
-    display: none;
-}
-
 * {
     color: rgb(0, 210, 0);
     background: black;
+    font-family: "Iceberg", sans-serif;
+    font-style: normal;
 }
 
-#cursor {
-    animation: blink 1s linear infinite;
-    width: 10px;
-    height: 10px;
-    background: rgb(0, 210, 0);
+#blink {
+    animation: blink 2s linear infinite;
 }
 
 @keyframes blink {
@@ -38,4 +30,42 @@ li {
     50% {
         opacity: 0;
     }
+}
+
+button {
+    width: 500px;
+    height: 150px;
+    font-size: 80px;
+    border: rgb(0, 210, 0) solid;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+#typewrite {
+    background: black;
+    z-index: 10;
+    width: 100%;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    justify-content: center;
+    display: flex;
+}
+
+header {
+    background: rgb(0, 210, 0);
+    color: black;
+    font-size: 40px;
+    font-weight: bolder;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+footer {
+    background: rgb(0, 210, 0);
+    color: black;
+    font-size: 40px;
+    font-weight: bolder;
+    text-align: center;
+    margin-top: 50px;
 }
