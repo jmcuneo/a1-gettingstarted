@@ -17,7 +17,6 @@
     font-style: normal;
 }
 
-
 body.rubik-font {
     background-color: var(--light2);
 }
@@ -35,5 +34,17 @@ button.rubik-font {
 
 p {
     font-size: 15px;
+}
+
+a.rubik-font {
+    font-size: 25px;
+    font-style: oblique;
+}
+
+header.rubik-font {
+    font-size: 8px;
+    font-style: italic;
+    font-stretch: expanded;
+    background: var(--med1);
 }
 
