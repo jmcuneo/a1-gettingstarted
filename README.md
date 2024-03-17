@@ -1,6 +1,6 @@
 Assignment 1 - Hello World: Basic Deployment w/ Git, GitHub, Glitch
 Stephen Fanning
-http://a1-stephenfanning.glitch.me
+https://a1-stephenfanning.glitch.me
 
 This project shows ...
 
