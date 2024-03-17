@@ -3,26 +3,75 @@
   <head>
     <title>CS4241 Assignment 1</title>
     <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <h1>Information about [Your name here]</h1>
+  <header>
+    <img id="header_image" src="resources/Banner.png" alt="Picture" class="center">
+  </header>
+  <article class = "main-page">
+
+    <h1>Information about Bryon</h1>
+    <article class = "section">
     <p>
-      [Self introduction]
+      Hello! I'm Bryon, a senior graduating this May. I'm currently pursuing a double major in CS and RBE.
+      Here are some of the CS courses I have taken at WPI:
+      <ul>
+        <li>CS1101</li>
+        <li>CS2102</li>
+        <li>CS2223</li>
+        <li>CS2011</li>
+        <li>CS3013</li>
+        <li>CS3431</li>
+        <li>CS4432</li>
+        <li>CS4341</li>
+        <li>CS4342</li>
+      </ul>
     </p>
-    <p>
-      [Major and other information]
-    </p>
-    <p>
-      [Other things]
-    </p>
+    </article>
 
     <h2>Experience</h2>
+
+    <article class = "section">
     <p>
-      Working experience
+      <a href="imgd-playtesting.wpi.edu">Here</a> is a website I helped work on this past summer. (Note that you must be on the WPI network)
+      <ul>
+        <li>HTML: None</li>
+        <li>CSS: None</li>
+        <li>Java: A lot</li>
+        <li>JavaScript: Some</li>
+        <li>Python: Some</li>
+        <li>Unit testing: Some</li>
+        <li>Refactoring code: A lot</li>
+      </ul>
     </p>
-    <ul>
-      <li>IBM/Rational</li>
-      <li>WPI</li>
-    </ul>
+    </article>
+
+    <p>
+      <button onclick="animation()">
+        Click here to toggle the banner!
+    </button>
+    </p>
+
+    <script>
+      function animation(){
+        var image = document.getElementById("header_image");
+        if (image.src.includes("resources/Banner.png")){
+          image.src = "resources/WPI.png";
+        } else{
+          image.src = "resources/Banner.png";
+        }
+
+      }
+    </script>
+
+    <footer>
+      CS 4241, Assignment A1
+    </footer>
+
+  </article>
+
+
+
   </body>
 </html>

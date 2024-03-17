@@ -1,0 +1,52 @@
+.main-page{
+    margin: 0;
+    padding: 5px;
+    background-color: #F0A200;
+}
+
+.section{
+    margin: 10px;
+    padding: 5px;
+    background-color: #F0EBB9;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+footer{
+    color: #F2CBF1;
+    font-family: "Courier Prime";
+    font-size: 75%;
+    text-align: center;
+}
+
+h1 {
+    color: #F00D00;
+    font-family: Impact;
+    font-size: 300%;
+    text-align: center;
+}
+
+h2{
+    color: #F0650E;
+    font-family: Impact;
+    font-size: 200%;
+    text-align: center;
+}
+
+p {
+    font-family: "Courier Prime";
+    font-size: 100%;
+    text-align: center;
+}
+
+ul{
+    font-family: "Courier Prime";
+    font-size: 100%;
+    text-align: center;
+    list-style-position: inside;
+}
