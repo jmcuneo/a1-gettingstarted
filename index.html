@@ -3,6 +3,7 @@
   <head>
     <title>Ronak Wani</title>
     <meta charset="utf-8">
+    <!-- These links have been incoporated for the usage of google fonts, symbols, and icons -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
@@ -10,7 +11,9 @@
     <link rel="stylesheet" type="text/css" href="styles.css" />
   </head>
   <body>
+  <!-- This is page header tag, to let the viewer know about page information-->
     <h1>Information about Ronak Wani</h1>
+    <!--Created a paragraph tag to give a self introduction -->
     <p class="align">
       I am a sophomore at WPI. I am from Mumbai, India.</br>
       I'm also deeply committed to community service.</br>
@@ -18,8 +21,12 @@
       is something that's incredibly important to me, and</br>
       I'm always looking for ways to get involved and make a difference.</br>
     </p>
+    <!-- Created a div container to encapsulate the text and anchor elements together
+    by making an HTML container -->
     <div class="Education">
     Education: BS
+      <!--Created an anchor element to add the Computer Science and
+      Data Science department links in the text-->
     <a href="https://www.wpi.edu/academics/departments/computer-science"
        target= _blank
        class="hyperlinks">
@@ -30,14 +37,16 @@
        class="hyperlinks"> Data Science (Minor)</a>,
     WPI '26
     </div>
-    <p>
     <button class="experience-button outfit-inside-buttons-font">
       Experience
     </button>
+    <!-- Created a div container to encapsulate the table container
+    and button together, then put them inline with other tables on the webpage-->
     <div class="display">
     <button class="CS-courses-button outfit-inside-buttons-font" onclick="hide(courseTable)" >
       Computer Science Courses:
     </button>
+      <!-- Created a table that lists out CS courses taken by me in the form of course numbers, course names, terms columns-->
     <div id="course-table" class="course-table display">
     <table> <tr> <th> Course Number </th> <th> Course Name </th> <th> Term </th> </tr>
       <tr> <td> CS 1101 </td> <td><a href="https://www.wpi.edu/academics/calendar-courses/course-descriptions/3776/computer-science#CS-1101" target="_blank"> Introduction to Program Design </a></td> <td> A22 </td> </tr>
@@ -53,10 +62,14 @@
     </table>
     </div>
     </div>
+    <!-- Created a div container to encapsulate the table container
+    and button together, then put them inline with other tables on the webpage-->
     <div class="display">
     <button class="web-tech-stack-button outfit-inside-buttons-font display" onclick="hide(webTechStack)">
       Web Technology Experience:
     </button>
+      <!-- Created a table that lists out my experience with web development technology tools in the form of stars
+       and brief one word description of expertise level-->
     <div id="web-tech-stack" class="web-tech-stack display">
       <table class="web-tech-table"> <tr> <th> Programming Language </th> <th> Ratings </th> <th> Description </th> </tr>
         <tr> <td> HTML </td> <td><span class="material-symbols-outlined">star</span><span class="material-symbols-outlined">star</span></li><span class="material-symbols-outlined">star</span></li><span class="material-symbols-outlined">star</span></li></br></td><td> some </td> </tr>
@@ -69,10 +82,14 @@
         </table>
     </div>
     </div>
+    <!-- Created a div container to encapsulate the table container
+    and button together, then put them inline with other tables on the webpage-->
     <div class="display">
       <button class="hobbies-button outfit-inside-buttons-font" onclick="hide(activity)">
       Extracurriculars/Interests:
      </button>
+      <!-- Created a table that lists out my extracurricular activities and hobbies
+      in the form of activity name and passion star level -->
       <div id="activity" class="activity display">
       <table> <tr> <th> Activity </th> <th> Passion </tr>
         <tr> <td> Running </td> <td><span class="material-symbols-outlined">star</span><span class="material-symbols-outlined">star</span><span class="material-symbols-outlined">star</span><span class="material-symbols-outlined">star</span><span class="material-symbols-outlined">star</span></td></tr>
@@ -86,6 +103,7 @@
       </table>
       </div>
     </div>
+  <!-- The footer has been added to indicate end of page -->
     <footer>
       <p class="copyright" id="animated-footer">Copyright &copy Ronak Wani. All rights reserved.</p>
     </footer>
