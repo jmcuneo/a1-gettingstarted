@@ -12,15 +12,11 @@ const server = http.createServer( function( request,response ) {
     case '/index.html':
       sendFile( response, 'index.html' )
       break
-    case '/resource/image.png':
-      var img = fs.readFileSync('./resource/image.png');
-      res.writeHead(200, {'Content-Type': 'image/png' });
-      res.end(img, 'binary');
+    case '/image.png':
+      sendFile( response, 'image.png' )
       break
-    case '/resource/theme.jpeg':
-      var img = fs.readFileSync('./resource/theme.jpeg');
-      res.writeHead(200, {'Content-Type': 'image/jpg' });
-      res.end(img, 'binary');
+    case '/theme.jpeg':
+      sendFile( response, 'theme.jpeg' )
       break
     default:
       response.end( '404 Error: File Not Found' )
