@@ -1,19 +1,76 @@
 <!doctype html>
 <html lang="en">
   <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chango&display=swap" rel="stylesheet">
     <title>CS4241 Assignment 1</title>
     <meta charset="utf-8">
+    <style>
+      p
+      {
+        border: 1px solid #3D75DB;
+        border-radius: 3px;
+      }
+      
+      body
+      {
+        font-family: Chango;
+        background-color: #D6DADC;
+      }
+      
+      li
+      {
+        list-style-type: square;
+      }
+      
+      h1
+      {
+        text-shadow:
+          -1px -1px 0 #3DA7DB,
+          1px -1px 0 #3DD9DB,
+          -1px 1px 0 #3DD9DB,
+          1px 1px 0 #3DA7DB; 
+      }
+      
+      h2
+      {
+        text-decoration:  underline;
+        text-shadow:
+          -1px -1px 0 #25DBA1,
+          1px -1px 0 #3DD9DB,
+          -1px 1px 0 #3DD9DB,
+          1px 1px 0 #25DBA1; 
+      }
+      
+      button
+      {
+        background-color: #3D43DB;
+        color: #D6DADC;
+      }
+    </style>
+    
+    <script>
+      function addToList()
+      {
+        var item = document.createElement('li');
+        item.textContent = 'This is test text';
+        var container = document.getElementById('listcontainer');
+        container.appendChild(item);
+      }
+    </script>  
+    
   </head>
   <body>
-    <h1>Information about [Your name here]</h1>
+    <h1>Information about Jayson</h1>
     <p>
-      [Self introduction]
+      Hello. My name is Jayson. I really enjoy playing and listening to music. I play piano and sing background vocals for a WPI band called Hill House.     
     </p>
     <p>
-      [Major and other information]
+      BS in Computer Science 2025
     </p>
     <p>
-      [Other things]
+      Experience: HTML (some), CSS (some), Javascript (some), python (some), Unit Testing (some), Refactoring code (some)
     </p>
 
     <h2>Experience</h2>
@@ -21,8 +78,12 @@
       Working experience
     </p>
     <ul>
-      <li>IBM/Rational</li>
-      <li>WPI</li>
+      <li>Market Basket - Bagger</li>
+      <li>WPI - Office Assistant</li>
+      <li>Clear Align - Software Engineer Intern</li>
     </ul>
+    <button onclick="addToList()">Click Me!</button>
+    <ul id="listcontainer"></ul>
+    <footer>Tested in Glitch</footer>
   </body>
 </html>
