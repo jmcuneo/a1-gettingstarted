@@ -1,4 +1,4 @@
-Joshua Cuneo http://a1-joshuacuneo.glitch.me
+Nicholas Whalen http://a1-nicholaswhalen.glitch.me
 
 This project shows ...
 
