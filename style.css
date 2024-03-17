@@ -45,8 +45,8 @@ p {
 }
 
 ul{
-    color: #F5E978;
     font-family: "Courier Prime";
     font-size: 100%;
     text-align: center;
+    list-style-position: inside;
 }
