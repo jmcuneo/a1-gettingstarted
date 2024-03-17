@@ -12,10 +12,16 @@
         font-weight: 400;
         font-style: normal;
       }
+      #cycleText {
+        font-size: 30px;
+        font-weight: bold;
+        text-align: center;
+        color: #F24405
+      }
     </style>
   </head>
   <body>
-    
+
     <div class="header">
       <h1>Connor Chartier's Portfolio</h1>
       <p><i>B.S.</i> Computer Science, <i>Minor</i> Interactive Media and Game Development </p>
@@ -85,7 +91,23 @@
       </tr>
     </table> 
 
-    <h1>Worcester Polytechnic Institute:</h1>
+    <div id="cycleText"> Worcester Polytechnic Institute:</div>
+    <script>
+      const cycleText = document.getElementById('cycleText');
+      let i = 0;
+
+      function cycleColor() {
+        const colors = ['yellow', 'orange', 'red', 'purple', 'blue', 'green'];
+        cycleText.style.color = colors[i];
+        i = i + 1;
+
+        if(i > 5) {
+          i = 0;
+        }
+      }
+      setInterval(cycleColor, 500);
+      </script>
+
     <img src="wpi.png" alt="wpi" class="center">
 
     <br>
