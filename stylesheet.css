@@ -1,0 +1,50 @@
+
+:root {
+    /* Colors chosen from wheel: */
+    --light1: #0BB9D8;
+    --light2: #0BC0E0;
+    --med1: #099CB6;
+    --med2: #077F94;
+    --dark1: #066272;
+    --dark2: #044550;
+}
+
+/* font chosen from Google Fonts */
+.rubik-font {
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
+
+body.rubik-font {
+    background-color: var(--light2);
+}
+
+button.rubik-font {
+    background-color: var(--dark2);
+    color: var(--light1);
+    width: 100px;
+    height: 50px;
+    font-size: large;
+    box-shadow: rgba(65, 65, 65, 0.51);
+    border-radius: 20px;
+}
+
+
+p {
+    font-size: 15px;
+}
+
+a.rubik-font {
+    font-size: 25px;
+    font-style: oblique;
+}
+
+header.rubik-font {
+    font-size: 8px;
+    font-style: italic;
+    font-stretch: expanded;
+    background: var(--med1);
+}
+
