@@ -118,7 +118,13 @@ http://a1-joshuacuneo.glitch.me
 This project shows ...
 
 ## Technical Achievements
-- **Styled page with CSS**: Added rules for the p, li, and a selectors...
+- **Styled page with CSS**: 
+- use "color" to change text color
+- use "height" and "width" to manage the size
+- use "margin" and "padding" to manage position
+- use "boarder-width" to add a border
+- use "font-family" to designate a font
+- **Use different Component**:
 - div: use as container to divided different section in the page
 - button: use to link to my page
 - img: use to show my color choice
