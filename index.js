@@ -1,6 +1,7 @@
 // set emoji
 document.getElementById('year').innerHTML=twemoji.parse('2️⃣0️⃣2️⃣5️⃣');
 
+// bounce image 
 var dir = [-1,1];
 var coords = [0,0];
 var speed = 5;
@@ -64,3 +65,17 @@ function play(){
 }
 
 play_interval=setInterval(play,100)
+
+// 
+
+var graphic = document.getElementsByTagName('graphic')[0];
+
+function graphicDesignIsMyPassion(){
+    graphic.classList.toggle("graphic_hide");
+}
+
+function graphicMove(){
+    graphic.classList.toggle("graphic_move");
+}
+
+setInterval(graphicMove,100)
