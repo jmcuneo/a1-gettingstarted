@@ -1,28 +1,121 @@
+
 <!doctype html>
 <html lang="en">
   <head>
-    <title>CS4241 Assignment 1</title>
+    <title>a1-connorchartier</title>  <!--Webpage title-->
     <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="style.css"> <!--reference to the .css file that houses styling information-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Madimi+One&display=swap"> <!--references the font for the entire webpage-->
+    <style>
+      body{     
+        font-family: "Madimi One", sans-serif;      
+        font-weight: 400;
+        font-style: normal;
+      }
+      #cycleText {
+        font-size: 30px;
+        font-weight: bold;
+        text-align: center;
+        color: #F24405    
+      }
+    </style> <!--references the font styling for the webpage and for the text that cycles with colors.-->
   </head>
   <body>
-    <h1>Information about [Your name here]</h1>
-    <p>
-      [Self introduction]
-    </p>
-    <p>
-      [Major and other information]
-    </p>
-    <p>
-      [Other things]
-    </p>
 
-    <h2>Experience</h2>
-    <p>
-      Working experience
+    <div class="header"> <!--Webpage Header with title and major info-->
+      <h1>Connor Chartier's Portfolio</h1> 
+      <p><i>B.S.</i> Computer Science, <i>Minor</i> Interactive Media and Game Development </p>
+    </div> 
+
+    <h1>Information about Connor Chartier</h1> <!--About me section with name and bio. Also includes major information-->
+    <p><b>
+      Hello, I'm Connor Chartier, WPI Class of 2025, from Massachusetts. 
+      On campus, I'm involved in Lambda Chi Alpha, the Student 
+      Government Association, and the Insight program as a Community 
+      Advisor! In my free time, I play intramural soccer and chess, read, 
+      and drink copious amounts of coffee and tea!</b><br>
+      <br><b><i>B.S.</i> Computer Science</b>
+      <br><b><i>Minor</i> Interactive Media and Game Development</b>
     </p>
+   
+    <h2>Experience with Computer Science Courses</h2> <!--Section that includes a list of my previous course expirences and also current-->
+    <h3>
+      Courses:
+    </h3>
     <ul>
-      <li>IBM/Rational</li>
-      <li>WPI</li>
+      <li><b>CS1101</b>: Introduction to Program Design</li>
+      <li><b>CS2022</b>: Discrete Mathematics</li>
+      <li><b>CS2102</b>: Object Oriented Design Concepts</li>
+      <li><b>CS2223</b>: Algorithms</li>
+      <li><b>CS2303</b>: Systems Programming Concepts</li>
+      <li><b>CS3013</b>: Operating Systems</li>
+      <li><b>CS3133</b>: Foundations of Computer Science</li>
+      <li><b>CS3431</b>: Database Systems I</li>
+      <li><b>CS3516</b>: Computer Networks <i>(In Progress)</i></li>
+      <li><b>CS3733</b>: Software Engineering</li>
+      <li><b>CS4241</b>: Webware <i>(In Progress)</i></li>
     </ul>
+
+    <h2>Experience with Computer Science Technologies</h2> <!--Section for my experience with CS technologies on a 0-2 scale (zero indexed)-->
+    <h3>
+      <i>Expirence Scale: 0 - None, 1 - Some, 2 - Significant</i> 
+    </h3>
+    <table> <!--Table is used for the visualization of the scale for each techonology-->
+      <tr>
+        <td>HTML</td>
+        <td>1</td>
+      </tr>
+      <tr>
+        <td>CSS</td>
+        <td>1</td>
+      </tr>
+      <tr>
+        <td>Java</td>
+        <td>2</td>
+      </tr>
+      <tr>
+        <td>JavaScript</td>
+        <td>1</td>
+      </tr>
+      <tr>
+        <td>Python</td>
+        <td>0</td>
+      </tr>
+      <tr>
+        <td>Unit Testing</td>
+        <td>2</td>
+      </tr>
+      <tr>
+        <td>Refactoring Code</td>
+        <td>2</td>
+      </tr>
+    </table> 
+
+    <div id="cycleText"> Worcester Polytechnic Institute:</div> <!--This is the text that is cycled through the colors of the color wheel-->
+    <script>
+      const cycleText = document.getElementById('cycleText'); //declared the cycleText
+      let i = 0;  //index for counting the color array
+
+      function cycleColor() {     //function tat cycles the color of the "Worcester Polytechnic Institute" text
+        const colors = ['yellow', 'orange', 'red', 'purple', 'blue', 'green'];    //color array for color wheel
+        cycleText.style.color = colors[i];      //changes the color of the text based on the current index
+        i = i + 1;    //increments the index
+
+        if(i > 5) {   //if max is reached, reset index to zero
+          i = 0;
+        }
+      }
+      setInterval(cycleColor, 500);     //interval for color change - 500 ms -> .5 seconds
+      </script>
+
+    <img src="wpi.png" alt="wpi" class="center">    <!--image within directory "wpi.png"-->
+
+    <br>
+
+    <div class="footer">    <!--footer that includes my name as the webpage author and an embedded link to my GitHub-->
+      <p>Author: Connor Chartier:</p>
+      <p><a href="https://github.com/ctchartier">Connor Chartier's Github</a></p>
+    </div> 
+
   </body>
 </html>
