@@ -1,0 +1,72 @@
+
+/* Gives the table and its children a black border */
+table, td, tr{
+    border:1px solid black;
+}
+
+/* Aligns all text in the body to center, sets bg color */
+body {
+    text-align: center;
+    background-color:#332712;
+}
+
+/* CSS Stylings for the Skills/Experience table */
+.skillsTable {
+    width:49%;
+    float:right;
+    background-color: #CABA9F;
+    height:400px;
+}
+
+/* CSS Stylings for the Courses taken list */
+.coursesTable {
+    width:49%;
+    float:left;
+    background-color: #CABA9F;
+    height:400px;
+}
+
+/* sets the margin for table and video to auto */
+table, video {
+    margin:auto;
+}
+
+/* Removes the bullet point from the list items */
+ul {
+    list-style-type: none;
+}
+
+/* CSS Stylings for the header and footer */
+header, footer{
+    background-color: #756850;
+    width:100%;
+    padding:3em;
+}
+
+/* Sets the bg color for the full width information at the top */
+.topInformation {
+    background-color: #F5D398;
+}
+
+/* Sets the bg color and width for the figcaption */
+figcaption {
+    background-color: #A09787;
+    width:"auto";
+}
+
+/* Adds some manual padding for the combination of the skills table and courses list */
+.outer {
+    height:425px;
+}
+
+/* Sets the base image width to 2% */
+img {
+    width:2%;
+}
+
+/* Adamina Regular CSS requirements from Google Fonts */
+.adamina-regular {
+    font-family: "Adamina", serif;
+    font-weight: 400;
+    font-style: normal;
+}
