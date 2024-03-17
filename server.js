@@ -10,10 +10,10 @@ const server = http.createServer( function( request,response ) {
     case '/index.html':
       sendFile( response, 'index.html' )
       break
-    case '/style.css':
+    case '/style.css':              //added extra case to allow for the sytle.css file to be read
       sendFile( response, 'style.css' )
       break
-    case '/wpi.png':
+    case '/wpi.png':                //added extra case to input the wpi.png image for the webpage
       sendFile(response, 'wpi.png')
       break
     default:

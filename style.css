@@ -1,5 +1,5 @@
 /* 
-Adobe Color Swatches in Hex:
+Adobe Color Swatches in Hex (Also can be found in the adobe_colors.png image in repo):
 Color 1: #348888
 Color 2: #22BABB
 Color 3: #9EF8EE
@@ -8,27 +8,27 @@ Color 5: #F24405
 */
 
 body {
-    background-color: #348888;
+    background-color: #348888;      /*the background color of the website*/
 }
 
 h1 {
     text-align: center;
-    color: #F24405;
+    color: #F24405;     /*default color of the header 1s*/
 }
 
 h2 {
     text-align: left;
-    color: #22BABB;
+    color: #22BABB;     /*default color of the header 2s*/
 }
 
 h3 {
     text-align: left;
-    color: #9EF8EE;
+    color: #9EF8EE;      /*default color of the header 3s*/
 }
 
 p {
-    color: #FA7F08;
     text-align: center;
+    color: #FA7F08;         /*default color of the header p sections*/
 }
 
 i {
@@ -39,21 +39,21 @@ b {
     font-weight: bold;
 }
 
-.center {
+.center {        /*type for the "wpi.png" image to ensure that it is only 50% of the width and auto set to the middle of the webpage*/
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 50%;
 }
 
-.header {
+.header {         /*styling for the header*/
     padding: 50px;
     text-align: center;
     background: #22BABB;
     font-size: 25px;
 }
 
-.footer {
+.footer {           /*styling for the footer*/
     padding: 20px;
     text-align: center;
     background: #22BABB;
@@ -61,13 +61,9 @@ b {
 }
 
 table {
-    border: 1px solid;
-}
-
-th {
-    border: 1px solid;
+    border: 1px solid;          /*styling table itself*/
 }
 
 td {
-    border: 1px solid;
+    border: 1px solid;          /*styling for the table cells*/
 }
