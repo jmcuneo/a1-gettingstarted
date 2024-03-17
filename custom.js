@@ -7,6 +7,13 @@ activity.style.display = "none";
 let isHiddenTable = true;
 let isHiddenTechStack=true;
 let isHiddenActivity=true;
+/**
+ * If the table container is hidden then, shows the table container when button clicked.
+ * Otherwise, hides the table. The table is hidden or not is detected by using a boolean flag.
+ * @param input sent by table container that needs to be hidden or shown
+ * @return nothing
+ */
+
 function hide(input){
     if(input===courseTable) {
         if (isHiddenTable) {
@@ -38,11 +45,19 @@ function hide(input){
         }
     }
 }
+/**
+ * Animates the footer of the webpage. The footer floats as the postion of the footer is incremented by
+ * the velocity in the multiples of 3. When the footer reaches the side of the page, the position is
+ * again set to zero.
+ * @return nothing
+ */
 var animatedFooter = document.getElementById('animated-footer');
 var position = 0;
 var velocity = 3;
 function animate() {
     position += velocity;
+    //The offsetWidth and more 50 px have been subtracted from the innerWidth to
+    // avoid the side scrollbar when the footer reaches the side of the page.
     if (position > window.innerWidth-animatedFooter.offsetWidth-50) {
         position = 0;
     }
