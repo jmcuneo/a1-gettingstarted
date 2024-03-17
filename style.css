@@ -14,21 +14,21 @@ p {
 h1 {
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
+    color: royalblue;
+    margin-left: 2vw;
+    text-decoration: underline;
 }
 
 h2 {
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
+    color: royalblue;
+    margin-left: 2vw;
+    text-decoration: underline;
 
 }
 
 ul {
     margin-left: 2vw;
 }
-h1 {
-    margin-left: 2vw;
-}
 
-h2 {
-    margin-left: 3vw;
-}
