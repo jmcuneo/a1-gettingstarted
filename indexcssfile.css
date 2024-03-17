@@ -1,0 +1,146 @@
+:root {
+    --color-primary: #317FF5; /* Color for info about me container */
+    --color-secondary: #DFEEF4; /* Background color for other containers */
+    --color-accent: #31BDF5; /* Border color for all containers */
+    --color-blink1: #626EF5; /* First color for blinking animation */
+    --color-blink2: #5DF5BC; /* Second color for blinking animation */
+    --color-blink3: #31F5EE; /* Third color for blinking animation */
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    font-size: 9px;
+    text-align: center;
+}
+
+#currentDateTime {
+    display: inline-block;
+    font-weight: normal;
+}
+
+.container {
+    overflow: auto;
+    width: 100%;
+    background: var(--color-secondary); /* Background color for other containers */
+    border-radius: 5px;
+}
+
+.container {
+    background-color: var(--color-primary); /* Background color for the container */
+}
+
+.h1 {
+    top: 20px;
+    left: 0;
+    text-align: center;
+    animation: wiggle 4s ease-in-out infinite alternate, blink 2s infinite;
+    color: var(--color-primary); /* Color for info about me container */
+}
+
+/* Animation of h1 from side to side */
+@keyframes wiggle {
+    from {
+        transform: translateX(-30%);
+    }
+    to {
+        transform: translateX(30%);
+    }
+}
+
+/* Blinking animation */
+@keyframes blink {
+    0%, 33% { color: var(--color-blink1); } /* First color for blinking animation */
+    33%, 66% { color: var(--color-blink2); } /* Second color for blinking animation */
+    66%, 100% { color: var(--color-blink3); } /* Third color for blinking animation */
+}
+
+.body {
+    background-color: var(--color-secondary); /* Background color for the container with flags */
+    border: 1px solid var(--color-accent); /* Border color for all containers */
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.body p {
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.body ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    font-size: 20px;
+}
+
+.body {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.flag {
+    width:200px;
+    height: auto;
+}
+
+.flag1,
+.flag2 {
+    margin-right: 20px;
+}
+
+.experience-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background: var(--color-secondary); /* Background color for the experience container */
+    flex-direction: column;
+    margin-top: 5px;
+    justify-content: center;
+    flex: 1;
+    margin-right: 20px;
+}
+
+.experience-list {
+    text-align: center;
+}
+
+.experience-list ul {
+    text-align: left;
+}
+
+.flex-container {
+    display: flex;
+}
+
+.experience-container,
+.article-container {
+    flex: 1;
+    padding: 5px;
+    background-color: var(--color-secondary); /* Background color for the article container */
+    border: 1px solid var(--color-accent); /* Border color for all containers */
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.experience-container {
+    margin-right: 20px;
+}
+
+footer {
+    margin-left: 20px;
+}
+
+article {
+    margin: 20px;
+}
