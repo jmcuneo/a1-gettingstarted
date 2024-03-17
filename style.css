@@ -6,8 +6,12 @@
   font-style: normal;
 }
 
+.tenor-gif-embed {
+  display: inline-block;
+}
+
 body {
-  background-color: blueviolet;
+  background-color: #6B45D9;
   text-align: center;
   text-decoration: wavy;
 }
@@ -15,4 +19,6 @@ body {
 ul, ol {
   text-align: center;
   list-style-position: inside;
+  background-color: #D94598;
+  display: inline-block;
 }
