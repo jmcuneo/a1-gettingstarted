@@ -2,7 +2,9 @@
 
 
 
+Link to Glitch website: https://a1-basharalqassar.glitch.me/
 
+Link to Github Repo: https://github.com/DocterBuster/a1-basharalqassar 
 
 
 CSS StyleSheet Rules (each bullet is what I counted as a rule):
