@@ -1,18 +1,44 @@
 body {
-    background-color: gray;
+    background-color: #8F733F;
+  }
+  .roboto-slab-Value {
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+  }
+  header{
+    text-align: center;
   }
   h1 {
-    color: blue;
-    text-align: center;
+    color: #FEFFC7;
+    font-family: roboto-slab-Value ;
   }
+ 
   h2 {
-    color: lightblue
+    color: #25800D;
+    text-align: center;
   }
   p {
-    color: red;
-    text-align: center;
+    color: #B4F56A;
   }
-  ul {
+  section { 
+    background-color: #F9D78E;
+    border: double medium; 
+    margin: 2em; 
+} 
+section p{
+    color: #25800D;
     text-align: center;
-  }
-  
+}
+img{
+    display: block;
+    width: 50.0vw;
+    height: auto;
+    margin: auto;
+}
+figure.colors{
+
+    text-align: center;
+}
+
