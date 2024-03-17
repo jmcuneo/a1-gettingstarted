@@ -1,28 +1,85 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <title>CS4241 Assignment 1</title>
-    <meta charset="utf-8">
-  </head>
-  <body>
-    <h1>Information about [Your name here]</h1>
-    <p>
-      [Self introduction]
-    </p>
-    <p>
-      [Major and other information]
-    </p>
-    <p>
-      [Other things]
-    </p>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CS4241 Assignment 1</title>
+  <link rel="stylesheet" href="indexcssfile.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"> <!-- Google fonts-->
+</head>
+<body>
+<header>
+  <h1><span id="currentDateTime"></span></h1>
+</header>
 
-    <h2>Experience</h2>
-    <p>
-      Working experience
-    </p>
+<div class="container">
+  <div class="h1-container">
+    <h1 class="h1">Information about Andres Negron</h1>
+  </div>
+</div>
+
+<div class="body">
+  <div class="flag1">
+    <img src="images/VenezuelanFlag.png" alt="Venezuelan Flag" class="flag">
+  </div>
+  <div class="body-text">
+    <p>I'm a Senior at WPI — Class of 2024.</p>
+    <p>Major: Computer Science<br>Minor: Financial Technology</p>
+    <p>I'm Venezuelan and Spanish.</p>
+    <p>Hobbies: I love to write, I'm currently writing my third book.</p>
+  </div>
+  <div class="flag2">
+    <img src="images/SpanishFlag.png" alt="Spanish Flag" class="flag">
+  </div>
+</div>
+
+<div class="flex-container">
+  <div class="experience-container">
+    <div class="experience-section">
+      <h2>Experience</h2>
+      <div class="experience-list">
+        <p>Internships:</p>
+        <ul>
+          <li>Legendsoft</li>
+          <li>Mercantil C.A. Universal Bank</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <!-- using the article tag for longer form text -->
+  <div class="article-container">
+    <article>
+      <p style="font-weight: bold">Previous CS courses at WPI:</p>
+      <li>1101, 2102, 2022, 2223, 2303, 2011, 3043, 3733, 3133, 3431, 3013, 4341, 4536, 4120, 4233, 4342. </li>
+      <p style="font-weight: bold">Experience with  programming languages:</p>
+      <li>HTML, CSS, JavaScript, C: from my MQP where we created a web-based app for Arduino circuit building.</li>
+      <li>Java, Python, Unit testing, Refactoring code: from most WPI CS courses (especially during 'Software Engineering') and high school.</li>
+    </article>
+  </div>
+</div>
+
+<!-- I added this to try out the external link tag -->
+<footer>
+  <p>Contact Information:</p>
+  <nav>
     <ul>
-      <li>IBM/Rational</li>
-      <li>WPI</li>
+      <li><a href="mailto:test@email.com">test@email.com</a></li>
     </ul>
-  </body>
+  </nav>
+</footer>
+
+<script>
+  // Date and time on the header logic
+  function updateDateTime() {
+    const currentDateTime = document.getElementById('currentDateTime');
+    const currentDate = new Date();
+    const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric', hour: 'numeric', minute: 'numeric', second: 'numeric' };
+    const formattedDateTime = currentDate.toLocaleDateString('en-US', options);
+    currentDateTime.textContent = formattedDateTime;
+  }
+  updateDateTime();
+  setInterval(updateDateTime, 1000); /* Updatess it every second */
+</script>
+
+</body>
 </html>

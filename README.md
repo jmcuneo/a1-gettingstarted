@@ -1,3 +1,32 @@
+# CS4241 Assignment 1 README - Andres Negron
+
+LINK: https://glitch.com/~a1-andresnegron
+
+## Basic Requirements
+Naming scheme of modified files forked from repo: index.html, indexcssfile.css, server.js.
+
+index.html edited and properly rendered.
+
+All changes pushed to GitHub: All changes made to the files were pushed to the GitHub repository.
+
+Project deployed to Glitch.
+
+## Technical Achievements
+CSS Styling: including background colors, border colors, font weights, animations, text color blinking, padding and margins.
+
+JavaScript Animation: the title moves from side to side and blinks between 3 colors.
+
+Semantic HTML Tags: such as header, footer, nav, ul, li, article, section, etc.
+
+## Design Achievements
+
+Color Palette: A color palette was created using color.adobe.com, and added to the CSS file using :root.
+
+Google Fonts: the Roboto font.
+
+
+# ASSIGNMENT INSTRUCTIONS:
+
 Assignment 1 - Hello World: Basic Deployment w/ Git, GitHub, Glitch
 ===
 
