@@ -1,0 +1,34 @@
+/* Google Fonts Roboto link */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 200;
+}
+
+p {
+    font-weight: 200;
+    margin-left: 3vw;
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+h2 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+
+}
+
+ul {
+    margin-left: 2vw;
+}
+h1 {
+    margin-left: 2vw;
+}
+
+h2 {
+    margin-left: 3vw;
+}
