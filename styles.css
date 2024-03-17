@@ -1,3 +1,4 @@
+/** For webpage design**/
 body {
     background-color: rgba(93, 16, 210, 0.54);
     color: black;
@@ -5,36 +6,45 @@ body {
     font-weight: 400;
     font-style: normal;
 }
+/** For paragraph styling**/
 p{
     font-size: 25px;
 }
+/** For header styling**/
 h1{
     text-align: center;
     font-size: 30px;
     text-decoration: underline;
 }
+/** For table styling**/
 table{
     margin-top: 50px;
     margin-bottom: 50px;
     width: 400px;
 }
+/** For table header styling**/
 th{
     text-align: left;
 }
+/** For styling that should apply to table, table header, and table data cell**/
 table, th, td{
     border: 3px solid black;
     padding: 10px;
 
 }
+/** To apply styling to even table rows**/
 tr:nth-child(even){
     background: greenyellow;
 }
+/** To apply styling to odd table rows**/
 tr:nth-child(odd){
     background: burlywood;
 }
+/** To make div containers inline**/
 .display{
     display:inline-block;
 }
+/** For button styling **/
 button{
     padding-top: 15px;
     padding-bottom: 15px;
@@ -45,13 +55,16 @@ button{
     width: 350px;
     box-shadow: 5px 5px 15px black;
 }
+/** For text styling and alignment **/
 .align{
     text-align: center;
 }
+/** For anchor element styling **/
 a{
     text-decoration: underline;
     color: #0c19b0;
 }
+/** For Outfit Google font styling **/
 .outfit-inside-buttons-font{
     font-family: "Outfit", sans-serif;
     font-optical-sizing: auto;
@@ -60,12 +73,15 @@ a{
     text-decoration: black;
     font-style: normal;
 }
+/** For extracurricular activities' styling **/
 .hobbies-button{
     background-color: red;
 }
+/** For button styling when hovered over the button **/
 button:hover{
     opacity: 0.8;
 }
+/** For extracurricular activities styling **/
 .experience-button{
     background-color: #50f31a;
     display: block;
@@ -74,17 +90,21 @@ button:hover{
     margin-right: auto;
     margin-bottom: 30px;
 }
+/** For Computer Science Courses button styling **/
 .CS-courses-button{
     background-color: #18b8e0;
     vertical-align: center;
 }
+/** For Web Technologies button styling **/
 .web-tech-stack-button{
     background-color: #ffd500;
     vertical-align: center;
 }
+/** For Education paragraph styling **/
 .Education{
     font-size: 25px;
 }
+/** For Google Star Symbol styling **/
 .star {
     font-variation-settings:
             'FILL' 1,
@@ -92,12 +112,13 @@ button:hover{
             'GRAD' 200,
             'opsz' 24
 }
-
+/** For footer styling **/
 footer{
     position: relative;
     text-align: center;
     white-space: nowrap;
 }
+/** For footer paragraph styling **/
 .copyright{
     position: absolute;
 }
