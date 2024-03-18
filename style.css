@@ -9,6 +9,7 @@
 
 body {
     background-color: #426B63;
+    font-family: elsie;
 }
 
 h1 {
@@ -32,9 +33,6 @@ figure {
     text-align: center;
     color:#E6CD7E;
     border-color: #DF65E6;
-    font-family: elsie;
-  }
-  body {
     font-family: elsie;
   }
 
