@@ -42,6 +42,7 @@
 body {
     margin: 0px;
     align-content: center;
+    background-color: var(--white);
 }
 
 /* Styling for each section */
