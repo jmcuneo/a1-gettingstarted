@@ -4,28 +4,47 @@
 <head>
   <title>CS4241 Assignment 1</title>
   <meta charset="utf-8">
+  <!-- link to the Google Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap" rel="stylesheet">
+  <!-- link to the external CSS file -->
+  <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-  <h1>Information about Rohit Tallapragada</h1>
-  <p>
-    I'm Rohit, I'm a sophomore and I'm class of 2026. I'm from the Bay Area, California. I'm a transfer student from LMU
-    in LA, this is technically my first year here at WPI. My hobbies are video editing and baking, and I'm a big fan of
-    Metal Gear Solid and Jujutsu Kaisen.
-  </p>
-  <p>
-    I'm majoring in Computer Science and I'm also planning on doing an IMGD minor.
-  </p>
+  <header>
+    <h1>Information about Rohit Tallapragada</h1>
+    <h2 id="animate">Click me!</h2>
 
-  <h2>Experience</h2>
-  <ul>
-    <li>Systems Programming, Algorithms, Operating Systems, Object Oriented Design & Analysis</li>
-  </ul>
-  <ul>
-    <li> HTML (none), CSS (none), Java (a lot), JavaScript (some), Python (a lot), Unit testing (some), Refactoring code
-      (some)</li>
-  </ul>
+  </header>
 
+
+  <section id="intro">
+    <p>
+      I'm Rohit, a sophomore and class of 2026 from the Bay Area, California. I'm a transfer student from LMU
+      in LA, so this is my first year here at WPI.
+    <p>
+      I'm majoring in Computer Science and planning to get an IMGD minor.
+    </p>
+  </section>
+
+  <section id="experience">
+    <h2>Experience</h2>
+    <ul>
+      <li>Systems Programming, Algorithms, Operating Systems, Object Oriented Design & Analysis</li>
+      <li>HTML (none), CSS (none), Java (a lot), JavaScript (some), Python (a lot), Unit testing (some), Refactoring
+        code (some)</li>
+    </ul>
+  </section>
+
+  <aside>
+    <h3>Hobbies & Interests</h3>
+    <p>Video editing, baking, <a href="https://en.wikipedia.org/wiki/Metal_Gear_Solid" target="_blank">Metal Gear
+        Solid</a>, <a href="https://en.wikipedia.org/wiki/Jujutsu_Kaisen" target="_blank">Jujutsu Kaisen</a></p>
+  </aside>
+
+  <script src="script.js"></script>
 </body>
 
 </html>
