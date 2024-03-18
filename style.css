@@ -4,21 +4,36 @@
   font-optical-sizing: auto;
   font-weight: 200;
   font-style: normal;
+  background-color: #4F45D9;
+  display: block;
+  text-align: center;
 }
 
 .tenor-gif-embed {
   display: inline-block;
 }
 
+.first-color {
+  background-color: #CC45D9;
+}
+
+.second-color {
+  background-color: #9B45D9;
+}
+
+button {
+  color: #A14EDB;
+}
+
 body {
-  background-color: #6B45D9;
+  background-color: #D94598;
   text-align: center;
-  text-decoration: wavy;
+  text-decoration-line: underline;
 }
 
 ul, ol {
   text-align: center;
   list-style-position: inside;
-  background-color: #D94598;
+  background-color: #6B45D9;
   display: inline-block;
 }
