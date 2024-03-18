@@ -50,7 +50,7 @@ This assignment requires that your website is both contained in a GitHub reposit
 2. Fork this repo and then import it directly to Glitch, use the Glitch editor to make changes, and then export your repo from Glitch back to GitHub.
 3. Same as #1, but instead of importing from Github to Glitch you just upload the files (or copy/paste) them directly to Glitch.
 
-## Option 1 - Clone to computer, push to Github, import to Glitch (recommended)
+### Option 1 - Clone to computer, push to Github, import to Glitch (recommended)
 
 1. Fork the starting assignment code in GitHub. This repo contains the following:
     * The server code, `server.js`
@@ -81,13 +81,16 @@ This assignment requires that your website is both contained in a GitHub reposit
 	* Ignore any messages about conflicts. You do not need to resolve them.
 	* Make the title of your pull request "Pull Request for NAME" (ex. "Pull Request for Joshua Cuneo")
 
-## Option 2 - Fork repo and import to Glitch, edit on Glitch, and then export back to GitHub
+### Option 2 - Fork repo and import to Glitch, edit on Glitch, and then export back to GitHub
 Most of these steps are the same as option 1, except that you being by creating a new project Glitch using this repo as a staring point (just choose New Project > Import from GitHub for this and then paste in the link to your repo). At the end, you can export your Glitch project to GitHub by [following these instructions](https://www.youtube.com/watch?time_continue=77&v=aWJFbtrgW4E&feature=emb_logo). *Note that the location of the projecct export feature in Glitch has moved from what they show in this video.* It's now located in Tools > Import and Export (tools is located in the bottom left of the Glitch editor).
 
-## Option 3 - Clone to computer, edit locally, push to GitHub, upload to Glitch
+### Option 3 - Clone to computer, edit locally, push to GitHub, upload to Glitch
 This is the same as option 1, except that for step 6 (Deploy to Glitch) you simply upload each file to your Glitch repository (using New File > Upload a File).
 
-## Note about alternative hosting
+### Note about images
+If you are having trouble getting images to work, [check out this page](https://mica-web.github.io/learn/workflows/add-img-glitch).
+
+### Note about alternative hosting
 Our use of Glitch in this class is there as a convenience for you. However, if you are already familiar with hosting through other services--or if you would like to self-host--that's perfectly fine so long as the website in question meets all of the assignment requirements. Note that we will not be able to help you if you run into issues on other hosting platforms, and you will be responsible for making sure the website stays up and running for the duration of the term. For A1, you will also still need to create a pull request with your name and your website's URL.
 
 Naming and URL Scheme
