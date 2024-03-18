@@ -1,0 +1,84 @@
+#title {
+	font-family: 'UnifrakturCook';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 36px;
+	text-align: center;
+}
+
+h1,
+h2,
+h3 {
+	font-family: 'UnifrakturCook';
+	font-style:normal;
+	font-weight: 700;
+	line-height: 1.2;
+}
+
+.imgdiv {
+	max-width: 650px;
+	width: 60em;
+	font-size: 14px;
+	margin-top: 10px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#site {
+	max-width: 700px;
+	font-size: 18px;
+	margin: 40px auto;
+	padding: 0 20px;
+	background-color: #FFFFFF;
+	border-radius:25px;
+	overflow:hidden;
+}
+
+img {
+	max-width: 100%;
+	max-height: 100%;
+	border-radius: 25px
+}
+
+footer {
+	font-size: 14px;
+	display: flex;
+	width: 100%;
+	justify-content: space-evenly;
+	background-color: #b3b3b3;
+	margin-right: -40px;
+	margin-left: -40px;
+	padding-left: 40px;
+	padding-right: 40px;
+}
+
+header {
+	background-color: #b3b3b3;
+	margin-top: -20px;
+	margin-left: -20px;
+	margin-right: -20px;
+	padding-top: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 5px;
+}
+
+body {
+	background-color: #6f6f6f;
+}
+
+table, th, td {
+	border: 1px solid;
+	border-collapse: collapse;
+
+}
+
+table {
+	width: 100%;
+}
+
+#tornado {
+	width:250px;
+	position:absolute;
+	visibility: hidden;
+}
