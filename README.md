@@ -12,4 +12,4 @@ This project shows ...
 - **Used the UnifrakturCook Font from Google Fonts**: Used for h# tags. Ran into some difficulties with actually using the font once linked to my site. At first the font refused to render for me, and I was confused as to why my seemingly correct styling was not working. I eventually found that I had made a typo in my link to Google's servers.
 - **Used a color palette from Adboe**: See color palette below. While actually using the colors themselves was not particularly hard, it was difficult to decide on a final color palette. I finally decided on a simple color palette from the adobe 'Shades' option, which allowed for a visual look (with various shades of gray) that was pleasing to my eyes.
 
-!(https://i.postimg.cc/g0sqtKzQ/adobecolor.png)
+![Adobe Color Palette](https://i.postimg.cc/g0sqtKzQ/adobecolor.png)
