@@ -1,13 +1,14 @@
 article {
     color: #6AAADB;
     text-align: center;
-    }
+}
 
 .centered-list {
     text-align: center;
 }
 
 ul {
+    color: #21C5DB;
     display: inline-block;
     text-align: left;
     padding: 0;
@@ -38,10 +39,6 @@ h2 {
     color: #2150DB;
 }
 
-ul{
-    color: #21C5DB;
-}
-
 table, th, td {
     border:1px solid black;
     margin-left: auto;
@@ -51,7 +48,6 @@ table, th, td {
 
 .button {
     font-size: 20px;
-    /*color: #6AAADB;*/
     color: #21DBB4;
     font-weight: bold;
     background-color: grey;
