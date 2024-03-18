@@ -1,0 +1,40 @@
+h1, h2 {
+    font-family: "Elsie", serif;
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: underline;
+    color: #003261
+  }
+
+  #element {
+    opacity: 1;
+    transition: opacity 0.5s;
+  }
+
+  body {
+    background-color: #bdd3f3;
+  }
+  
+  header {
+    background-color: #9bb7e0;
+    padding: 10px;
+    text-align: right;
+    font-style: italic;
+  }
+
+  footer {
+    background-color: #9bb7e0;
+    padding: 10px;
+    text-align: center;
+  }
+
+  table {
+    border: 1px solid;
+    border-collapse: collapse;
+  }
+
+  th, td {
+    padding: 5px;
+    border: 1px solid;
+    text-align: left;
+  }
