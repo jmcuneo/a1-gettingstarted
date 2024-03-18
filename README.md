@@ -1,7 +1,7 @@
 Seth Frank
-http://a1-joshuacuneo.glitch.me
+http://a1-sethfrank.glitch.me
 
-This project shows ...
+This project shows a basic website displaying information about myself and what I do at WPI. It involved learning basics of HTML, CSS and JavaScript and implementing many features into it.
 
 ## Technical Achievements
 - **Styled page with CSS**: 
