@@ -1,5 +1,7 @@
 # CS 4241 Assignment 1
 
+**William Huang - www.whuang214.github.io/a1-WilliamHuang/**
+
 This project is a simple webpage that introduces myself. It includes a brief description of previous computer science courses I've taken at WPI, some previous professional experiences and software development projects I've worked on. It can be viewed at with [this](https://whuang214.github.io/a1-gettingstarted/) link.
 
 ## Technical Achievements
