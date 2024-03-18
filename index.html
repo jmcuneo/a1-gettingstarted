@@ -1,9 +1,122 @@
 <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CS4241 Assignment 1</title>
+    <style>
+        /* Global styles */
+        body {
+            /* Fonts from google, using Arial here */ 
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        /* Creating the container */ 
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        /* Navbar styles */
+        nav {
+            background-color: hsl(0, 0%, 20%);
+            color: #fff;
+            padding: 10px;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav li {
+            margin-right: 20px;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 5px 10px;
+        }
+
+        nav a:hover {
+            background-color: #2c1616;
+        }
+
+        /* Main content styles */
+        .main {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .heading {
+            color: #1c0099;
+            font-size: 75px;
+            font-weight: bold;
+            overflow: hidden; /* Starts from beginning */
+            border-right: 2px solid #1c0099; /* Cursor */
+            white-space: nowrap; /* Prevents the text from wrapping */
+            animation: typingAnimation 5s steps(50, end) 1; /* Times animation runs; can do infinite */
+        }
+
+        .bio {
+            font-style: bold;
+            font-size: 20px;
+            margin-top: 20px;
+        }
+
+        footer {
+            background-color: #1c0099;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            margin-top: 20px;
+        }
+/* typewriter animation */ 
+        @keyframes typingAnimation {
+            from { width: 0; }
+            to { width: 100%; }
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#Photo">Photo</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <div class="main">
+            <div class="heading">Information about Owen Lehane</div>
+
+            <div class="bio">
+                <h2 id="about" >About</h2>
+                I am a fourth year student at WPI from nearby Canton, MA. I played football and club hockey at WPI all four years which have sadly come to a close. I am a member of Sigma Phi
+                Epsilon Men's Fraternity. I am an NROTC midshipman, and upon my graduation this summer, I will be commissioning
+                into the US Navy and serving as a Surface Warfare Officer on board the USS Jack H Lucas out of San Diego.
+            </div>
+        </div>
+
+        <p>
+            <div class="heading">Major: Computer Science</div>
+        </p>
+        <p>
+            In my very little free time that I have, I enjoy playing Xbox, golf, weightlifting, running, swimming, hiking, and spending time
+            with my friends and family.
+        </p>
     <style>
         /* Global styles */
         body {
