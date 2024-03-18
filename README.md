@@ -118,7 +118,9 @@ http://a1-joshuacuneo.glitch.me
 This project shows ...
 
 ## Technical Achievements
-- **Styled page with CSS**: Added rules for the p, li, and a selectors...
+- Used CSS to set a background colors, add border, and center text.
+- used JavaScript to animate a box at the bottom of the screen
+- added a link in my description. 
 
 ## Design Achievements
 - **Used the Roboto Font from Google Fonts**: I used Roboto as the font for the primary copy text in my site.
