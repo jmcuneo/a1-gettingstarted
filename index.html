@@ -1,28 +1,116 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <title>CS4241 Assignment 1</title>
-    <meta charset="utf-8">
-  </head>
-  <body>
-    <h1>Information about [Your name here]</h1>
-    <p>
-      [Self introduction]
-    </p>
-    <p>
-      [Major and other information]
-    </p>
-    <p>
-      [Other things]
-    </p>
 
-    <h2>Experience</h2>
-    <p>
-      Working experience
-    </p>
-    <ul>
-      <li>IBM/Rational</li>
-      <li>WPI</li>
-    </ul>
-  </body>
+<head>
+  <title>William Huang - CS4241 Assignment 1</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <h1>Information about William Huang</h1>
+  </header>
+
+  <main>
+    <section>
+      <h2>About Me</h2>
+      <p>
+        Hi there! My name is William Huang and I am
+        Pursuing a Bachelor of Science (BS) in Computer Science at Worcester Polytechnic Institute (WPI),
+        expected to graduate in May 2024
+      </p>
+    </section>
+
+    <section>
+      <h2>Previous Computer Science Courses</h2>
+      <ul id="scrollableList">
+        <li>CS 1101: Introduction to Programming</li>
+        <li>CS 2102: Object-Oriented Design</li>
+        <li>CS 2301: Systems Programming Concepts</li>
+        <li>CS 2011: Introduction to Machine Organization and Assembly Language</li>
+        <li>CS 3013: Operating Systems</li>
+        <li>CS 2223: Algorithms</li>
+        <li>CS 3133: Foundations of Computer Science</li>
+        <li>CS 3431: Database Systems I</li>
+        <li>CS 3733: Software Engineering</li>
+        <li>CS 3043: Social Implications of Information Processing</li>
+        <li>CS 4341: Artificial Intelligence</li>
+        <li>CS 4432: Database Systems II</li>
+        <li>CS 3801: Introduction to Cryptography and Communication Security</li>
+        <li>CS 4233: Object-Oriented Analysis and Design</li>
+        <li>CS 4241: Webware</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Skills</h2>
+      <p>My experience with the following technologies and methods:</p>
+      <ul id="scrollableList">
+        <li>HTML - A lot</li>
+        <li>CSS - A lot</li>
+        <li>Java - A lot</li>
+        <li>JavaScript - A lot</li>
+        <li>Python - A lot</li>
+        <li>Unit Testing - Some</li>
+        <li>Refactoring Code - A lot</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Experience</h2>
+      <ul>
+        <li><strong>Cloud Platform Engineer Intern/Co-Op</strong> at State Street, Quincy MA (October 2023 -
+          December 2023): Developed a comprehensive compliance visualization dashboard, crafted complex queries
+          using Azure Resource Graph, and implemented Agile Scrum methodology.</li>
+        <li><strong>Research Assistant</strong> at Harvard Business School, Cambridge MA (May 2021 - September
+          2022): Automated the collection of large datasets for research analysis using the Selenium Python
+          Library.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Software Projects</h2>
+      <ul>
+        <li><strong>ReactGPTBot:</strong> An interactive chatbot application leveraging OpenAI's GPT-3.5-Turbo
+          model, built with a React.js frontend and Node.js/Express.js backend. Integrates MongoDB with
+          Mongoose and AWS S3 for efficient data management and operations.</li>
+        <li><strong>Hospital Workflow Application:</strong> Served as Back-End technical lead in a student team
+          project to create a medical equipment tracking and workflow application for Brigham & Women's
+          Hospital, using Java, JavaFX, Apache Derby, and SQL.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Color Palette</h2>
+      <img src="imgs/colors.png" alt="colors" id="color_img">
+    </section>
+
+
+  </main>
+</body>
+
+<script>
+  // simple fade in effect
+  document.addEventListener('DOMContentLoaded', (event) => {
+    const mainContent = document.querySelector('main');
+    mainContent.style.opacity = 0;
+    let opacityLevel = 0;
+
+    const fadeIn = setInterval(() => {
+      if (opacityLevel >= 1) {
+        clearInterval(fadeIn);
+      } else {
+        opacityLevel += 0.05;
+        mainContent.style.opacity = opacityLevel;
+      }
+    }, 50);
+  });
+</script>
+
 </html>
