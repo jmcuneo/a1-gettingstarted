@@ -2,18 +2,35 @@
 <html lang="en">
   <head>
     <title>CS4241 Assignment 1</title>
+    <link rel="stylesheet" href="main.css">
     <meta charset="utf-8">
   </head>
-  <body>
-    <h1>Information about [Your name here]</h1>
+  <body id="bg">
+    <h1>Information about Patrick Hunter</h1>
     <p>
-      [Self introduction]
+      Class of 2024
     </p>
     <p>
-      [Major and other information]
+      CS & ECE. I've taken most of the CS courses tbh
     </p>
     <p>
-      [Other things]
+      <h2>Fun Facts:</h2>
+      <table>
+        <tr>
+          <td>I can actually digest wood!</td>
+          <td class="google">This is using a google font.</td>
+        </tr>
+        <tr>
+          <td>AND this is using a color palette!</td>
+          <td class="palette">
+            <img src="theme.jpeg" alt="Color Theme"></img>
+          </td>
+        </tr>
+        <tr>
+          <td>Note: <b style="color: #536E70">#536E70</b> should be <b>#26393A</b> instead.</td>
+          <td><button id="circle" onclick="movesidetoside();"></button></td>
+        </tr>
+      </table>
     </p>
 
     <h2>Experience</h2>
@@ -21,8 +38,29 @@
       Working experience
     </p>
     <ul>
-      <li>IBM/Rational</li>
       <li>WPI</li>
+      <li>None</li>
     </ul>
+
+    <script>
+      function movesidetoside() {
+        console.log("um");
+        const circle = document.getElementById("circle");
+        let pos = 0;
+        let change = 1;
+        let id = setInterval(frame, 5);
+        function frame() {
+          if (pos > 500 || pos < 0) {
+            change *= -1;
+            pos = Math.max(Math.min(pos, 500), 0);
+          } else {
+            pos += change*Math.max(1, Math.log(Math.abs(350-pos)));
+            console.log(pos);
+            circle.style.left = pos + 'px';
+          }
+        }
+      } 
+    </script>
   </body>
+
 </html>
