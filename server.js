@@ -7,18 +7,8 @@ const server = http.createServer( function( request,response ) {
     case '/':
       sendFile( response, 'index.html' )
       break
-    // case '/index.html':
-    //   sendFile( response, 'index.html' )
-    //   break
-    // case '/style.css':
-    //   sendFile( response, 'style.css' )
-    //   break
-    // case '/animation.js':
-    //   sendFile( response, 'animation.js' )
-    //   break
     default:
-      sendFile(response, response.url)
-      // response.end( '404 Error: File Not Found' )
+      response.end( '404 Error: File Not Found' )
   }
 })
 
