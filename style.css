@@ -1,0 +1,58 @@
+/* Color Theme Swatches in Hex */
+.a1-colors-1-hex { color: #DF65E6; }
+.a1-colors-2-hex { color: #3EE6C4; }
+.a1-colors-3-hex { color: #8F8A79; }
+.a1-colors-4-hex { color: #E6CD7E; }
+.a1-colors-5-hex { color: #643E66; }
+.a1-colors-6-hex { color: #426B63; }
+
+
+body {
+    background-color: #426B63;
+    font-family: elsie;
+}
+
+h1 {
+    background-color: #643E66;
+    text-align: center;
+    font-family:swanky;
+    color: #3EE6C4;
+}
+h2, h3 {
+    font-family:swanky;
+}
+
+figure {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  button {
+    background-color: #643E66;
+    text-align: center;
+    color:#E6CD7E;
+    border-color: #DF65E6;
+    font-family: elsie;
+  }
+
+@font-face {
+    font-family: swanky;
+    src: url(Fontdiner_Swanky/FontdinerSwanky-Regular.ttf);
+}
+
+@font-face {
+    font-family: elsie;
+    src: url(Elsie/Elsie-Regular.ttf);
+}
+
+.column {
+    float: left;
+    width: 50%;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
