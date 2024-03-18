@@ -1,28 +1,130 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <title>CS4241 Assignment 1</title>
     <meta charset="utf-8">
+    <title>CS4241 Assignment 1</title>
+    <link rel = "stylesheet" href = "https://fonts.googleapis.com/css?family=BioRhyme">
+    <link rel = "stylesheet" href = "webpage.css">
   </head>
   <body>
-    <h1>Information about [Your name here]</h1>
-    <p>
-      [Self introduction]
-    </p>
-    <p>
-      [Major and other information]
-    </p>
-    <p>
-      [Other things]
-    </p>
-
-    <h2>Experience</h2>
-    <p>
-      Working experience
-    </p>
-    <ul>
-      <li>IBM/Rational</li>
-      <li>WPI</li>
-    </ul>
+    <div class = background>
+      <div class = text_background>
+        <div class = header_background>
+          <h1>Information about Brianna Sahagian</h1>
+        </div><br />
+        <p>
+          My name is Brianna, I'm in my fourth year of college at WPI and will graduate in May 2025.<br />
+          I'm very interested in all things robotics and enjoy creating my own pet projects.<br />
+          If you like fish, there is a spawner at the bottom of this page; go ahead and try it!
+        </p><br />
+        <t>Degrees</t>
+        <p>
+          B.S. Computer Science, B.S. Robotics Engineering 2025<br />
+          Minor Spanish<br />
+          M.S. Computer Science 2025<br />
+        </p>
+        <script src = "webpage.js"></script>
+        <h2>Previous Computer Science Courses Taken at WPI</h2>
+        <table>
+          <tr>
+            <th>Class Number</th>
+            <th>Class Title [<span style = "color:#6241F0">Undergraduate</span>]</th>
+          </tr>
+          <tr>
+            <td class = class_num>CS 1102</td>
+            <td class = class_name>Accelerated Introduction to Program Design</td>
+          </tr>
+          <tr>
+            <td class = class_num>CS 2011</td>
+            <td class = class_name>Introduction to Machine Organization and Assembly Language</td>
+          </tr>
+          <tr>
+            <td class = class_num>CS 2022</td>
+            <td class = class_name>Discrete Mathematics</td>
+          </tr>
+          <tr>
+            <td class = class_num>CS 2103</td>
+            <td class = class_name>Accelerated Object-Oriented Design Concepts</td>
+          </tr>
+          <tr>
+            <td class = class_num>CS 2223</td>
+            <td class = class_name>Algorithms</td>
+          </tr>
+          <tr>
+            <td class = class_num>CS 2303</td>
+            <td class = class_name>Systems Programming Concepts</td>
+          </tr>
+          <tr>
+            <td class = class_num>CS 3013</td>
+            <td class = class_name>Operating Systems</td>
+          </tr>
+          <tr>
+            <td class = class_num>CS 3043</td>
+            <td class = class_name>Social Implications of Information Processing</td>
+          </tr>
+          <tr>
+            <td class = class_num>CS 3133</td>
+            <td class = class_name>Foundations of Computer Science</td>
+          </tr>
+          <tr>
+            <td class = class_num>CS 3733</td>
+            <td class = class_name>Software Engineering</td>
+          </tr>
+          <tr>
+            <td class = class_num>CS 4341</td>
+            <td class = class_name>Introduction to Artificial Intelligence</td>
+          </tr>
+        </table>
+        <br />
+        <table>
+          <tr>
+            <th>Class Number</th>
+            <th>Class Title [<span style = "color:#6241F0">Graduate</span>]</th>
+          </tr>
+          <tr>
+            <td class = class_num>CS 509</td>
+            <td class = class_name>Design of Software Systems</td>
+          </tr>
+          <tr>
+            <td class = class_num>CS 536</td>
+            <td class = class_name>Programming Language Design</td>
+          </tr>
+          <tr>
+            <td class = class_num>CS 542</td>
+            <td class = class_name>Database Management Systems</td>
+          </tr>
+          <tr>
+            <td class = class_num>CS 546</td>
+            <td class = class_name>Human-Computer Interaction</td>
+          </tr>
+          <tr>
+            <td class = class_num>CS 548</td>
+            <td class = class_name>Knowledge Discovery and Data Mining</td>
+          </tr>
+          <tr>
+            <td class = class_num>CS 5003</td>
+            <td class = class_name>Foundations of Computer Science: an Introduction</td>
+          </tr>
+          <tr>
+            <td class = class_num>CS 5084</td>
+            <td class = class_name>Introduction to Algorithms: Design and Analysis</td>
+          </tr>
+        </table><br />
+        <t>Software Experience Levels</t>
+        <ul>
+          <li>Java : <span style = "color:#41C7F0;"> Expert (A lot)</span></li>
+          <li>JavaScript : <span style = "color:#9834F5;"> Intermediate (Some)</span></li>
+          <li>Python : <span style = "color:#9834F5;"> Intermediate (Some)</span></li>
+          <li>HTML : <span style = "color:#6241F0;"> Novice (Minimal)</span></li>
+          <li>CSS : <span style = "color:#6241F0;"> Novice (Minimal)</span></li>
+          <li>Unit Testing : <span style = "color:#41C7F0;"> Expert (A lot)</span></li>
+          <li>Refactoring Code: <span style = "color:#41C7F0;"> Expert (A lot)</span></li>
+        </ul>
+        <button onclick = spawnFish() class = spawner_button>Fish Spawner</button>
+      </div>
+      <div id = "fish" class = fish_div>
+        <img src = "https://cdn.glitch.global/2bc55d22-bc95-4407-9d0c-44362e17e26e/fish.gif?1710453010380" alt = fish class = fish_img>
+      </div>
+    </div>
   </body>
 </html>
