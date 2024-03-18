@@ -32,6 +32,10 @@ figure {
     text-align: center;
     color:#E6CD7E;
     border-color: #DF65E6;
+    font-family: elsie;
+  }
+  body {
+    font-family: elsie;
   }
 
 @font-face {
@@ -39,13 +43,16 @@ figure {
     src: url(Fontdiner_Swanky/FontdinerSwanky-Regular.ttf);
 }
 
-/* Create three equal columns that float next to each other */
+@font-face {
+    font-family: elsie;
+    src: url(Elsie/Elsie-Regular.ttf);
+}
+
 .column {
     float: left;
     width: 50%;
   }
   
-  /* Clear floats after the columns */
   .row:after {
     content: "";
     display: table;

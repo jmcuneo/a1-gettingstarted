@@ -22,6 +22,9 @@ const server = http.createServer(function (request, response) {
     case '/Fontdiner_Swanky/FontdinerSwanky-Regular.ttf':
       sendFile(response, "Fontdiner_Swanky/FontdinerSwanky-Regular.ttf")
       break;
+    case '/Elsie/Elsie-Regular.ttf':
+      sendFile(response, "Elsie/Elsie-Regular.ttf")
+      break;
     default:
       response.end('404 Error: File Not Found')
   }
