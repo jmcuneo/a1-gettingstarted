@@ -3,26 +3,79 @@
   <head>
     <title>CS4241 Assignment 1</title>
     <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="index.css">
   </head>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
+  <style>
+    body {
+      font-family: "Audiowide", serif;
+    }
+  </style>
   <body>
-    <h1>Information about [Your name here]</h1>
+  <div class="mainDiv">
+    <h1>Information about Mike Wilkinson</h1>
     <p>
-      [Self introduction]
+      I am Mike Wilkinson. I am from a small town in New Hampshire. I have been interested in computer science
+      since middle school when I started teaching myself programming through Khan Academy.
     </p>
     <p>
-      [Major and other information]
+      I am a Senior with a CS major and ECE minor.
     </p>
-    <p>
-      [Other things]
-    </p>
+    <br />
+    <h2>Previous Courses</h2>
+    <ul>
+      <li>CS 3733 - Software Engineering</li>
+      <li>CS 3043 - Social Implications Of Information Processing</li>
+      <li>CS 4801 - Introduction To Cryptography And Communication Security</li>
+      <li>CS 4120 - Analysis Of Algorithms</li>
+      <li>CS 4233 - Object-Oriented Analysis And Design</li>
+      <li>CS 2103 - Accelerated Object-Oriented Design Concepts</li>
+      <li>CS 1102 - Accelerated Introduction To Program Design</li>
+      <li>CS 2011 - Introduction To Machine Organization And Assembly Language</li>
+      <li>CS 2223 - Algorithms</li>
+      <li>CS 3516 - Computer Networks</li>
+      <li>CS 3431 - Database Systems I</li>
+      <li>CS 3013 - Operating Systems</li>
+      <li>CS 3133 - Foundations Of Computer Science</li>
+    </ul>
 
     <h2>Experience</h2>
     <p>
       Working experience
     </p>
     <ul>
-      <li>IBM/Rational</li>
-      <li>WPI</li>
+      <li>Some HTML</li>
+      <li>Some CSS</li>
+      <li>A lot of Java</li>
+      <li>Some JavaScript</li>
+      <li>A little Python</li>
+      <li>Some Unit testing</li>
+      <li>Some Refactoring Code</li>
     </ul>
+    <div class="projects">
+      <p>My Projects:&nbsp </p>
+      <a href="https://github.com/mtwilkinson?tab=repositories">https://github.com/mtwilkinson?tab=repositories</a>
+    </div>
+
+    <div id="rect"></div>
+  </div>
+  <script>
+    function moveRect() {
+      const elem = document.getElementById("rect");
+      let pos = 0;
+      let direction = 1
+      setInterval(frame, 5);
+      function frame() {
+        if (pos == 590) {
+          direction = -1;
+        } else if (pos == 0) {
+          direction = 1;
+        }
+        pos += direction;
+        elem.style.translate = pos + 'px';
+      }
+    }
+    moveRect();
+  </script>
   </body>
 </html>
