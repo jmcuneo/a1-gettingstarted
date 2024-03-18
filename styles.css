@@ -1,0 +1,75 @@
+/* Color Theme Swatches in Hex */
+.color1 { color: #000000; }
+.color2 { color: #A7ACFA; }
+.color3 { color: #C7F993; }
+.color4 { color: #FAC085; }
+.mainBackgroundColor { background-color: #B0E0E6; }
+
+.bar {
+    width: 300px;
+    height: 10px;
+    border-radius: 10px;
+    background-color: #C7F993;
+    position: absolute;
+    left: 50;
+  }
+
+.mainPara {
+    text-align: center;
+    margin: 10px;
+    margin-left: 200px;
+    margin-right: 200px;
+    font-size: 20px;
+    font-family: "Salsa", cursive;
+    }
+
+.majorsText {
+    text-align: center;
+    margin: 10px;
+    margin-left: 200px;
+    margin-right: 200px;
+    font-size: 20px;
+    font-family: "Salsa", cursive;
+    color: #FAC085;
+    font-weight: 800;
+    }
+.title-text {
+    text-align: center;
+    font-size: 40px;
+    font-family: "Salsa", cursive;
+    }
+.header2 {
+    text-align: center;
+    font-size: 30px;
+    font-family: "Salsa", cursive;
+    color: #A7ACFA;
+    }
+
+.section { 
+    display: flex; 
+    margin-left: 500px;
+    }
+.text-content {
+    flex: 1;
+    }
+      
+.divList{
+    text-align: center;
+    }
+.list {
+    display: inline-block;
+    text-align: left;
+    margin-top: 0px;
+    font-size: 20px;
+    font-family: "Salsa", cursive;
+    }
+
+.img {
+    max-width: 300px;
+    height: auto;  
+    border-radius: 5px;
+    margin-top: 40px;
+    }
+.sidebar {
+    margin-left: 5px;
+    }
