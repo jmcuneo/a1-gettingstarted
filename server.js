@@ -2,6 +2,8 @@ const http = require('http'),
       fs   = require('fs'),
       port = 3000
 
+
+
 const server = http.createServer( function( request,response ) {
   switch( request.url ) {
     case '/':
@@ -9,6 +11,12 @@ const server = http.createServer( function( request,response ) {
       break
     case '/index.html':
       sendFile( response, 'index.html' )
+      break
+    case '/image.png':
+      sendFile( response, 'image.png' )
+      break
+    case '/theme.jpeg':
+      sendFile( response, 'theme.jpeg' )
       break
     default:
       response.end( '404 Error: File Not Found' )

@@ -1,28 +1,150 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <title>CS4241 Assignment 1</title>
-    <meta charset="utf-8">
-  </head>
-  <body>
-    <h1>Information about [Your name here]</h1>
-    <p>
-      [Self introduction]
-    </p>
-    <p>
-      [Major and other information]
-    </p>
-    <p>
-      [Other things]
-    </p>
+<head>
+  <title>CS4241 Assignment 1</title>
+  <meta charset="utf-8" />
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet">
+</head>
 
-    <h2>Experience</h2>
-    <p>
-      Working experience
-    </p>
-    <ul>
-      <li>IBM/Rational</li>
-      <li>WPI</li>
-    </ul>
-  </body>
+<body >
+<div id="border" class="main_container">
+  <h1 class="general_text">Information about Shiming De</h1>
+  <p class="general_text">Shiming De (aka Azu) is a 2024 WPI Student.</p>
+  <p class="general_text">Computer Science and Interactive Media and Game Design double major</p>
+  <ul class="list">
+    <li class="list_text">CS 1101</li>
+    <li class="list_text">CS 2102</li>
+    <li class="list_text">CS 2011</li>
+    <li class="list_text">CS 2303</li>
+    <li class="list_text">CS 2223</li>
+    <li class="list_text">CS 3043</li>
+    <li class="list_text">CS 4731</li>
+    <li class="list_text">CS 4100</li>
+    <li class="list_text">etc. </li>
+  </ul>
+
+
+  <h2 class="general_text">Experience</h2>
+  <p class="general_text"> Coding experience</p>
+  <ul class="list">
+    <li class="list_text">HTML: 50% fimiliar</li>
+    <li class="list_text">CSS: 50% fimiliar</li>
+    <li class="list_text">Java: 80% fimiliar</li>
+    <li class="list_text">JavaSript: 70% fimiliar</li>
+    <li class="list_text">Python: 40% fimiliar</li>
+    <li class="list_text">Unit Testing: 40% fimiliar</li>
+    <li class="list_text">Refactoring code: 60% fimiliar</li>
+
+  </ul>
+<div class="btn">
+  <button onclick="window.location.href = 'https://azu109.com'"> My Page</button>
+  <a href="https://azu109.com">
+    My page
+  </a>
+</div>
+
+  
+  <img class="image" src="image.png" alt="color palette ">
+  <img class="image" src="theme.jpeg" alt="color serial">
+</div>
+</body>
+<footer class="footer">
+  Azu
+</footer>
 </html>
+
+<script>
+  let border = document.getElementById("border");
+
+  function changeColor(){
+    let colorList = document.getElementById("border").style.borderColor;
+    let l = toColorList(colorList);
+    l[0] = Math.floor(Math.random() * 255);
+    l[1] = Math.floor(Math.random() * 255);
+    l[2] = Math.floor(Math.random() * 255);
+
+    document.getElementById("border").style.borderColor = toColorObject(l);
+  }
+
+  function toColorList(s){
+    return s.replace(/[^\d,]/g, '').split(',').map(Number);
+  }
+
+  function toColorObject(l){
+    return "#" + l[0].toString(16).padStart(2, '0') + l[1].toString(16).padStart(2, '0') + l[2].toString(16).padStart(2, '0');
+  }
+
+  window.onload = () =>{
+    document.getElementById("border").style.borderColor = "#333333";
+    let interval = setInterval(changeColor, 500);
+  }
+</script>
+
+<style>
+  body{
+    background: #4FDB77;
+  }
+
+  .main_container{
+    border: 10px solid;
+    background: #B5DF8E;
+    margin-left: 15%;
+    margin-right: 15%;
+    height: 100vw;
+  }
+
+  .general_text{
+    font-family: "Abel", sans-serif;
+    text-align: center;
+  }
+
+  .list{
+    background-color: #DBCE4F;
+    margin: auto;
+    width: 35%;
+    padding: 10px;
+  }
+
+  .list_text{
+    font-family: "Abel", sans-serif;
+    margin-left: 5%;
+  }
+
+  .image{
+    border-width: 5px;
+    border-color: #DBCE4F;
+    font-family: "Abel", sans-serif;
+    height: 20%;
+    width: auto;
+    margin: 5%;
+  }
+
+  button{
+    font-family: "Abel", sans-serif;
+    background-color: #CEDB4F;
+    color: #58DB4F;
+    width: auto;
+    height: auto;
+    border-radius: 12px;
+    font-size: 48px ;
+    padding: 10px;
+  }
+
+  .btn{
+    font-family: "Abel", sans-serif;
+    margin: auto;
+    width: 20%;
+    padding-top: 30px;
+  }
+
+  .footer {
+    color: #93DB4F;
+    text-align: center;
+    font-size: small;
+    font-family: "Abel", sans-serif;
+  }
+
+</style>
