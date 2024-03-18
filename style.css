@@ -1,0 +1,47 @@
+p {  
+    font-size: 12;
+    opacity: 0.7;
+    rotate:5deg;
+    color: #5545BF; 
+  }
+
+body{
+  background-color: #EF13F2;
+}  
+
+footer {
+    color: #02735E;
+}
+
+h1 {
+  color: #5545BF; 
+}
+
+ul {
+    color: #0D0D0D;
+}
+
+#colorMe {
+  position: relative; 
+  left: 0; 
+}
+
+
+.whisper-regular {
+    font-family: "Whisper", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+  
+
+/* Color Theme Swatches in Hex */
+.Vaporwave-1-hex { color: #EF13F2; }
+.Teal-turquoise-aqua-glitter-celebrate-birthday-Christmas-sparkle-black-background-3-hex { color: #02735E; }
+.Vaporwave-4-hex { color: #5545BF; }
+.Vaporwave-5-hex { color: #0D0D0D; }
+
+
+
+
+  
+  
