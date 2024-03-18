@@ -1,28 +1,67 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CS4241 Assignment 1</title>
-    <meta charset="utf-8">
-  </head>
-  <body>
-    <h1>Information about [Your name here]</h1>
-    <p>
-      [Self introduction]
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Shippori+Antique+B1&family=Wix+Madefor+Display:wght@400..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">
+        <h1>About Me</h1>
+        <p>All about Joselin Barbosa</p>
+    </div>
+    <p class="paragraph">
+        My name is Joselin Barbosa. I'm a senior at Worcester Polytechnic Institute. I'm from Dallas, Texas. Below is an animation of how I imagine myself before and after getting my diploma.
     </p>
-    <p>
-      [Major and other information]
+    <p class="paragraph">
+        BS Computer Science 2024
     </p>
-    <p>
-      [Other things]
-    </p>
-
-    <h2>Experience</h2>
-    <p>
-      Working experience
-    </p>
-    <ul>
-      <li>IBM/Rational</li>
-      <li>WPI</li>
-    </ul>
-  </body>
+    <div class="carousel-container">
+      <button class="prev" onclick="prevSlide()">&#10094;</button>
+      <img class="carousel-slide" src="image1.png" alt="Image 1">
+      <img class="carousel-slide" src="image2.png" alt="Image 2">
+      <button class="next" onclick="nextSlide()">&#10095;</button>
+  </div>
+    <script src="animate.js"></script> 
+    <section>
+        <h2 class="paragraph">Classes</h2>
+        <p class="paragraph">
+            Previous computer science classes I've taken include:
+        </p>
+        <ul class="paragraph">
+            <li>Software engineering</li>
+            <li>Machine learning</li>
+            <li>Intro to AI</li>
+            <li>Data mining</li>
+            <li>Data visualization</li>
+        </ul>
+      <p class="paragraph">
+            Through the classes I've taken at WPI I have some experience with HTML, CSS, Java, Javascript, Python and unit testing. I would not call myself an expert. I still struggle in refactoring code.
+        </p>
+      </section>
+        <p class="paragraph">
+            My favorite CS class by far has to be Data Visualization. Since my MQP is on analyzing data visualizations it was nice to incorporate my MQP work with the classwork. <a href="https://joselinb.github.io/final/">Check out my final project for the class here!</a>
+        </p>
+        <img src="project.png" alt="Project picture">
+  <br>  
+  <section>
+        <h2 class="paragraph">Work Experience</h2>
+        <p class="paragraph">
+            I've worked at Starbucks, Girls Who Code and Bank of America. These have been some of my roles:
+        </p>
+        <ul class="paragraph">
+            <li>Barista</li>
+            <li>Teaching assistant</li>
+            <li>Software engineer</li>
+        </ul>
+    </section>
+  <footer>
+        <p>To connect:<br>
+        Reach me at my WPI email.</p>
+    </footer>
+</body>
 </html>
