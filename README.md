@@ -1,14 +1,6 @@
 
-Resources
----
-
-If you need refreshers for JavaScript/HTML/CSS or Git/GitHub, check out the resources posted on Canvas under Modules -> Resources.
-
-
-Sample Readme (delete the above when you're ready to submit, and modify the text below with your links and descriptions)
----
 Ethan Moynihan
-##ADD glitch link on completion
+https://a1-ethanmoynihan.glitch.me/
 
 This project shows ...
 
