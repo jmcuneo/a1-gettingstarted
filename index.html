@@ -3,26 +3,100 @@
   <head>
     <title>CS4241 Assignment 1</title>
     <meta charset="utf-8">
+    <link rel="stylesheet" href="/styles.css" type="text/css"/>
+    <script src="animation.js"></script>
   </head>
   <body>
-    <h1>Information about [Your name here]</h1>
-    <p>
-      [Self introduction]
-    </p>
-    <p>
-      [Major and other information]
-    </p>
-    <p>
-      [Other things]
-    </p>
-
-    <h2>Experience</h2>
-    <p>
-      Working experience
-    </p>
-    <ul>
-      <li>IBM/Rational</li>
-      <li>WPI</li>
-    </ul>
+    <header>
+      <h1>Information about Seth Frank</h1>
+      <a href="mailto:sbfrank@wpi.edu" target="_blank">sbfrank@wpi.edu</a>
+    </header>
+    <div class="Main">
+      <div class="IntroWrapper">
+        <div class="IntroText">
+          <h3>About Me</h3>
+          <p class="inter-font">
+            My name is Seth Frank and I am a 3rd year, class of 2025 student at Worcester Polytechnic Institute (WPI). I am highly involved in the music department, participating in the Philharmonic Orchestra as president and African Drumming Ensemble. I also am apart of Sigma Pi and work at the South Village Student Center as a building manager.
+          </p>
+          <p class="inter-font">
+            Outside of school, I love to spend time outdoors. In particular, I enjoy hiking a lot, especially hikes with beautiful views. I also enjoy biking and playing golf in the summer. I am love music, where I play violin as well as listening to lots of music including bluegrass, country, classical, and many other genres.
+          </p>
+          <h3>Majors and Minors</h3>
+          <ul class="inter-font">
+            <li>Computer Science Major</li>
+            <li>Computer Engineering Minor</li>
+            <li>Music Minor</li>
+        </div>
+        <div class="IntroImg">
+          <img class="Headshot" src="img/headshot.jpg" alt="Seth Frank headshot"/>
+        </div>
+      </div>
+  
+      <h2>Experience</h2>
+      <div class="ExperienceWrapper">
+        <div class="ExperienceText">
+          <h3>Previous CS Cources</h3>
+          <ul class="inter-font">
+            <li>CS 1102: Accelerated Introduction to Program Design</li>
+            <li>CS 2103: Accelerated Object-Oriented Design Concepts</li>
+            <li>CS 2303: Systems Programming Concepts</li>
+            <li>CS 2011: Introduction to Machine Organization and Assembly Language</li>
+            <li>CS 2022: Discrete Math</li>
+            <li>CS 2223: Algorithms</li>
+            <li>CS 3013: Operating Systems</li>
+            <li>CS 3733: Software Engineering</li>
+            <li>CS 3133: Foundations of Computer Science</li>
+            <li>CS 3043: Social Implications of Information Processing</li>
+            <li>CS 4120: Analysis of Algorithms</li>
+          </ul>
+        </div>
+        <div class="ExperienceText">
+          <h3>Experience with the following</h3>
+          <table class="inter-font">
+            <thead>
+              <tr>
+                <th scope="col">Resource</th>
+                <th scope="col">Experience</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>HTML</td>
+                <td>Some</td>
+              </tr>
+              <tr>
+                <td>CSS</td>
+                <td>Some</td>
+              </tr>
+              <tr>
+                <td>Java</td>
+                <td>A lot</td>
+              </tr>
+              <tr>
+                <td>JavaScript</td>
+                <td>None</td>
+              </tr>
+              <tr>
+                <td>Python</td>
+                <td>Some</td>
+              </tr>
+              <tr>
+                <td>Unit testing</td>
+                <td>A lot</td>
+              </tr>
+              <tr>
+                <td>Refactoring code</td>
+                <td>A lot</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <img id="wpiLogo" src="img/wpi-logo.png" alt="Seth Frank headshot" onmouseenter="move()" onmouseleave="stop()"/>
+      <p>Learn more by visting my <a href="https://www.linkedin.com/in/seth-frank/" target="_blank">LinkedIn</a> or opening my <a onclick="popup()" class="Resume">Resume</a></p>
+      <p id="hoverLogo">Hover over the logo</p>
+    </footer>
   </body>
 </html>
