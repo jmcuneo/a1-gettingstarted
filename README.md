@@ -1,124 +1,39 @@
 Assignment 1 - Hello World: Basic Deployment w/ Git, GitHub, Glitch
-===
 
-*DUE: Sunday, March 17th by 11:59 PM*
-
-First assignment! You will deploy the starting Web site that you will use this term to [Glitch](http://www.glitch.com/). 
-
-Treat this assignment as a chance to get up to speed on Git, GitHub, and Glitch, as well as experiment some with HTML/CSS/JS. If you already know these, great! 
-However, if you're new to them, spend several hours practicing, experimenting, and reading documentation. Don't just get your website up and done, as
-you'll need skills with these tools throughout the rest of the course.
-
-These instructions may be modified over time for purposes of clarification or to provide additional options. The requirements will NOT change. You can see any updates by looking at the commit history of this document in GitHub.
-
-Assignment details
 ---
 
-This assignment requires that your website is both contained in a GitHub repository and hosted in Glitch. There are a few ways to do this:
+Brianna Sahagian
+http://a1-briannasahagian.glitch.me
 
-1. Fork this repo and clone it to your computer, make changes locally on your computer, push the repo onto GitHub, and then import your GitHub repo into Glitch.
-2. Fork this repo and then import it directly to Glitch, use the Glitch editor to make changes, and then export your repo from Glitch back to GitHub.
-3. Same as #1, but instead of importing from Github to Glitch you just upload the files (or copy/paste) them directly to Glitch.
-
-### Option 1 - Clone to computer, push to Github, import to Glitch (recommended)
-
-1. Fork the starting assignment code in GitHub. This repo contains the following:
-    * The server code, `server.js`
-    * A starting `index.html` file that you will edit as described below
-    * A package.json file that helps configure Glitch
-    * This README
-2. Edit `index.html` to show the following information about you:
-    * your name and class at WPI (e.g. class of 2024) Note: Do not put any contact or personal information that you do not potentially want other people outside of this class to see.
-    * your major(s) and minor(s)
-    * previous computer science courses that you have taken at WPI
-    * your experience with the following technologies and methods (none, some, a lot)
-        * HTML
-        * CSS
-        * Java
-        * JavaScript
-        * Python
-        * Unit testing
-		* Refactoring code
-3. Complete some technical and/or design achievements (see below).
-4. Test your project to make sure that when someone goes to your main page, it displays correctly. You can do this locally by simply running `node server.js` from within the assignment directory and then going to `localhost:3000` in your browser.
-5. Modify the README file according to the specification below.
-6. Commit and push all your changes to GitHub. 
-7. Deploy your project to Glitch. You can do this by [importing the repo from GitHub](https://medium.com/glitch/import-code-from-anywhere-83fb60ea4875). Note the following:
-	* You will need to create a Glitch account first, but Glitch makes it easy by giving you the option to log in via your GitHub account.
-	* The instructions in the medium.com post are slightly outdated. To import your GitHub repo, select `Import from GitHub` under `New Project`.
-8. Ensure that your project has the proper naming scheme (guide follows) so we can find it.
-9. Create and submit a Pull Request to the original repo. This helps us find your project.
-	* Ignore any messages about conflicts. You do not need to resolve them.
-	* Make the title of your pull request "Pull Request for NAME" (ex. "Pull Request for Joshua Cuneo")
-
-### Option 2 - Fork repo and import to Glitch, edit on Glitch, and then export back to GitHub
-Most of these steps are the same as option 1, except that you being by creating a new project Glitch using this repo as a staring point (just choose New Project > Import from GitHub for this and then paste in the link to your repo). At the end, you can export your Glitch project to GitHub by [following these instructions](https://www.youtube.com/watch?time_continue=77&v=aWJFbtrgW4E&feature=emb_logo). *Note that the location of the projecct export feature in Glitch has moved from what they show in this video.* It's now located in Tools > Import and Export (tools is located in the bottom left of the Glitch editor).
-
-### Option 3 - Clone to computer, edit locally, push to GitHub, upload to Glitch
-This is the same as option 1, except that for step 6 (Deploy to Glitch) you simply upload each file to your Glitch repository (using New File > Upload a File).
-
-### Note about images
-If you are having trouble getting images to work, [check out this page](https://mica-web.github.io/learn/workflows/add-img-glitch).
-
-### Note about alternative hosting
-Our use of Glitch in this class is there as a convenience for you. However, if you are already familiar with hosting through other services--or if you would like to self-host--that's perfectly fine so long as the website in question meets all of the assignment requirements. Note that we will not be able to help you if you run into issues on other hosting platforms, and you will be responsible for making sure the website stays up and running for the duration of the term. For A1, you will also still need to create a pull request with your name and your website's URL.
-
-Naming and URL Scheme
----
-
-You must use a consistent naming scheme for all projects in this course.
-If we can't find it, we can't grade it.
-
-By default Glitch often assigns your application a random name. To change it, click on the project dropdown menu in the upper left corner of Glitch. You will then see an additional text field displaying the project name in the resulting menu; click here to edit the name.
-
-The name scheme should be `a1-yourFirstAndLastName`.
-The `a1` will need to be updated to `a2`, `a3`, and so on in future assignments.
-
-Rubric
----
-For the Technical and Design achievements, make sure you thoroughly describe in your README what you did why it was challenging. ALL ACHIEVEMENTS MUST BE DESCRIBED IN YOUR README IN ORDER TO GET CREDIT FOR THEM. Remember that the success of Achievements hinges on how well you describe them in your README. Well formatted text, images, and concise and clear descriptions are helpful. You must include a Technical Achievements and Design Achievements section, even if none are attempted.
-
-Note that if you want to load resources besides your index.html file (images, an CSS file, a JS file) you'll need to modify server.js to point to these. For now it's easiest to just hardcode paths to the resources, but we'll look at ways to optimize this shortly.
-
-*Basic Requirements*
-
-(10 points each)
-
-1. Assignment has proper naming scheme
-2. Files forked from original repo
-3. `index.html` properly rendered
-4. `index.html` page properly edited
-5. All changes pushed to GitHub
-6. Project deployed to Glitch (or other hosting option)
-7. Pull Request submitted to original repo
-
-*Technical Achievements*
-1. (5 points) Style your page using CSS. Each style rule you apply will get you 1 point for a maximum of 5 points. Be sure to describe your style rules in your README.
-2. (5 points) Add a simple JavaScript animation to the page.
-3. (5 points) Experiment with other *semantic* HTML tags (links, images, tables, header, footer, etc.). Each extra tag you use will get you 1 point for a maximum of 5 points. Be sure to describe the tags you use in your README.
-
-*Design Achievements*
-1. (10 points) Create a color palette using [color.adobe.com](https://color.adobe.com). Use all the colors in the palette in your webpage by implementing the appropriate CSS. Add a small screenshot of the color wheel for your color palette to your repo.
-2. (5 points) Use a font from [Google Fonts](https://fonts.google.com) in your website.
-
-**NOTE:** There are additional color pallette and font options listed on Canvas under Modules -> Resources -> Color Pallettes and Fonts. You are welcome to use one of those instead. If you know of and would like to use any other resources that are not included, feel free to contact the instructor.
-
-Resources
----
-
-If you need refreshers for JavaScript/HTML/CSS or Git/GitHub, check out the resources posted on Canvas under Modules -> Resources.
-
-
-Sample Readme (delete the above when you're ready to submit, and modify the text below with your links and descriptions)
----
-
-Joshua Cuneo
-http://a1-joshuacuneo.glitch.me
-
-This project shows ...
+This project shows all design and technical achievements required for the first CS4241 assignment plus a special creative touch!
 
 ## Technical Achievements
-- **Styled page with CSS**: Added rules for the p, li, and a selectors...
+- **Styled page with CSS**: Added rules for the body, t, table, th, and ul selectors. Also added seven classes for unique divs and other specific features. These extra classes include:<br>
+&nbsp; [1] .background class for page background<br>
+&nbsp; [2] .text_background class for the background behind the text on the page<br>
+&nbsp; [3] .header_background class for the background behind the webpage title<br>
+&nbsp; [4] .class_num class for the class numbers in the table<br>
+&nbsp; [5] .class_name class for the class names in the table<br>
+&nbsp; [6] .spawner_button class for the fish spawner button<br>
+&nbsp; [7] .fish_div class for the fish animation div<br>
+On these classes, I implemented many style rules. I will describe five of these below:<br>
+&nbsp; [1] The display rule: I implemented display: flex for my container classes so that I could move text and other elements around inside these containers. My background, text_background, and header_background classes are all flex containers that implement this style rule.<br>
+&nbsp; [2] The background_color rule: I implemented this rule to put colors from my color palette onto my webpage. The difference between this style rule and the color style rule (which I also used) is that the background_color rule colors the whole element (container, button, etc.) whereas the color style rule colors the text inside the element.<br>
+&nbsp; [3] The -webkit-text-stroke-width rule and the -webkit-text-stroke-color rule: I implemented these rules for my button text to add something fun to make the words "Fish Spawner" stand out on the light blue background. The stroke width rule determines how thick the outline on the text is while the stroke color rule determines the color of this outline.<br>
+&nbsp; [4] The visibility rule: I used this rule to determine when to hide and show my fish image to emulate spawning. visibility: hidden makes the image invisible while visibility: visible shows the image on the page. <br>
+&nbsp; [5] The text-align rule: I used this rule to change the position of the text for the body and class_name selectors. The body of the page is aligned in the center, but the class_name data looked better aligned left in my opinion.
+
+- **Added a simple JavaScript animation**: I added a fish animation to spawn and swim to the left across the screen of my webpage. Using my JavaScript functions I was able to make the fish show when the user clicked the "Fish Spawner" button and swim across the screen. If the user clicks the spawner button while a fish is already swimming, the fish's speed will randomize. Once the fish swims off the screen, the button will spawn another fish in the starting position.
+
+- **Experimented with HTML tags**: I experimented with five different and interesting HTML semantic tags on my webpage.<br>
+&nbsp; [1] I used the **ul** tag to include the list of CS experience that I have with each specific tool. I used the **li** tag to represent each bullet in the list.<br>
+&nbsp; [2] I used the **table** tag to organize both the undergraduate and graduate CS courses I have taken. The **th** tags were used to denote the Class Number and Class Title columns of the table, the **tr** tags included the information within each table row. The **td** tags contained the actual data for each column (ex: CS2022 or Discrete Mathematics).<br>
+&nbsp; [3] I used the **img** tag to allow me to put my fish gif on the page. I animated the gif myself using an external tool and then exported the gif from this external tool. The fish.gif is still in this directory, though I ended up using the asset link from glitch to ensure consistency across both the repo and the glitch page.
+&nbsp; [4] I used the **span** tag to allow me to put colors on some of the text in a section of my page. I used it to color the "Undergraduate" and "Graduate" labels on my tables to ensure that the user knows the difference between these tables. I also used the tag to color the levels of experience differently and make those fields stand out in the bulleted list.<br>
+&nbsp; [5] I used the **t** tag to customize some of my headers. I liked the spacing better for some of my headers using this tag instead of the built-in **h1** or **h2** tags, though I used these tags as well for other headers.<br>
 
 ## Design Achievements
-- **Used the Roboto Font from Google Fonts**: I used Roboto as the font for the primary copy text in my site.
+- **Used a Blue/Purple Color Palette from adobe.com**: I used a blue and purple color palette that I created on adobe.com. This palette includes the following colors: #418FF0, #6241F0, #4158F0, #41C7F0, #9834FS, and #919DF0. I used the #418FF0 blue for my text_background class, the #4158F0 for my background class, the #919DF0 for my header_background class, and used the other three colors for my labeling. The #41C7F0 is the button color and Expert color. The #6241F0 labels the tables and Novice levels. The #9834FS labels the intermediate levels.
+- **Used the BioRhyme Font from Google Fonts**: I used Google's BioRhyme font as the primary font in my webpage. The font was the perfect balance of interesting without going too far (I tried Tangerine and thought it was too fancy).
+
+Overall I am very happy with how my webpage came out. My favorite part is my fish.gif that I created with an external animation tool and then moved across the screen on this page. I find that this homemade gif reflects my own unique artistic flare!
