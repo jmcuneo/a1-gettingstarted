@@ -1,8 +1,5 @@
-Sample Readme (delete the above when you're ready to submit, and modify the text below with your links and descriptions)
----
-
 ## Nat Dynko
-http://a1-joshuacuneo.glitch.me
+https://a1-natdynko.glitch.me/
 
 This project shows ...
 
@@ -24,6 +21,5 @@ This project shows ...
 ## Design Achievements
 - **Used the Ojuju Font from Google Fonts**: I used the Ojuju font for the text of my header.
 
-![alt text](color-theme.jpeg "Title")
-
 - **Used this color pallete**
+![alt text](color-theme.jpeg "Title")
