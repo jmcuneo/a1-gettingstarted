@@ -1,28 +1,202 @@
 <!doctype html>
 <html lang="en">
-  <head>
+<head>
     <title>CS4241 Assignment 1</title>
     <meta charset="utf-8">
-  </head>
-  <body>
-    <h1>Information about [Your name here]</h1>
-    <p>
-      [Self introduction]
-    </p>
-    <p>
-      [Major and other information]
-    </p>
-    <p>
-      [Other things]
-    </p>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .container{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            font-family: 'Kanit', serif;
+        }
 
-    <h2>Experience</h2>
+        .header-text{
+            font-size: 64px;
+            margin: 0px;
+            background: linear-gradient(45deg, #a900ff, #65008f);
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+        }
+
+        .card-container{
+            display: flex;
+            flex-direction: row;
+            gap: 20px;
+            width: 50%;
+        }
+
+        .card{
+            background-color: gainsboro;
+            border-radius: 10px;
+            height: 300px;
+            min-height: 100%;
+            width: 100%;
+            transition: all 0.2s ease;
+            border: 2px solid #6C43FA;
+        }
+
+        .card:hover{
+            height: 310px;
+            transition: all 0.2s ease;
+        }
+
+        .card-header{
+            font-size: 32px;
+            margin: 10px 0px 0px 10px;
+        }
+
+        .footer{
+            margin: auto;
+            height: 200px;
+            width: 100%;
+            background-color: #a900ff;
+            position: absolute;
+            bottom: 0;
+        }
+
+        .table{
+            margin: 10px 0px 0px 10px
+        }
+
+        .table tr th:nth-child(n) {
+            color: #E443FA;
+        }
+
+        .table tr th:nth-child(2n) {
+            color: #438FFA;
+        }
+
+
+        .table tr td:nth-child(2n) {
+            color: #438FFA;
+        }
+
+        .table tr td:nth-child(2n + 1) {
+            color: #E443FA;
+        }
+
+        .spin {
+            animation: spin 1s linear;
+        }
+
+        @keyframes spin {
+            from {
+                transform: rotate(0deg);
+            }
+            to {
+                transform: rotate(360deg);
+            }
+        }
+    </style>
+</head>
+<body class="container">
+
+<main>
+    <h1 class="header-text">Hi, I'm Ryan Nguyen</h1>
     <p>
-      Working experience
+        I Am A Junior Studying CS At WPI. I Consider Myself A Front End Developer and AI Enthusiast.
     </p>
-    <ul>
-      <li>IBM/Rational</li>
-      <li>WPI</li>
-    </ul>
-  </body>
+</main>
+<section class="card-container">
+
+    <div class="card" id="card">
+        <article>
+            <header class="card-header">Projects</header>
+            <ul>
+                <li>
+                    Brigham Women's Hospital Admin Tool
+                </li>
+                <li>
+                    Prompt Engineering Analysis Kit
+                </li>
+                <li>
+                    Quotes Social Media Application
+                </li>
+            </ul>
+        </article>
+
+    </div>
+    <div class="card" id="card">
+        <article>
+        <header class="card-header">Experience</header>
+        <ul>
+            <li>
+                SizzleScene LLC
+            </li>
+            <li>
+                Cyvl.Ai
+            </li>
+            <li>
+                ASSISTments
+            </li>
+        </ul>
+        </article>
+    </div>
+    <div class="card" id="card">
+        <article>
+        <header class="card-header">Skills</header>
+        <table class="table">
+            <tr>
+                <th>Skill</th>
+                <th>Expertise</th>
+            </tr>
+            <tr>
+                <td>HTML</td>
+                <td>Strong</td>
+            </tr>
+            <tr>
+                <td>CSS</td>
+                <td>Strong</td>
+            </tr>
+            <tr>
+                <td>Java</td>
+                <td>Strong</td>
+            </tr>
+            <tr>
+                <td>JavaScript</td>
+                <td>Medium</td>
+            </tr>
+            <tr>
+                <td>Python</td>
+                <td>Medium</td>
+            </tr>
+            <tr>
+                <td>Unit Testing</td>
+                <td>Strong</td>
+            </tr>
+            <tr>
+                <td>Refactoring Code</td>
+                <td>Medium</td>
+            </tr>
+        </table>
+        </article>
+    </div>
+
+</section>
+<footer class="footer"></footer>
+<script>
+    // Get all Cards
+    var cards = document.querySelectorAll(".card");
+    // For Each Card Add Animation
+    cards.forEach(function(element) {
+        element.addEventListener("click", function() {
+            element.classList.add("spin");
+        });
+
+        element.addEventListener("animationend", function() {
+            element.classList.remove("spin");
+        });
+    });
+
+
+</script>
+</body>
 </html>
