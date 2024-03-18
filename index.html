@@ -3,73 +3,114 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1.0" /> <!--tell the browser how to render the page for different scales-->
-    <link rel="stylesheet" href="style.css" type="text/css" />
-    <script type="text/javascript" src="animation.js"></script>
+    <link rel="stylesheet" href="style.css" type="text/css" /> <!--Link to CSS-->
+    <script type="text/javascript" src="animation.js"></script> <!--Link to JS-->
   </head>
+
+  <!--start top banner-->
   <title>CS4241 Assignment 1</title>
   <body>
     <img src="sky.jpg" id="banner">
     <div class="heading">
-      <h1>WPI Class of 2026</h1>
+      <h1>WPI Class of 2026</h1> <!--h1 header so margin is smaller-->
       <h2>Computer Science</h2>
     </div>
     <img src="plane.png" id="plane" onload="flyPlane()">
-    
+
+    <!--Start of left side-->
     <p>
       <section>
-      <h2>Completed Computer Science Courses:</h2>
+      <h1>Completed Computer Science Courses:</h1> <!--h1 header so margin is smaller-->
+      <h3>Course Descriptions from <a href="https://www.wpi.edu/academics/calendar-courses/course-descriptions/3776/computer-science#:~:text=CS%201101.&text=This%20course%20introduces%20principles%20of,%2C%20and%20higher%2Dorder%20functions.">WPI CS Undergraduate Course Catalog</a></h3>
       <!--class 1-->
       <details>
         <summary>CS 1101</summary>
-        <p>
-          Introduction to Program Design (A22) - Dr. Racket
-          <em>
-            <blockquote>
-              This course introduces principles of computation and programming
-              with an emphasis on program design. Topics include the design,
-              implementation, and testing of programs that use a variety of data
-              structures (such as structures, lists, and trees), functions,
-              conditionals, recursion, and higher-order functions.
-            </blockquote>
-          </em>
-        </p>
+        <p>Introduction to Program Design (A22) - Dr. Racket</p>
+          <blockquote>
+            This course introduces principles of computation and programming
+            with an emphasis on program design. Topics include the design,
+            implementation, and testing of programs that use a variety of data
+            structures (such as structures, lists, and trees), functions,
+            conditionals, recursion, and higher-order functions.
+          </blockquote>
       </details>
       <!--calss 2-->
       <details>
         <summary>CS 2102</summary>
-        <p>Object-Orieted Design - Java. B22</p>
+        <p>Object-Orieted Design (B22) - Java</p>
+        <blockquote>
+        This course shows how programs can be decomposed into classes and objects.
+        By emphasizing design, this course shows how to implement small defect-free programs
+        and evaluate design decisions to select an optimal design under specific assumptions.
+        Topics include inheritance, exceptions, interface, design by contract, basic design patterns, and reuse.
+        Students will be expected to design, implement, and debug object-oriented programs composed of multiple classes
+        and over a variety of data structures.
+        </blockquote>
       </details>
+
       <!-- class 3-->
       <details>
         <summary>CS 2303</summary>
-        <p>Systems Programing Concepts - C/C++. C23</p>
+        <p>Systems Programing Concepts (C23) - C/C++</p>
+        <blockquote>
+          This course covers manual memory management, pointers, the machine stack, and input/ output mechanisms.
+          The course will involve large-scale programming exercises and will be designed to help students confront
+          issues of safe programming with system-level constructs. The course will cover several tools that assist programmers
+          in these tasks. Students will be expected to design, implement, and debug programs in C++ and C.
+        </blockquote>
       </details>
       <!--class 4-->
       <details>
         <summary>CS 2223</summary>
-        <p>Algorithms - Java. D23</p>
+        <p>Algorithms (D23) - Java</p>
+        <blockquote>
+          Building on a fundamental knowledge of data structures, data abstraction techniques, and mathematical tools,
+          a number of examples of algorithm design and analysis worst case and average case will be developed.
+          Topics include greedy algorithms, divide-and-conquer, dynamic programming, heuristics, and probabilistic algorithms.
+          Problems will be drawn from areas such as sorting, graph theory, and string processing. 
+        </blockquote>
       </details>
       <!--class 5-->
       <details>
         <summary>CS 3133</summary>
-        <p>Foundations of Computer Science. A23</p>
+        <p>Foundations of Computer Science (A23)</p>
+        <blockquote>
+          This course introduces the theoretical foundations of computer science.
+          These form the basis for a more complete understanding of, and proficiency in computer science.
+          Topics include computational models, formal languages, and an introduction to computability and complexity theory,
+          including NP-completeness.
+        </blockquote>
       </details>
       <!--class 6-->
       <details>
         <summary>CS 2011</summary>
-        <p>Introduction To Machine Organization And Assembly Language. B23</p>
+        <p>Introduction To Machine Organization And Assembly Language (B23)</p>
+        <blockquote>
+          This course introduces students to the structure and behavior of modern digital computers and the way they execute programs.
+          Machine organization topics include the von Neumann model of execution, functional organization of computer hardware,
+          the memory hierarchy, caching performance, and pipelining. Assembly language topics include representations of numbers in
+          computers, basic instruction sets, addressing modes, stacks and procedures, low-level I/O, and the functions of compilers,
+          assemblers, linkers, and loaders. 
+        </blockquote>
       </details>
       <!--class 7-->
       <details>
         <summary>CS 3013</summary>
-        <p>Operating Systems - C. C24</p>
+        <p>Operating Systems (C24) - C</p>
+        <blockquote>
+          This course provides the student with an understanding of the basic components of a general-purpose operating system.
+          Topics include processes, process management, synchronization, input/output devices and their programming, interrupts,
+          memory management, resource allocation, and an introduction to file systems. Students will be expected to design and implement a
+          large piece of system software in the C programming language.
+        </blockquote>
       </details>
     </p>
   </section>
-  
+
+  <!--Start of Right side-->
     <aside>
-    <h2>Experience</h2>
-    <p>Experience with technologies (some, a lot, or none)</p>
+    <h1>Technology Experience</h1> <!--h1 header so margin is smaller-->
+    <h3>
     <table>
       <tr>
         <th>A lot</th>
@@ -82,16 +123,17 @@
         <td>CSS</td>
       </tr>
       <tr>
-        <td></td>
+        <td></td> <!--empty box-->
         <td>Python</td>
         <td>JavaScript</td>
       </tr>
       <tr>
-        <td></td>
+        <td></td> <!--empty box-->
         <td>Refactoring Code</td>
         <td>Unit Testing</td>
       </tr>
     </table>
+    </h3>
     </aside>
   </body>
 </html>
