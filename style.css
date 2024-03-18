@@ -1,0 +1,51 @@
+/* used for the animation, Style #1*/ 
+@keyframes move {
+    from {left: 0;}
+    to {left: 50px;}
+}
+.box {
+    width: 300px;
+    position: relative;
+    animation: move 2s infinite alternate;
+}
+
+/* used for the aside, Style #2*/ 
+aside {
+    width: 30%;
+    padding-left: 15px;
+    margin-left: 15px;
+    float: right;
+  }
+/* background color, Style #3*/ 
+body{
+    background-color: #F2DCE0;
+    color: #261D26;
+    font-family: "Rum Raisin", sans-serif;
+}
+
+/* font styling, Style #3-7*/ 
+p{
+    background-color: #A65D6A;
+    font-weight: lighter;
+    
+
+}
+
+ul{
+    background-color: #A4A6BF;
+}
+
+h1{
+    background-color: #4B83A6;
+    font-weight: bolder;
+    text-align: center;
+}
+h2{
+    background-color: #4B83A6;
+    font-weight: bold;
+    text-align: center;
+}
+h3{
+    background-color: #4B83A6;
+
+}
