@@ -11,10 +11,10 @@ https://a1-noracleary.glitch.me/
     - Used ID's to style the images/animation. Used #IDName to write CSS rules -> allowed me to easily edit size of images and overlay the two. Challenging to work with the images - lots of experiementing with the relotive and abolute position rules, diffucult to format.
     - Added a heading class in order to group multiple tags together and style as one -> experimental - would like to learn more about classes in the future.
     - Added a rule for two sections (section and aside) using float to divide the screen in half. made section to the right and aside to the left.Challenging to figure out how font/table size effected the format. It was difficult to get them to allign horizontally but evenutaukly figured out the percentages cannot exceed eachother.
--**Javascript Animation**:
+- **Javascript Animation**:
     - Used https://youtu.be/vqkzxwKlsqY?si=ZAehT70Dqz0oslE_ to help. Biggest challenge was due to my unfamilirity with JS - I did not make a seperate JS file and was trying to write directly in the existing server.js file. After making a seperate animation.js file and linking in teh server.js file, it was mostly trial and error to get familiar with the code.
     - Wrote a function and called it in HTML when the page is loaded. Challenging to learn the syntax of JS - how to create variables (I had my position variable set as const for a while and was not able to increase my position on the screen) and how to format function.
--**Other Semantic HTML Tags**:
+- **Other Semantic HTML Tags**:
     - Link -> Used <a href> attribute in order to link a page I quoted in my website. I wanted the title of the hyperlink to be custom, so I used the href. 
     - Table -> I made a table to display my technology experience to make it clear and concise. The challenge was mostly with implementing (some rows are blank - my solution was empty <p></p> tags, there most likely is a better solution) and design (lots of rules in CSS file - th, td, table)
     - Image -> Used the image tag to include the background and object for my animation. The biggest challenege was figureing out I needed to add the image files to the correct directory, and point to them in the server.js file.
