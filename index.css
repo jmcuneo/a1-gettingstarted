@@ -1,5 +1,5 @@
 .mainDiv {
-    background-color: #abbcfc;
+    background-color: #ABABF1;
     width: 600px;
     padding: 32px;
     border-radius: 32px;
@@ -9,7 +9,7 @@
 body {
     width: 100vw;
     height: 100vh;
-    background-color: #dedeff;
+    background-color: #DFDFFF;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -18,7 +18,7 @@ body {
 #rect {
     height: 10px;
     width: 10px;
-    background-color: #03034b;
+    background-color: #181872;
     position: absolute;
 }
 
