@@ -1,5 +1,5 @@
 ## Nat Dynko
-https://a1-natdynko.glitch.me/
+https://a1-nathandynko.glitch.me/
 
 This project shows ...
 
