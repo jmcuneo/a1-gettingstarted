@@ -4,7 +4,19 @@
     <title >CS4241 Assignment 1</title>
     <meta charset="utf-8">
   </head>
-  <body style="background-color: #EBE501">
+  	<script>
+	var interval=null;
+	function anim() {
+		var imgRef=document.getElementByID("AnimatedImg");
+		var rot=0;
+		clearInterval(interval);
+		interval = setInterval(rotate,2);
+		function rotate(){
+			imgRef.style.transform.rotate(rot);
+			rot++;
+		}
+	</script>
+  <body style="background-color: #EBE501" onload="anim()">
     <h1 style="color:#BF5EEA; font-size: 300%;">Information about Trevor Ng</h1>
 	<img src="https://github.com/TNWing/a1-TrevorNg/blob/main/pizza.png?raw=true" id="AnimatedImg" width="500" height="500"></img>
     <p style="color:#5230B2 ">
@@ -40,17 +52,6 @@
     </ul>
 	<br>
 	<a style="color:#355BEB; margin-left: 50px" href="https://sites.google.com/view/trevorng/home" >Link to my google site</a>
-	<script>
-	var interval=null;
-	function anim() {
-	var imgRef=document.getElementByID("AnimatedImg");
-	var rot=0;
-	clearInterval(interval);
-	interval = setInterval(rotate,2);
-	function rotate(){
-		imgRef.style.transform.rotate(rot);
-		rot++;
-	}
-	</script>
+
   </body>
 </html>
