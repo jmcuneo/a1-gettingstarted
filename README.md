@@ -120,13 +120,18 @@ This project shows ...
 ## Technical Achievements
 - **Styled page with CSS**: Added rules for the p, li, and a selectors...
 CSS Styling
-*
+*Various sections have different colors from the Color Palette. See the palette.png for reference.
+*The table uses a different font, which was obtained from Google Fonts.
+*Some sections have a box border to separate and define those sections.
+*A few text elements have their sizes modified by percent-based values.
+*Some elements have their position modified by the margin property as well as the more specific margin-top and margin-left properties.
+
 HTML Tags
-*There is an image of a pepperoni pizza on the top of the page. It is associated with the animation component.
+*There is an image of a pepperoni pizza on the top of the page. It is associated with the animation component. It was a bit challenging to find the proper syntax for modifying the transform component of elements.
 *Near the bottom of the page, there is a table listing shmups that I've cleared or are planning to clear soon.
 *There is a hyperlink to my google site in the Education and Experience Section.
 *A footer containing a link to the shmup wiki is placed underneath the table title.
-*There is a hidden button at the bottom left of the page that reveals a gif of one of my characters in an mmo
+*There is a camouflaged button at the bottom left of the page that reveals a gif and a bit of text. The button hides itself afterwards. It took a bit of research to find how to hide elements properly.
 
 JavaScript Animation
 *Utilizing the image listed in HTML Tags, I made a simple script that rotates the pizza constantly. 
@@ -135,6 +140,7 @@ JavaScript Animation
 ## Design Achievements
 - **Used the Roboto Font from Google Fonts**: I used Roboto as the font for the primary copy text in my site.
 Color Palette
-*
+*There is a color palette consisting of mainly blue and purple colors, as well as a yellow color for the background.
+![alt text](http://url/to/img.png)
 Font
 *The Madimi One font is used in the table at the bottom

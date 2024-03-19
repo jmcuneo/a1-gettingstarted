@@ -82,10 +82,13 @@
 		</tr>
 	</table>
 	<br>
-	<button type="button" style="border: hidden; background-color:#EBD501; width:50px; height:20px"
-	onclick=document.getElementById("HiddenImg").removeAttribute("hidden"); 
+	<button id="ImgButton" type="button" style="border: hidden; background-color:#EBD501; width:50px; height:20px"
+	onclick=buttonFunc();
 	></button>
-	<img width="200" height="200" id="HiddenImg" hidden src="https://github.com/TNWing/a1-TrevorNg/blob/main/pizza.png?raw=true"></img>
+	<figure hidden id="HiddenImg">
+	<img width="640" height="360"  src="https://github.com/TNWing/a1-TrevorNg/blob/main/fiesta.gif?raw=true"></img>
+	<p style="font-size:80%">Be quiet. He's sleeping</p>
+	</figure>
 	<script>
 	var interval=null;
 	window.addEventListener('load',	function anim() {
@@ -97,6 +100,10 @@
 			imgRef.style.transform="rotate(" + rot + "deg)";
 			rot++;
 		} });
+	function buttonFunc(){
+	document.getElementById("HiddenImg").removeAttribute("hidden");
+	document.getElementById("ImgButton").hidden=true; 
+	}
 	</script>
   </body>
 </html>
