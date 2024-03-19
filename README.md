@@ -122,11 +122,16 @@ This project shows ...
 CSS Styling
 *
 HTML Tags
-*
+*There is an image of a pepperoni pizza on the top of the page. It is associated with the animation component.
+*There is a hyperlink to my google site near the bottom of the page.
+*Near the bottom of the page, there is a table listing shmups that I've cleared or are planning to clear soon.
+JavaScript Animation
+*Utilizing the image listed in HTML Tags, I made a simple script that rotates the pizza constantly. 
+*The main challenge was hooking up the script to activate on the page loading. Generally, it seems some of the methods used for this are deprecated so I wanted to find something that was guarenteed to work properly.
 
 ## Design Achievements
 - **Used the Roboto Font from Google Fonts**: I used Roboto as the font for the primary copy text in my site.
 Color Palette
 *
 Font
-*
+*The Madimi One font is used in the table at the bottom

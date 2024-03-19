@@ -1,22 +1,15 @@
 <!doctype html>
 <html lang="en">
-  <head>
+  <head
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Madimi+One&display=swap" rel="stylesheet">
+
+  >
     <title >CS4241 Assignment 1</title>
     <meta charset="utf-8">
   </head>
-  	<script>
-	var interval=null;
-	function anim() {
-		var imgRef=document.getElementByID("AnimatedImg");
-		var rot=0;
-		clearInterval(interval);
-		interval = setInterval(rotate,2);
-		function rotate(){
-			imgRef.style.transform.rotate(rot);
-			rot++;
-		}
-	</script>
-  <body style="background-color: #EBE501" onload="anim()">
+  <body style="background-color: #EBE501" >
     <h1 style="color:#BF5EEA; font-size: 300%;">Information about Trevor Ng</h1>
 	<img src="https://github.com/TNWing/a1-TrevorNg/blob/main/pizza.png?raw=true" id="AnimatedImg" width="500" height="500"></img>
     <p style="color:#5230B2 ">
@@ -51,7 +44,55 @@
       <li>Immigrant Social Services (NYC)</li>
     </ul>
 	<br>
+		<p  style="margin-left=15px;">A Table of My Shmup Clears (Both accomplished and planned clears)!</p>
+		<footer>
+    <small>
+      <a href=https://shmups.wiki/library/Main_Page >Link to the Shmup wiki for reference!</a>
+    </small>
+  </footer>
+  <br>
+  
+	<table style="margin=45px; font-family: Madimi One, sans-serif;">
+		<tr>
+			<th>Shmup Name</th>
+			<th>Clear Type</th>
+			<th>Status</th>
+		</tr>
+		<tr>
+			<td>Deathsmiles</td>
+			<td>Arcade 1CC</td>
+			<td>Planned</td>
+		</tr>
+		<tr>
+			<td>Dodonpachi Resurrection</td>
+			<td>Bomb-Style 1-All</td>
+			<td>Done</td>
+		</tr>
+		<tr>
+			<td>Touhou 6</td>
+			<td>Normal 1CC></td>
+			<td>Done</td>
+		</tr>
+		<tr>
+			<td>Raiden IV</td>
+			<td>Arcade 1-All</td>
+			<td>Currently Attempting</td>
+		</tr>
+	</table>
+	<br>
 	<a style="color:#355BEB; margin-left: 50px" href="https://sites.google.com/view/trevorng/home" >Link to my google site</a>
 
+	<script>
+	var interval=null;
+	window.addEventListener('load',	function anim() {
+		var imgRef=document.getElementById("AnimatedImg");
+		var rot=0;
+		clearInterval(interval);
+		interval = setInterval(rotate,15);
+		function rotate(){
+			imgRef.style.transform="rotate(" + rot + "deg)";
+			rot++;
+		} });
+	</script>
   </body>
 </html>
