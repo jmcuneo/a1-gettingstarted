@@ -141,6 +141,6 @@ JavaScript Animation
 - **Used the Roboto Font from Google Fonts**: I used Roboto as the font for the primary copy text in my site.
 Color Palette
 *There is a color palette consisting of mainly blue and purple colors, as well as a yellow color for the background.
-![alt text](http://url/to/img.png)
+![alt text](https://github.com/TNWing/a1-TrevorNg/blob/main/palette.png?raw=true)
 Font
 *The Madimi One font is used in the table at the bottom
