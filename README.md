@@ -118,7 +118,6 @@ http://a1-joshuacuneo.glitch.me
 This project shows ...
 
 ## Technical Achievements
-- **Styled page with CSS**: Added rules for the p, li, and a selectors...
 CSS Styling
 *Various sections have different colors from the Color Palette. See the palette.png for reference.
 *The table uses a different font, which was obtained from Google Fonts.
@@ -138,7 +137,6 @@ JavaScript Animation
 *The main challenge was hooking up the script to activate on the page loading. Generally, it seems some of the methods used for this are deprecated so I wanted to find something that was guarenteed to work properly.
 
 ## Design Achievements
-- **Used the Roboto Font from Google Fonts**: I used Roboto as the font for the primary copy text in my site.
 Color Palette
 *There is a color palette consisting of mainly blue and purple colors, as well as a yellow color for the background.
 ![alt text](https://github.com/TNWing/a1-TrevorNg/blob/main/palette.png?raw=true)
