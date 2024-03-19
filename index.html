@@ -1,28 +1,110 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <title>CS4241 Assignment 1</title>
+  <head
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Madimi+One&display=swap" rel="stylesheet">
+
+  >
+    <title >CS4241 Assignment 1</title>
     <meta charset="utf-8">
   </head>
-  <body>
-    <h1>Information about [Your name here]</h1>
-    <p>
-      [Self introduction]
+  <body style="background-color: #EBE501" >
+    <h1 style="color:#BF5EEA; font-size: 300%;">Information about Trevor Ng</h1>
+	<img src="https://github.com/TNWing/a1-TrevorNg/blob/main/pizza.png?raw=true" id="AnimatedImg" width="500" height="500"></img>
+    <p style="color:#5230B2 ">
+      I am a senior in the class of 2024. Born and raised in Brooklyn, New York.<br>
+	  Some of my main interests include archery, video games, and anime. I could also include swimming, but that's more of a past interest than a current one.
     </p>
-    <p>
-      [Major and other information]
+    <p style="font-size: 155%; color:#5230B2">
+      Currently pursuing a:
+	  <ul style="color:#5230B2">
+	  <li >BS/MS in CS</li>
+	  <li >BS in IMGD</li>
+	  </ul>
     </p>
-    <p>
-      [Other things]
+    <p style="color:#5D00EA ; font-size: 250%;">
+      [Education and Experience]
     </p>
-
-    <h2>Experience</h2>
-    <p>
+	<a style="color:#355BEB; margin-left: 50px" href="https://sites.google.com/view/trevorng/home" >Link to my google site</a>
+    <h2 style="width: 150px;height: 40px;color:#0078F0; margin: 50px; padding: 20px;border: 2px solid #0078F0; font-size: 200%;">Experience</h2>
+	<ul style="color:#355BEB;margin-top:-25px; margin-left: 80px; ">
+	<li>HTML: Some</li>
+	<li>CSS: Some</li>
+	<li>Java: A Lot</li>
+	<li>Javascript: Some</li>
+	<li>Python: A Lot</li>
+	<li>Unit Testing: Some</li>
+	<li>Refactoring Code: Some</li>
+	</ul>
+    <h3 style="width: 280px;height: 40px;color:#0078F0; margin: 50px; ; padding: 20px;border: 2px solid #0078F0;font-size: 200%;">
       Working experience
-    </p>
-    <ul>
-      <li>IBM/Rational</li>
-      <li>WPI</li>
+    </h3>
+    <ul style="color:#355BEB; margin-top:-25px;margin-left: 80px;">
+      <li>Brooklyn Public Library</li>
+      <li>Immigrant Social Services (NYC)</li>
     </ul>
+	<p style="color:#5D00EA ; font-size: 250%;">
+      [Misc Stuff]
+    </p>
+		<p>A Table of My Shmup Clears (Both accomplished and planned clears)!</p>
+		<footer>
+    <small>
+      <a href=https://shmups.wiki/library/Main_Page >Link to the Shmup wiki for reference!</a>
+    </small>
+  </footer>
+  <br>
+  
+	<table style="font-family: Madimi One, sans-serif;">
+		<tr>
+			<th>Shmup Name</th>
+			<th>Clear Type</th>
+			<th>Status</th>
+		</tr>
+		<tr>
+			<td>Deathsmiles</td>
+			<td>Arcade 1CC</td>
+			<td>Planned</td>
+		</tr>
+		<tr>
+			<td>Dodonpachi Resurrection</td>
+			<td>Bomb-Style 1-All</td>
+			<td>Done</td>
+		</tr>
+		<tr>
+			<td>Touhou 6</td>
+			<td>Normal 1CC></td>
+			<td>Done</td>
+		</tr>
+		<tr>
+			<td>Raiden IV</td>
+			<td>Arcade 1-All</td>
+			<td>Currently Attempting</td>
+		</tr>
+	</table>
+	<br>
+	<button id="ImgButton" type="button" style="border: hidden; background-color:#EBD501; width:50px; height:20px"
+	onclick=buttonFunc();
+	></button>
+	<figure hidden id="HiddenImg">
+	<img width="640" height="360"  src="https://github.com/TNWing/a1-TrevorNg/blob/main/fiesta.gif?raw=true"></img>
+	<p style="font-size:80%">Be quiet. He's sleeping</p>
+	</figure>
+	<script>
+	var interval=null;
+	window.addEventListener('load',	function anim() {
+		var imgRef=document.getElementById("AnimatedImg");
+		var rot=0;
+		clearInterval(interval);
+		interval = setInterval(rotate,15);
+		function rotate(){
+			imgRef.style.transform="rotate(" + rot + "deg)";
+			rot++;
+		} });
+	function buttonFunc(){
+	document.getElementById("HiddenImg").removeAttribute("hidden");
+	document.getElementById("ImgButton").hidden=true; 
+	}
+	</script>
   </body>
 </html>
