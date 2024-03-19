@@ -1,0 +1,46 @@
+body {
+	background-color: #DCC8FA;
+	font-family: "Anybody", sans-serif;
+}
+
+ul {
+	color: #39B1FA;
+}
+
+h1 {
+	color: #7720FA;
+	text-align: center;
+}
+
+h2 {
+	color: #4D62FA;
+}
+
+p {
+	color: #39B1FA;
+}
+
+article {
+	color: #4387FA;
+	text-align: center;
+}
+
+th {
+	color: #4E32FA;
+}
+
+footer {
+	padding: 10px;
+	background-color: #7720FA;
+}
+
+header {
+	padding: 10px;
+	background-color: #7720FA;
+}
+
+#email {
+	color: #39B1FA;
+	position: relative;
+	left: 30px;
+}
