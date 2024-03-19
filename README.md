@@ -48,14 +48,14 @@ This assignment requires that your website is both contained in a GitHub reposit
 	* The instructions in the medium.com post are slightly outdated. To import your GitHub repo, select `Import from GitHub` under `New Project`.
 8. Ensure that your project has the proper naming scheme (guide follows) so we can find it.
 9. Create and submit a Pull Request to the original repo. This helps us find your project.
-	* Ignore any messages about conflicts. You do not need to resolve them.
+	* Ignore any messages about conflicts. You do not need to resolve them.a
 	* Make the title of your pull request "Pull Request for NAME" (ex. "Pull Request for Joshua Cuneo")
 
 ### Option 2 - Fork repo and import to Glitch, edit on Glitch, and then export back to GitHub
 Most of these steps are the same as option 1, except that you being by creating a new project Glitch using this repo as a staring point (just choose New Project > Import from GitHub for this and then paste in the link to your repo). At the end, you can export your Glitch project to GitHub by [following these instructions](https://www.youtube.com/watch?time_continue=77&v=aWJFbtrgW4E&feature=emb_logo). *Note that the location of the projecct export feature in Glitch has moved from what they show in this video.* It's now located in Tools > Import and Export (tools is located in the bottom left of the Glitch editor).
 
 ### Option 3 - Clone to computer, edit locally, push to GitHub, upload to Glitch
-This is the same as option 1, except that for step 6 (Deploy to Glitch) you simply upload each file to your Glitch repository (using New File > Upload a File).
+This is the same as option 1, except that for step 6 (Deploy to Glitch) you simply upload each file to your Glitch    (using New File > Upload a File).
 
 ### Note about images
 If you are having trouble getting images to work, [check out this page](https://mica-web.github.io/learn/workflows/add-img-glitch).
@@ -119,6 +119,14 @@ This project shows ...
 
 ## Technical Achievements
 - **Styled page with CSS**: Added rules for the p, li, and a selectors...
+CSS Styling
+*
+HTML Tags
+*
 
 ## Design Achievements
 - **Used the Roboto Font from Google Fonts**: I used Roboto as the font for the primary copy text in my site.
+Color Palette
+*
+Font
+*
