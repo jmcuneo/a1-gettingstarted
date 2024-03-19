@@ -140,5 +140,6 @@ JavaScript Animation
 Color Palette
 * There is a color palette consisting of mainly blue and purple colors, as well as a yellow color for the background.
 ![alt text](https://github.com/TNWing/a1-TrevorNg/blob/main/palette.png?raw=true)
+
 Font
 * The Madimi One font is used in the table at the bottom
