@@ -119,11 +119,11 @@ This project shows ...
 
 ## Technical Achievements
 CSS Styling
-**Various sections have different colors from the Color Palette. See the palette.png for reference.
-**The table uses a different font, which was obtained from Google Fonts.
-**Some sections have a box border to separate and define those sections.
-**A few text elements have their sizes modified by percent-based values.
-**Some elements have their position modified by the margin property as well as the more specific margin-top and margin-left properties.
+**Various sections have different colors from the Color Palette. See the palette.png for reference.**
+**The table uses a different font, which was obtained from Google Fonts.**
+**Some sections have a box border to separate and define those sections.**
+**A few text elements have their sizes modified by percent-based values.**
+**Some elements have their position modified by the margin property as well as the more specific margin-top and margin-left properties.**
 
 HTML Tags
 **There is an image of a pepperoni pizza on the top of the page. It is associated with the animation component. It was a bit challenging to find the proper syntax for modifying the transform component of elements.
